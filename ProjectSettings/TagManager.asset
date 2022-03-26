@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - crate_right
+  - crate_left
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Scene
+  - Water
+  - UI
+  - Camera
+  - Platform
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Grass
+    uniqueID: 1987376971
+    locked: 0
+  - name: Path
+    uniqueID: 3640555527
+    locked: 0
+  - name: Sand
+    uniqueID: 2898382243
+    locked: 0
+  - name: Tree
+    uniqueID: 3943589327
+    locked: 0
+  - name: Border
+    uniqueID: 369892449
+    locked: 0
+  - name: Player
+    uniqueID: 3300348361
+    locked: 0
