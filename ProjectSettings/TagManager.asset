@@ -5,7 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - crate_right
-  - crate_left
+  - L1HouseOne
+  - L1HouseTwo
+  - L1HouseThree
+  - L1HouseFour
+  - L1HouseFive
+  - L1Blacksmith
+  - L1Cove
+  - L1Exit
+  - L1Beach
   layers:
   - Default
   - TransparentFX
@@ -15,7 +23,7 @@ TagManager:
   - UI
   - Camera
   - Platform
-  - 
+  - UserInterface
   - 
   - 
   - 
@@ -52,12 +60,12 @@ TagManager:
   - name: Sand
     uniqueID: 2898382243
     locked: 0
+  - name: Player
+    uniqueID: 3300348361
+    locked: 0
   - name: Tree
     uniqueID: 3943589327
     locked: 0
   - name: Border
     uniqueID: 369892449
-    locked: 0
-  - name: Player
-    uniqueID: 3300348361
     locked: 0
