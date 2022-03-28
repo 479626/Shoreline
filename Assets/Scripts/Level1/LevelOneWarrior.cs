@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class LevelOneWarrior : MonoBehaviour
 {
+    public Interaction interaction;
     bool triggerDialogue;
     int used;
 
@@ -22,7 +23,16 @@ public class LevelOneWarrior : MonoBehaviour
     {
         if(col.gameObject.name == "Player")
         {
+            interaction.InteractOn();
             triggerDialogue = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.gameObject.name == "Player")
+        {
+            interaction.InteractOff();
         }
     }
 
@@ -36,6 +46,7 @@ public class LevelOneWarrior : MonoBehaviour
                 used++;
                 DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 trigger.TriggerDialogue();
+                interaction.InteractOff();
             }
         }
     }

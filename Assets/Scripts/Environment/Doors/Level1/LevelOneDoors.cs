@@ -5,15 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class LevelOneDoors : MonoBehaviour
 {
+    public Interaction interaction;
+
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Interaction trigger = gameObject.GetComponent<Interaction>();
-        trigger.InteractOn();
-
-        if (Input.GetKey(KeyCode.F) && col.gameObject.name == "Player")
+        if(col.gameObject.name == "Player")
         {
-            SceneManager.LoadScene("L1-House1");
-            Interaction.InteractOn();
+            interaction.InteractOn();
+            Debug.Log("Found player");
+            
+            if(Input.GetKey(KeyCode.F))
+            {
+                SceneManager.LoadScene(2);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.name == "Player")
+        {
+            Debug.Log("Lost player");
+            interaction.InteractOff();
         }
     }
 }
