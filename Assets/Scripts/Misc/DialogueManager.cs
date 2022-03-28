@@ -63,7 +63,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        player.GetComponent<PlayerMovement>().speed = 5f;
+        player.GetComponent<PlayerMovement>().speed = 3.5f;
         animator.SetBool("isOpen", false);
 
         Debug.Log("End of convo");

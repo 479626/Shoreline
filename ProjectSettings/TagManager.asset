@@ -14,6 +14,7 @@ TagManager:
   - L1Cove
   - L1Exit
   - L1Beach
+  - Warrior
   layers:
   - Default
   - TransparentFX

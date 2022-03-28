@@ -1,42 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelOneDoors : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.tag == "L1HouseOne")
-        {
+        Interaction trigger = gameObject.GetComponent<Interaction>();
+        trigger.InteractOn();
 
-        }
-        if (collision.tag == "L1HouseTwo")
+        if (Input.GetKey(KeyCode.F) && col.gameObject.name == "Player")
         {
-
-        }
-        if (collision.tag == "L1HouseThree")
-        {
-
-        }
-        if (collision.tag == "L1HouseFour")
-        {
-
-        }
-        if (collision.tag == "L1Beach")
-        {
-
-        }
-        if (collision.tag == "L1Blacksmith")
-        {
-
-        }
-        if (collision.tag == "L1Exit")
-        {
-
-        }
-        if (collision.tag == "L1Cove")
-        {
-
+            SceneManager.LoadScene("L1-House1");
+            Interaction.InteractOn();
         }
     }
 }
