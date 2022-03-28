@@ -1,7 +1,115 @@
 fileFormatVersion: 2
 guid: 5644c801b64265e47b872ea69adf6aae
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 451134077447635704
+    second: child_npc_0
+  - first:
+      213: -4359491937150941308
+    second: child_npc_1
+  - first:
+      213: 3804252374368497596
+    second: child_npc_2
+  - first:
+      213: 736619742560047735
+    second: child_npc_3
+  - first:
+      213: 9213741570860373975
+    second: child_npc_4
+  - first:
+      213: 116161300897573219
+    second: child_npc_5
+  - first:
+      213: -7091178901579934718
+    second: child_npc_6
+  - first:
+      213: -470420156957834337
+    second: child_npc_7
+  - first:
+      213: 4621639432296062212
+    second: child_npc_8
+  - first:
+      213: -253855365099756261
+    second: child_npc_9
+  - first:
+      213: -4220546363939017324
+    second: child_npc_10
+  - first:
+      213: 381420256447090362
+    second: child_npc_11
+  - first:
+      213: 2526259254075454653
+    second: child_npc_12
+  - first:
+      213: 2694463892535387752
+    second: child_npc_13
+  - first:
+      213: 4283840498633190046
+    second: child_npc_14
+  - first:
+      213: 4978711783669542567
+    second: child_npc_15
+  - first:
+      213: -7821630589479528346
+    second: child_npc_16
+  - first:
+      213: -631376334725594629
+    second: child_npc_17
+  - first:
+      213: -6704226546655253687
+    second: child_npc_18
+  - first:
+      213: 8264386571289774354
+    second: child_npc_19
+  - first:
+      213: 2439170860471685921
+    second: child_npc_20
+  - first:
+      213: 1981108745464030589
+    second: child_npc_21
+  - first:
+      213: 1229635239391391571
+    second: child_npc_22
+  - first:
+      213: 2806221075598137040
+    second: child_npc_23
+  - first:
+      213: -3700299667560643556
+    second: child_npc_24
+  - first:
+      213: -6640884517157731734
+    second: child_npc_25
+  - first:
+      213: 1437440313036571914
+    second: child_npc_26
+  - first:
+      213: -7930004137626498973
+    second: child_npc_27
+  - first:
+      213: -2755433085698892438
+    second: child_npc_28
+  - first:
+      213: 7548080379177647266
+    second: child_npc_29
+  - first:
+      213: -3092934973276410309
+    second: child_npc_30
+  - first:
+      213: 1891478853885001532
+    second: child_npc_31
+  - first:
+      213: -4594994454021833311
+    second: child_npc_32
+  - first:
+      213: -7237053623588565912
+    second: child_npc_33
+  - first:
+      213: -1752917751589416814
+    second: child_npc_34
+  - first:
+      213: -1797000248540657847
+    second: child_npc_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +149,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +183,777 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: child_npc_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f20750ad00c24600800000000000000
+      internalID: 451134077447635704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48740f44e29ff73c0800000000000000
+      internalID: -4359491937150941308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfab22f06b6bc430800000000000000
+      internalID: 3804252374368497596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 768
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d4d9c0cff83a00800000000000000
+      internalID: 736619742560047735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7d1676429cddf70800000000000000
+      internalID: 9213741570860373975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a5a47610bc9100800000000000000
+      internalID: 116161300897573219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20455941c52179d90800000000000000
+      internalID: -7091178901579934718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 768
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9348511c5bb879f0800000000000000
+      internalID: -470420156957834337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 768
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd1f1c39c532040800000000000000
+      internalID: 4621639432296062212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 704
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15e6e2f3ef1a7cf0800000000000000
+      internalID: -253855365099756261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 704
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d2953817b9d65c0800000000000000
+      internalID: -4220546363939017324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 704
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abecaafc3b31b4500800000000000000
+      internalID: 381420256447090362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_12
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 704
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4f5b928631f0320800000000000000
+      internalID: 2526259254075454653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 704
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86620b662a8a46520800000000000000
+      internalID: 2694463892535387752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 704
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aa67b9c32437b30800000000000000
+      internalID: 4283840498633190046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 704
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeaca82dffe71540800000000000000
+      internalID: 4978711783669542567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 704
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6685ebd6b6cf37390800000000000000
+      internalID: -7821630589479528346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 704
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1c7199196ec37f0800000000000000
+      internalID: -631376334725594629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94baed0f97dc5f2a0800000000000000
+      internalID: -6704226546655253687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2194c3ccccff0b270800000000000000
+      internalID: 8264386571289774354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12316ec69fca9d120800000000000000
+      internalID: 2439170860471685921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 640
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75adca58ef4e7b10800000000000000
+      internalID: 1981108745464030589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fe93f3cba801110800000000000000
+      internalID: 1229635239391391571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6dd344333b1f620800000000000000
+      internalID: 2806221075598137040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_24
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c144d80be05e5acc0800000000000000
+      internalID: -3700299667560643556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 640
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a620c6077b6d6d3a0800000000000000
+      internalID: -6640884517157731734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 640
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a050f5c4950d2f310800000000000000
+      internalID: 1437440313036571914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 576
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36805657047f2f190800000000000000
+      internalID: -7930004137626498973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_28
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 576
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1f8c153cb2c9d0800000000000000
+      internalID: -2755433085698892438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 576
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acbaf80d1b20c860800000000000000
+      internalID: 7548080379177647266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 576
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e2a746700b315d0800000000000000
+      internalID: -3092934973276410309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 576
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f7af10ff1ef3a10800000000000000
+      internalID: 1891478853885001532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 576
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad732fa3ec4b30c0800000000000000
+      internalID: -4594994454021833311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_33
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 576
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ccc89a212d09b90800000000000000
+      internalID: -7237053623588565912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_34
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 576
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2905900a7926ca7e0800000000000000
+      internalID: -1752917751589416814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: child_npc_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 576
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947027c7bc5cf07e0800000000000000
+      internalID: -1797000248540657847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

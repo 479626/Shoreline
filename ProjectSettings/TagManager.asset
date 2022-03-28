@@ -15,6 +15,7 @@ TagManager:
   - L1Exit
   - L1Beach
   - Warrior
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -60,6 +61,9 @@ TagManager:
     locked: 0
   - name: Sand
     uniqueID: 2898382243
+    locked: 0
+  - name: Enemy
+    uniqueID: 1457275573
     locked: 0
   - name: Player
     uniqueID: 3300348361
