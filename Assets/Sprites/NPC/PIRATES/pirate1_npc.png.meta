@@ -1,7 +1,613 @@
 fileFormatVersion: 2
 guid: e02365f8af8ce53448c8684cc8f866fa
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6707975827218523067
+    second: pirate1_npc_0
+  - first:
+      213: 30052955245449859
+    second: pirate1_npc_1
+  - first:
+      213: -2569161220070121180
+    second: pirate1_npc_2
+  - first:
+      213: 8915874936114833236
+    second: pirate1_npc_3
+  - first:
+      213: -7891644699978934734
+    second: pirate1_npc_4
+  - first:
+      213: 5575989777267415683
+    second: pirate1_npc_5
+  - first:
+      213: -6911442602656486383
+    second: pirate1_npc_6
+  - first:
+      213: 5119333814524412259
+    second: pirate1_npc_7
+  - first:
+      213: 3253913585180823067
+    second: pirate1_npc_8
+  - first:
+      213: 545634295423463945
+    second: pirate1_npc_9
+  - first:
+      213: 1922959457154249946
+    second: pirate1_npc_10
+  - first:
+      213: -7023688547605279910
+    second: pirate1_npc_11
+  - first:
+      213: 1159202828816552196
+    second: pirate1_npc_12
+  - first:
+      213: -7603134199385386991
+    second: pirate1_npc_13
+  - first:
+      213: -8509093401211044995
+    second: pirate1_npc_14
+  - first:
+      213: 800572247002662210
+    second: pirate1_npc_15
+  - first:
+      213: -2215864797835435096
+    second: pirate1_npc_16
+  - first:
+      213: 5635908023523605483
+    second: pirate1_npc_17
+  - first:
+      213: -6841528795536889802
+    second: pirate1_npc_18
+  - first:
+      213: 8456090456491207715
+    second: pirate1_npc_19
+  - first:
+      213: 8116391013422874589
+    second: pirate1_npc_20
+  - first:
+      213: 8122983777299315240
+    second: pirate1_npc_21
+  - first:
+      213: 6578166643861238367
+    second: pirate1_npc_22
+  - first:
+      213: 201030693131666258
+    second: pirate1_npc_23
+  - first:
+      213: -802713810464002838
+    second: pirate1_npc_24
+  - first:
+      213: -3846318707240372494
+    second: pirate1_npc_25
+  - first:
+      213: 203526589240745081
+    second: pirate1_npc_26
+  - first:
+      213: -4453744679546328849
+    second: pirate1_npc_27
+  - first:
+      213: 3157587046029652939
+    second: pirate1_npc_28
+  - first:
+      213: 2596149547708989422
+    second: pirate1_npc_29
+  - first:
+      213: 3566618250219237313
+    second: pirate1_npc_30
+  - first:
+      213: 368473742682428440
+    second: pirate1_npc_31
+  - first:
+      213: 297822278175168829
+    second: pirate1_npc_32
+  - first:
+      213: 5001848670774480211
+    second: pirate1_npc_33
+  - first:
+      213: -7662623055777134292
+    second: pirate1_npc_34
+  - first:
+      213: -6564883426787392574
+    second: pirate1_npc_35
+  - first:
+      213: 203575008150339506
+    second: pirate1_npc_36
+  - first:
+      213: -7674346329528308206
+    second: pirate1_npc_37
+  - first:
+      213: 8539359177802302696
+    second: pirate1_npc_38
+  - first:
+      213: 1932064352202462797
+    second: pirate1_npc_39
+  - first:
+      213: 5970282663230978218
+    second: pirate1_npc_40
+  - first:
+      213: -3352434084054149759
+    second: pirate1_npc_41
+  - first:
+      213: 4347778598640176381
+    second: pirate1_npc_42
+  - first:
+      213: -77306986345722585
+    second: pirate1_npc_43
+  - first:
+      213: 8503475396271486241
+    second: pirate1_npc_44
+  - first:
+      213: -1700682624023706445
+    second: pirate1_npc_45
+  - first:
+      213: 7284500953236989492
+    second: pirate1_npc_46
+  - first:
+      213: -2943673485508332641
+    second: pirate1_npc_47
+  - first:
+      213: 6846340443216802717
+    second: pirate1_npc_48
+  - first:
+      213: -28407830818265535
+    second: pirate1_npc_49
+  - first:
+      213: 652430549354474394
+    second: pirate1_npc_50
+  - first:
+      213: 3567783366724962352
+    second: pirate1_npc_51
+  - first:
+      213: -8315692655139617905
+    second: pirate1_npc_52
+  - first:
+      213: -6936293489317059910
+    second: pirate1_npc_53
+  - first:
+      213: -3455664891872646919
+    second: pirate1_npc_54
+  - first:
+      213: 7182806041908502515
+    second: pirate1_npc_55
+  - first:
+      213: 3018479097634880146
+    second: pirate1_npc_56
+  - first:
+      213: 5185095893784350739
+    second: pirate1_npc_57
+  - first:
+      213: -2228271917721574993
+    second: pirate1_npc_58
+  - first:
+      213: 2304867901073120452
+    second: pirate1_npc_59
+  - first:
+      213: -5701365346434713119
+    second: pirate1_npc_60
+  - first:
+      213: 2010672751470892379
+    second: pirate1_npc_61
+  - first:
+      213: 814870408767969532
+    second: pirate1_npc_62
+  - first:
+      213: -307312103817052123
+    second: pirate1_npc_63
+  - first:
+      213: 3594233919448204106
+    second: pirate1_npc_64
+  - first:
+      213: 5047293311992036121
+    second: pirate1_npc_65
+  - first:
+      213: 746202362439723888
+    second: pirate1_npc_66
+  - first:
+      213: 2090128986896354277
+    second: pirate1_npc_67
+  - first:
+      213: -2143400731595870434
+    second: pirate1_npc_68
+  - first:
+      213: 5188775528134354520
+    second: pirate1_npc_69
+  - first:
+      213: 8244800701329367682
+    second: pirate1_npc_70
+  - first:
+      213: -256726999405829075
+    second: pirate1_npc_71
+  - first:
+      213: 317255283156609533
+    second: pirate1_npc_72
+  - first:
+      213: -611514265725780918
+    second: pirate1_npc_73
+  - first:
+      213: -7899182258400960684
+    second: pirate1_npc_74
+  - first:
+      213: -2011976849865967832
+    second: pirate1_npc_75
+  - first:
+      213: 375514021047910458
+    second: pirate1_npc_76
+  - first:
+      213: 2047128373063436155
+    second: pirate1_npc_77
+  - first:
+      213: -8398001126456741681
+    second: pirate1_npc_78
+  - first:
+      213: 445653893372346241
+    second: pirate1_npc_79
+  - first:
+      213: -1811273903114511779
+    second: pirate1_npc_80
+  - first:
+      213: 3072643222812496945
+    second: pirate1_npc_81
+  - first:
+      213: 5759123197121373018
+    second: pirate1_npc_82
+  - first:
+      213: -7971655074020356930
+    second: pirate1_npc_83
+  - first:
+      213: 6481031462625475825
+    second: pirate1_npc_84
+  - first:
+      213: 7994865488924419287
+    second: pirate1_npc_85
+  - first:
+      213: -8598640345266036714
+    second: pirate1_npc_86
+  - first:
+      213: 7849424328991792327
+    second: pirate1_npc_87
+  - first:
+      213: -3068350115183675032
+    second: pirate1_npc_88
+  - first:
+      213: -5193871690362528817
+    second: pirate1_npc_89
+  - first:
+      213: -3873626698098238696
+    second: pirate1_npc_90
+  - first:
+      213: -496341310715971998
+    second: pirate1_npc_91
+  - first:
+      213: 2310275126366230171
+    second: pirate1_npc_92
+  - first:
+      213: -8264931522726474225
+    second: pirate1_npc_93
+  - first:
+      213: -1486093320979163446
+    second: pirate1_npc_94
+  - first:
+      213: 7431058618921139263
+    second: pirate1_npc_95
+  - first:
+      213: 7330218950254150648
+    second: pirate1_npc_96
+  - first:
+      213: -2120541685301797096
+    second: pirate1_npc_97
+  - first:
+      213: 2905816265282908305
+    second: pirate1_npc_98
+  - first:
+      213: 7158384782863017464
+    second: pirate1_npc_99
+  - first:
+      213: -1115548068007633228
+    second: pirate1_npc_100
+  - first:
+      213: -5955801575172624049
+    second: pirate1_npc_101
+  - first:
+      213: -1785033845869826672
+    second: pirate1_npc_102
+  - first:
+      213: 4791551001286887600
+    second: pirate1_npc_103
+  - first:
+      213: 7323292140054679656
+    second: pirate1_npc_104
+  - first:
+      213: -5228501485217611516
+    second: pirate1_npc_105
+  - first:
+      213: 5112380922296033104
+    second: pirate1_npc_106
+  - first:
+      213: -271991344238490357
+    second: pirate1_npc_107
+  - first:
+      213: 96541548017615683
+    second: pirate1_npc_108
+  - first:
+      213: -8481226926288265673
+    second: pirate1_npc_109
+  - first:
+      213: 7777203449136049075
+    second: pirate1_npc_110
+  - first:
+      213: -6494779337782256480
+    second: pirate1_npc_111
+  - first:
+      213: 3905008675215953390
+    second: pirate1_npc_112
+  - first:
+      213: -7773900481443979404
+    second: pirate1_npc_113
+  - first:
+      213: 8501847046779443594
+    second: pirate1_npc_114
+  - first:
+      213: -828567520549136211
+    second: pirate1_npc_115
+  - first:
+      213: 4713888769533681770
+    second: pirate1_npc_116
+  - first:
+      213: 8996202877386567761
+    second: pirate1_npc_117
+  - first:
+      213: -346523386230384434
+    second: pirate1_npc_118
+  - first:
+      213: 4512478256458575344
+    second: pirate1_npc_119
+  - first:
+      213: -8903498487460948557
+    second: pirate1_npc_120
+  - first:
+      213: 4022890761748414382
+    second: pirate1_npc_121
+  - first:
+      213: 122656867222617021
+    second: pirate1_npc_122
+  - first:
+      213: -3687616343656049126
+    second: pirate1_npc_123
+  - first:
+      213: 3933532691300633527
+    second: pirate1_npc_124
+  - first:
+      213: 8527522420134825758
+    second: pirate1_npc_125
+  - first:
+      213: -824612882762212345
+    second: pirate1_npc_126
+  - first:
+      213: 8389701442542525317
+    second: pirate1_npc_127
+  - first:
+      213: -4289708671866241211
+    second: pirate1_npc_128
+  - first:
+      213: 7129738721362414315
+    second: pirate1_npc_129
+  - first:
+      213: -3375577351537881155
+    second: pirate1_npc_130
+  - first:
+      213: 8926432748866694401
+    second: pirate1_npc_131
+  - first:
+      213: 7179029302334522490
+    second: pirate1_npc_132
+  - first:
+      213: 903749778039499680
+    second: pirate1_npc_133
+  - first:
+      213: 2927483756564505656
+    second: pirate1_npc_134
+  - first:
+      213: 1623041849608276404
+    second: pirate1_npc_135
+  - first:
+      213: 7062275323511314431
+    second: pirate1_npc_136
+  - first:
+      213: 4264520844342272549
+    second: pirate1_npc_137
+  - first:
+      213: -1483860538286203955
+    second: pirate1_npc_138
+  - first:
+      213: -4122679824580163122
+    second: pirate1_npc_139
+  - first:
+      213: -7004519259301373187
+    second: pirate1_npc_140
+  - first:
+      213: 8000817768854130716
+    second: pirate1_npc_141
+  - first:
+      213: -8877486009338953546
+    second: pirate1_npc_142
+  - first:
+      213: 1984590246595403848
+    second: pirate1_npc_143
+  - first:
+      213: 7094355760842570448
+    second: pirate1_npc_144
+  - first:
+      213: 2376179810752662171
+    second: pirate1_npc_145
+  - first:
+      213: 1544300702103944061
+    second: pirate1_npc_146
+  - first:
+      213: -1942720609947680643
+    second: pirate1_npc_147
+  - first:
+      213: 7418094720285170565
+    second: pirate1_npc_148
+  - first:
+      213: -4021389020940803324
+    second: pirate1_npc_149
+  - first:
+      213: 5755208161516994029
+    second: pirate1_npc_150
+  - first:
+      213: -1348801712054204762
+    second: pirate1_npc_151
+  - first:
+      213: 3542794610746136306
+    second: pirate1_npc_152
+  - first:
+      213: 2955888135146639917
+    second: pirate1_npc_153
+  - first:
+      213: -6819628686443828908
+    second: pirate1_npc_154
+  - first:
+      213: 1126034914245323348
+    second: pirate1_npc_155
+  - first:
+      213: -855445460740750558
+    second: pirate1_npc_156
+  - first:
+      213: -8339089419694054968
+    second: pirate1_npc_157
+  - first:
+      213: -8297296387437954922
+    second: pirate1_npc_158
+  - first:
+      213: 1258870474218270780
+    second: pirate1_npc_159
+  - first:
+      213: -240394379106060543
+    second: pirate1_npc_160
+  - first:
+      213: 7472394452122275573
+    second: pirate1_npc_161
+  - first:
+      213: 4105353120330157659
+    second: pirate1_npc_162
+  - first:
+      213: -7874927584227279158
+    second: pirate1_npc_163
+  - first:
+      213: 3214911750986740864
+    second: pirate1_npc_164
+  - first:
+      213: -7087448222272466529
+    second: pirate1_npc_165
+  - first:
+      213: 1136838903200985916
+    second: pirate1_npc_166
+  - first:
+      213: 6693749432579722284
+    second: pirate1_npc_167
+  - first:
+      213: 2523844769403698807
+    second: pirate1_npc_168
+  - first:
+      213: -5167204975912845207
+    second: pirate1_npc_169
+  - first:
+      213: -2491099437308283414
+    second: pirate1_npc_170
+  - first:
+      213: 2491112558269465070
+    second: pirate1_npc_171
+  - first:
+      213: 4895866524419703506
+    second: pirate1_npc_172
+  - first:
+      213: 6991347224872071479
+    second: pirate1_npc_173
+  - first:
+      213: 7004334183272825832
+    second: pirate1_npc_174
+  - first:
+      213: 3407048629705351096
+    second: pirate1_npc_175
+  - first:
+      213: 690735001794369699
+    second: pirate1_npc_176
+  - first:
+      213: 7214659144508394251
+    second: pirate1_npc_177
+  - first:
+      213: 2335701194605664165
+    second: pirate1_npc_178
+  - first:
+      213: 7946625632001670663
+    second: pirate1_npc_179
+  - first:
+      213: -4500965988976767347
+    second: pirate1_npc_180
+  - first:
+      213: 8910402604994750021
+    second: pirate1_npc_181
+  - first:
+      213: 6772190046399365605
+    second: pirate1_npc_182
+  - first:
+      213: 929864774438888637
+    second: pirate1_npc_183
+  - first:
+      213: 7385774241264123975
+    second: pirate1_npc_184
+  - first:
+      213: 2726296903996804896
+    second: pirate1_npc_185
+  - first:
+      213: 2424649065793312913
+    second: pirate1_npc_186
+  - first:
+      213: -7860840360363324808
+    second: pirate1_npc_187
+  - first:
+      213: -2365114346362116690
+    second: pirate1_npc_188
+  - first:
+      213: 8549168120338554797
+    second: pirate1_npc_189
+  - first:
+      213: 3612779575783396563
+    second: pirate1_npc_190
+  - first:
+      213: -8507283205274960017
+    second: pirate1_npc_191
+  - first:
+      213: -1930353339919599409
+    second: pirate1_npc_192
+  - first:
+      213: 961326934762093075
+    second: pirate1_npc_193
+  - first:
+      213: -7016131416358876852
+    second: pirate1_npc_194
+  - first:
+      213: -2444645053869211801
+    second: pirate1_npc_195
+  - first:
+      213: 9084904376796686808
+    second: pirate1_npc_196
+  - first:
+      213: 8035080694161491035
+    second: pirate1_npc_197
+  - first:
+      213: 5316762218389395098
+    second: pirate1_npc_198
+  - first:
+      213: -5343722765829812674
+    second: pirate1_npc_199
+  - first:
+      213: -7724320294298610837
+    second: pirate1_npc_200
+  - first:
+      213: 974848046913564364
+    second: pirate1_npc_201
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +647,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +681,4275 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pirate1_npc_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1920
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9bb8868b78e2a0800000000000000
+      internalID: -6707975827218523067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3821bd9e005ca6000800000000000000
+      internalID: 30052955245449859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2047
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421e20b7b71885cd0800000000000000
+      internalID: -2569161220070121180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2047
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457eeec140d8bbb70800000000000000
+      internalID: 8915874936114833236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2047
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236592405fe3b7290800000000000000
+      internalID: -7891644699978934734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2047
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38adb39d825e16d40800000000000000
+      internalID: 5575989777267415683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2047
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca82f329f9510a0800000000000000
+      internalID: -6911442602656486383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1983
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3618f5d1bf68b0740800000000000000
+      internalID: 5119333814524412259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1983
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e458e6a29382d20800000000000000
+      internalID: 3253913585180823067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1983
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9027cf3308b729700800000000000000
+      internalID: 545634295423463945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1983
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad438212079bfaa10800000000000000
+      internalID: 1922959457154249946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1983
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b0203aa78d68e90800000000000000
+      internalID: -7023688547605279910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4011d32c4d0561010800000000000000
+      internalID: 1159202828816552196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1983
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11092029abd3c7690800000000000000
+      internalID: -7603134199385386991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2048
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf13c72a0a9e980800000000000000
+      internalID: -8509093401211044995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24541af87343c1b00800000000000000
+      internalID: 800572247002662210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e9bed4baaf31e0800000000000000
+      internalID: -2215864797835435096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1919
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebf5e0bc74c63e40800000000000000
+      internalID: 5635908023523605483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1919
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ea65fec10e01a0800000000000000
+      internalID: -6841528795536889802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1919
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32caab7c7711a5570800000000000000
+      internalID: 8456090456491207715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf3e3dcf9633a070800000000000000
+      internalID: 8116391013422874589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1855
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82abf2245b2aab070800000000000000
+      internalID: 8122983777299315240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1855
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f523ca0c5b75a4b50800000000000000
+      internalID: 6578166643861238367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1855
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253401da9543ac200800000000000000
+      internalID: 201030693131666258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1855
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2ef6da003cd4f0800000000000000
+      internalID: -802713810464002838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1855
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f67ff1b3812f9ac0800000000000000
+      internalID: -3846318707240372494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1855
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c9a06ca5213d200800000000000000
+      internalID: 203526589240745081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1855
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ea579fce1132c0800000000000000
+      internalID: -4453744679546328849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1791
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3f8f150b002db20800000000000000
+      internalID: 3157587046029652939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1791
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef3cf63240670420800000000000000
+      internalID: 2596149547708989422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1791
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf2ebdd66c2f7130800000000000000
+      internalID: 3566618250219237313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81415adaae41d1500800000000000000
+      internalID: 368473742682428440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1791
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3914d8b8c3122400800000000000000
+      internalID: 297822278175168829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1791
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dc5c97dd22a6540800000000000000
+      internalID: 5001848670774480211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1791
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c298fa8dde4e8a590800000000000000
+      internalID: -7662623055777134292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c30d7a3e49d4e4a0800000000000000
+      internalID: -6564883426787392574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb2fd246e33d200800000000000000
+      internalID: 203575008150339506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1727
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e64297cae3f7590800000000000000
+      internalID: -7674346329528308206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c062cde5e18670800000000000000
+      internalID: 8539359177802302696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d461934ba4210da10800000000000000
+      internalID: 1932064352202462797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1727
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa83e864374bad250800000000000000
+      internalID: 5970282663230978218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1727
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1855a0766f2c971d0800000000000000
+      internalID: -3352434084054149759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_42
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc4ef59999665c30800000000000000
+      internalID: 4347778598640176381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d053c94b95deef0800000000000000
+      internalID: -77306986345722585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125390fc1d9620670800000000000000
+      internalID: 8503475396271486241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4436ff926f568e0800000000000000
+      internalID: -1700682624023706445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1663
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4366fa3a50fb71560800000000000000
+      internalID: 7284500953236989492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1664
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933a89af88f527d0800000000000000
+      internalID: -2943673485508332641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1664
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93f3511c56130f50800000000000000
+      internalID: 6846340443216802717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1663
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146ec377a331b9ff0800000000000000
+      internalID: -28407830818265535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1664
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9be2eeb026ed0900800000000000000
+      internalID: 652430549354474394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1664
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0384031b110538130800000000000000
+      internalID: 3567783366724962352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1599
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83041da699b89c80800000000000000
+      internalID: -8315692655139617905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2e66f42d55dbf90800000000000000
+      internalID: -6936293489317059910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f86429f6130b00d0800000000000000
+      internalID: -3455664891872646919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff5c7af9047ea360800000000000000
+      internalID: 7182806041908502515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1599
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29af7782fbac3e920800000000000000
+      internalID: 3018479097634880146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_57
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1599
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105a5b5e3925f740800000000000000
+      internalID: 5185095893784350739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_58
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1599
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa12a392f769311e0800000000000000
+      internalID: -2228271917721574993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1599
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccd9a1f4298cff10800000000000000
+      internalID: 2304867901073120452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1535
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9790fac6ea0e0b0800000000000000
+      internalID: -5701365346434713119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1535
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55daf6e63857eb10800000000000000
+      internalID: 2010672751470892379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1535
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf89794c1500f4b00800000000000000
+      internalID: 814870408767969532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1535
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5208ec015453cbbf0800000000000000
+      internalID: -307312103817052123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1535
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ce58e4b841e130800000000000000
+      internalID: 3594233919448204106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1535
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b7d7a86869b0640800000000000000
+      internalID: 5047293311992036121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1535
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07be6c7581b0b5a00800000000000000
+      internalID: 746202362439723888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_67
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1535
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb44b65d31a10d10800000000000000
+      internalID: 2090128986896354277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1535
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f6aed046c1142e0800000000000000
+      internalID: -2143400731595870434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_69
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1471
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85620bdf9db320840800000000000000
+      internalID: 5188775528134354520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_70
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1471
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e0a61e8a6b6270800000000000000
+      internalID: 8244800701329367682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_71
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1471
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24e92c772cef6cf0800000000000000
+      internalID: -256726999405829075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_72
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1471
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df96aa7cffd176400800000000000000
+      internalID: 317255283156609533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_73
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1471
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb458e3077387f0800000000000000
+      internalID: -611514265725780918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_74
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1471
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f51ff6697706290800000000000000
+      internalID: -7899182258400960684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_75
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1471
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827fd6707b50414e0800000000000000
+      internalID: -2011976849865967832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_76
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1471
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a304db83308163500800000000000000
+      internalID: 375514021047910458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_77
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1471
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77c11eb86cd86c10800000000000000
+      internalID: 2047128373063436155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1407
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc03732587e447b80800000000000000
+      internalID: -8398001126456741681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f7a37dad74f2600800000000000000
+      internalID: 445653893372346241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1407
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a9ced4bff0dd6e0800000000000000
+      internalID: -1811273903114511779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1407
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13410494bb834aa20800000000000000
+      internalID: 3072643222812496945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1407
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53a12ed8048cef40800000000000000
+      internalID: 5759123197121373018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1407
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc831122fdfe5190800000000000000
+      internalID: -7971655074020356930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1407
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcfbebf6cf31f950800000000000000
+      internalID: 6481031462625475825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1407
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ae56bdc773fe60800000000000000
+      internalID: 7994865488924419287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1407
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610631dd92e7ba880800000000000000
+      internalID: -8598640345266036714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1343
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5dd4d6d1ceec60800000000000000
+      internalID: 7849424328991792327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1343
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869b2f9b3d70b65d0800000000000000
+      internalID: -3068350115183675032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1343
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbdbf64739abe7b0800000000000000
+      internalID: -5193871690362528817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1343
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b926b9a0d1e3ac0800000000000000
+      internalID: -3873626698098238696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1343
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2663c672534ac19f0800000000000000
+      internalID: -496341310715971998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1343
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96da70bcfebf0020800000000000000
+      internalID: 2310275126366230171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1343
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ec5fec1901d4d80800000000000000
+      internalID: -8264931522726474225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1343
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d4fb8ff5506be0800000000000000
+      internalID: -1486093320979163446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1343
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c36e5417c602760800000000000000
+      internalID: 7431058618921139263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34cbf4c4b2ab560800000000000000
+      internalID: 7330218950254150648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9d2482925292e0800000000000000
+      internalID: -2120541685301797096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_98
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1907db26f78835820800000000000000
+      internalID: 2905816265282908305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ac148801b75360800000000000000
+      internalID: 7158384782863017464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_100
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1279
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be188c41f6c480f0800000000000000
+      internalID: -1115548068007633228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_101
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1279
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41bf17c50eb85da0800000000000000
+      internalID: -5955801575172624049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1215
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d21e8bc294a37e0800000000000000
+      internalID: -1785033845869826672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1215
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b84fdabf320f7240800000000000000
+      internalID: 4791551001286887600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1215
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8609e52a66f81a560800000000000000
+      internalID: 7323292140054679656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1215
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401800ad991a077b0800000000000000
+      internalID: -5228501485217611516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f50fdbc53d2f640800000000000000
+      internalID: 5112380922296033104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1215
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d0fa04051b93cf0800000000000000
+      internalID: -271991344238490357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1151
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34308a3c60cf65100800000000000000
+      internalID: 96541548017615683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1151
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e1c17cb01ac4a80800000000000000
+      internalID: -8481226926288265673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_110
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1151
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb62b3e45d2eeb60800000000000000
+      internalID: 7777203449136049075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac11f46a98edd5a0800000000000000
+      internalID: -6494779337782256480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_112
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1151
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedc01353b0613630800000000000000
+      internalID: 3905008675215953390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_113
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1151
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f1b4433be8d1490800000000000000
+      internalID: -7773900481443979404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_114
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1086
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a891ef528d0acf570800000000000000
+      internalID: 8501847046779443594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1086
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da81e31ea365084f0800000000000000
+      internalID: -828567520549136211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1086
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6022c25cd81b6140800000000000000
+      internalID: 4713888769533681770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1086
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15039f16adee8dc70800000000000000
+      internalID: 8996202877386567761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1086
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec85f51f0d6e03bf0800000000000000
+      internalID: -346523386230384434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1086
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd23ece01b8f9e30800000000000000
+      internalID: 4512478256458575344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1023
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b599a46c4b607480800000000000000
+      internalID: -8903498487460948557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaff63865dd24d730800000000000000
+      internalID: 4022890761748414382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf01855c3c3b100800000000000000
+      internalID: 122656867222617021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16d4782974f2dcc0800000000000000
+      internalID: -3687616343656049126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb4c595427b69630800000000000000
+      internalID: 3933532691300633527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fc05ad578d75670800000000000000
+      internalID: 8527522420134825758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_126
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1023
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c5fbdb3f26e84f0800000000000000
+      internalID: -824612882762212345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_127
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b545ee2053e6470800000000000000
+      internalID: 8389701442542525317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_128
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fff77d0b4e774c0800000000000000
+      internalID: -4289708671866241211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea8724979be1f260800000000000000
+      internalID: 7129738721362414315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_130
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1023
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf0bb9884a8721d0800000000000000
+      internalID: -3375577351537881155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dec937a4f01eb70800000000000000
+      internalID: 8926432748866694401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_132
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7405c54d1901a360800000000000000
+      internalID: 7179029302334522490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 959
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abe1e582a3ca8c00800000000000000
+      internalID: 903749778039499680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 959
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834e0c357f280a820800000000000000
+      internalID: 2927483756564505656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 959
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b98e7586f3368610800000000000000
+      internalID: 1623041849608276404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff716eb3dfd320260800000000000000
+      internalID: 7062275323511314431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52225401d1f9e2b30800000000000000
+      internalID: 4264520844342272549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb1b37c3b4486be0800000000000000
+      internalID: -1483860538286203955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ca3dda8c49c6c0800000000000000
+      internalID: -4122679824580163122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa95fe58d2face90800000000000000
+      internalID: -7004519259301373187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_141
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101f21ee5d980f60800000000000000
+      internalID: 8000817768854130716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_142
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00ada6285dcc480800000000000000
+      internalID: -8877486009338953546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 959
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8402601805eaa8b10800000000000000
+      internalID: 1984590246595403848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da744b1af6347260800000000000000
+      internalID: 7094355760842570448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 959
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a0e56c2f2e9f020800000000000000
+      internalID: 2376179810752662171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bba477e457e6510800000000000000
+      internalID: 1544300702103944061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d700d32f5e11a05e0800000000000000
+      internalID: -1942720609947680643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b5cc868dd52f660800000000000000
+      internalID: 7418094720285170565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403ea2fddf72138c0800000000000000
+      internalID: -4021389020940803324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded36ab945b9edf40800000000000000
+      internalID: 5755208161516994029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a602983df7184de0800000000000000
+      internalID: -1348801712054204762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f611bd8de88a2130800000000000000
+      internalID: 3542794610746136306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d221533199c650920800000000000000
+      internalID: 2955888135146639917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459a37477dfcb51a0800000000000000
+      internalID: -6819628686443828908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aa74cd9ca70af00800000000000000
+      internalID: 1126034914245323348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c3d3c2e8d024f0800000000000000
+      internalID: -855445460740750558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1eaecea5a954c80800000000000000
+      internalID: -8339089419694054968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f0a685e41adc80800000000000000
+      internalID: -8297296387437954922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 831
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f10ac608687110800000000000000
+      internalID: 1258870474218270780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 831
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107f16bf592f9acf0800000000000000
+      internalID: -240394379106060543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 831
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe095ce92743b760800000000000000
+      internalID: 7472394452122275573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e02de69e429f830800000000000000
+      internalID: 4105353120330157659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace3536d513a6b290800000000000000
+      internalID: -7874927584227279158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 831
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0843bc54439ad9c20800000000000000
+      internalID: 3214911750986740864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_165
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d97b846354ad90800000000000000
+      internalID: -7087448222272466529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b32095fcd6cf00800000000000000
+      internalID: 1136838903200985916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_167
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 831
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0368d4a9f4ec50800000000000000
+      internalID: 6693749432579722284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef884227f760320800000000000000
+      internalID: 2523844769403698807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 831
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960851193766a48b0800000000000000
+      internalID: -5167204975912845207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_170
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5701b9246dd6dd0800000000000000
+      internalID: -2491099437308283414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 831
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee18a2b5ca5329220800000000000000
+      internalID: 2491112558269465070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d243cf1aac91f340800000000000000
+      internalID: 4895866524419703506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 767
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b9ef5241460160800000000000000
+      internalID: 6991347224872071479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_174
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 767
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e34a1244d4643160800000000000000
+      internalID: 7004334183272825832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_175
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf911a6da4484f20800000000000000
+      internalID: 3407048629705351096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 768
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d1ef03dbf59900800000000000000
+      internalID: 690735001794369699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b42fb544e9f1460800000000000000
+      internalID: 7214659144508394251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_178
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 639
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a71de58cd31a6020800000000000000
+      internalID: 2335701194605664165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_179
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 639
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e3976c8e5184e60800000000000000
+      internalID: 7946625632001670663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_180
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 639
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ecce8b74b5981c0800000000000000
+      internalID: -4500965988976767347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_181
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 639
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5466d6cb5fb18ab70800000000000000
+      internalID: 8910402604994750021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_182
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 639
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1021377f6abfd50800000000000000
+      internalID: 6772190046399365605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_183
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 639
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db42491f51b87ec00800000000000000
+      internalID: 929864774438888637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_184
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 447
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74047c97a8a8f7660800000000000000
+      internalID: 7385774241264123975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_185
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 447
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0af2f690c5d520800000000000000
+      internalID: 2726296903996804896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_186
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 447
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d79f9a7516a120800000000000000
+      internalID: 2424649065793312913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_187
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 447
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a8d7c375fa8e290800000000000000
+      internalID: -7860840360363324808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_188
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 447
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5e7eb680d6d2fd0800000000000000
+      internalID: -2365114346362116690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_189
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 447
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf9fd92c1fb4a670800000000000000
+      internalID: 8549168120338554797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_190
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41b5202eb232230800000000000000
+      internalID: 3612779575783396563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_191
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 255
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f70f19ffe00f980800000000000000
+      internalID: -8507283205274960017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_192
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 255
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc87a136dd10635e0800000000000000
+      internalID: -1930353339919599409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_193
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 255
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a728bf0c1575d00800000000000000
+      internalID: 961326934762093075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_194
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 249
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49887e56a1b1ae90800000000000000
+      internalID: -7016131416358876852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_195
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 255
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fb53a9640e21ed0800000000000000
+      internalID: -2444645053869211801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_196
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 62
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9ab559560141e70800000000000000
+      internalID: 9084904376796686808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_197
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 62
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b544815d157528f60800000000000000
+      internalID: 8035080694161491035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_198
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 62
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a965156711fe8c940800000000000000
+      internalID: 5316762218389395098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_199
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 62
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ecb8ce47847d5b0800000000000000
+      internalID: -5343722765829812674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_200
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 62
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639df61e93bdc490800000000000000
+      internalID: -7724320294298610837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pirate1_npc_201
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 62
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce244a322b578d00800000000000000
+      internalID: 974848046913564364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

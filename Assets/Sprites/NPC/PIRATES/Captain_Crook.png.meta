@@ -1,7 +1,613 @@
 fileFormatVersion: 2
 guid: d84a1ad963771124c8d831550d1117e4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7318232891014238256
+    second: Captain_Crook_0
+  - first:
+      213: 6129444627722100843
+    second: Captain_Crook_1
+  - first:
+      213: -1942557815955149372
+    second: Captain_Crook_2
+  - first:
+      213: 5577012477261396691
+    second: Captain_Crook_3
+  - first:
+      213: 3121746972102339707
+    second: Captain_Crook_4
+  - first:
+      213: 269107841172451177
+    second: Captain_Crook_5
+  - first:
+      213: -6076853710901556720
+    second: Captain_Crook_6
+  - first:
+      213: 2260543216793652444
+    second: Captain_Crook_7
+  - first:
+      213: -1911441644971313956
+    second: Captain_Crook_8
+  - first:
+      213: 5528099644650170521
+    second: Captain_Crook_9
+  - first:
+      213: -7457778480612991281
+    second: Captain_Crook_10
+  - first:
+      213: 1615018784895039339
+    second: Captain_Crook_11
+  - first:
+      213: -1448377835058806344
+    second: Captain_Crook_12
+  - first:
+      213: 5802490070812184
+    second: Captain_Crook_13
+  - first:
+      213: -1081423696920290887
+    second: Captain_Crook_14
+  - first:
+      213: 6262244087958178146
+    second: Captain_Crook_15
+  - first:
+      213: 8903723683146544636
+    second: Captain_Crook_16
+  - first:
+      213: -7314366455927050953
+    second: Captain_Crook_17
+  - first:
+      213: 7768450289682443102
+    second: Captain_Crook_18
+  - first:
+      213: -1245665531648428951
+    second: Captain_Crook_19
+  - first:
+      213: -5761181762868244627
+    second: Captain_Crook_20
+  - first:
+      213: -7685033385712084906
+    second: Captain_Crook_22
+  - first:
+      213: 2211592196760411042
+    second: Captain_Crook_23
+  - first:
+      213: -5497767480754506712
+    second: Captain_Crook_24
+  - first:
+      213: 2709282049073475049
+    second: Captain_Crook_25
+  - first:
+      213: -4303478038463478720
+    second: Captain_Crook_26
+  - first:
+      213: 2956142342419093844
+    second: Captain_Crook_27
+  - first:
+      213: -6221125965776328816
+    second: Captain_Crook_28
+  - first:
+      213: -6446495119656326382
+    second: Captain_Crook_29
+  - first:
+      213: 3995970212141211975
+    second: Captain_Crook_30
+  - first:
+      213: -6595697159133599343
+    second: Captain_Crook_31
+  - first:
+      213: -1952203627891278956
+    second: Captain_Crook_32
+  - first:
+      213: 6953057170739365232
+    second: Captain_Crook_33
+  - first:
+      213: -1446967478918640383
+    second: Captain_Crook_34
+  - first:
+      213: -3955928451233056790
+    second: Captain_Crook_35
+  - first:
+      213: 7321788000489861756
+    second: Captain_Crook_36
+  - first:
+      213: -6906757746365863746
+    second: Captain_Crook_37
+  - first:
+      213: 4230070158739731363
+    second: Captain_Crook_38
+  - first:
+      213: 4008110705172917389
+    second: Captain_Crook_39
+  - first:
+      213: 2000088155922147060
+    second: Captain_Crook_40
+  - first:
+      213: 6660846600833908003
+    second: Captain_Crook_41
+  - first:
+      213: -1651633235032951506
+    second: Captain_Crook_42
+  - first:
+      213: -4639157144010351212
+    second: Captain_Crook_43
+  - first:
+      213: 4394489767716653557
+    second: Captain_Crook_44
+  - first:
+      213: -854772365253940860
+    second: Captain_Crook_45
+  - first:
+      213: -1562695865147222049
+    second: Captain_Crook_46
+  - first:
+      213: -6234888830654185270
+    second: Captain_Crook_47
+  - first:
+      213: -7479544254833887852
+    second: Captain_Crook_48
+  - first:
+      213: -9199994532715366683
+    second: Captain_Crook_49
+  - first:
+      213: -2703763899982433407
+    second: Captain_Crook_50
+  - first:
+      213: -3414702501503848003
+    second: Captain_Crook_51
+  - first:
+      213: 1731968737909243681
+    second: Captain_Crook_52
+  - first:
+      213: 5673430939496130339
+    second: Captain_Crook_53
+  - first:
+      213: 292701821145544262
+    second: Captain_Crook_54
+  - first:
+      213: 5535259615982340811
+    second: Captain_Crook_55
+  - first:
+      213: 3807501279555794670
+    second: Captain_Crook_56
+  - first:
+      213: 8255624912804118841
+    second: Captain_Crook_57
+  - first:
+      213: -6355140925727701714
+    second: Captain_Crook_58
+  - first:
+      213: -6295309199965091689
+    second: Captain_Crook_59
+  - first:
+      213: -2285517191548311164
+    second: Captain_Crook_60
+  - first:
+      213: 1929477407368768817
+    second: Captain_Crook_61
+  - first:
+      213: -721208468437900992
+    second: Captain_Crook_62
+  - first:
+      213: -8706115937934018817
+    second: Captain_Crook_63
+  - first:
+      213: -5168739458171927165
+    second: Captain_Crook_64
+  - first:
+      213: -2929306746660998858
+    second: Captain_Crook_65
+  - first:
+      213: -6550731855450795420
+    second: Captain_Crook_66
+  - first:
+      213: -1101735527028611790
+    second: Captain_Crook_67
+  - first:
+      213: -3349098103145285480
+    second: Captain_Crook_68
+  - first:
+      213: -7801142606341517155
+    second: Captain_Crook_69
+  - first:
+      213: -2121058293146647585
+    second: Captain_Crook_70
+  - first:
+      213: 301722717505709400
+    second: Captain_Crook_71
+  - first:
+      213: -177977763123444751
+    second: Captain_Crook_72
+  - first:
+      213: -3552936638168203394
+    second: Captain_Crook_73
+  - first:
+      213: 4637792948066384816
+    second: Captain_Crook_74
+  - first:
+      213: -3556573669532179269
+    second: Captain_Crook_75
+  - first:
+      213: 3382847103850097873
+    second: Captain_Crook_76
+  - first:
+      213: 5721880509579773285
+    second: Captain_Crook_77
+  - first:
+      213: -3787246261327713206
+    second: Captain_Crook_78
+  - first:
+      213: -2439481042647583582
+    second: Captain_Crook_79
+  - first:
+      213: -1538076385334207309
+    second: Captain_Crook_80
+  - first:
+      213: 869216682095670958
+    second: Captain_Crook_81
+  - first:
+      213: -1451230704657642766
+    second: Captain_Crook_82
+  - first:
+      213: 3224095428678618748
+    second: Captain_Crook_83
+  - first:
+      213: -5649068025323009229
+    second: Captain_Crook_84
+  - first:
+      213: -7788503338039731921
+    second: Captain_Crook_85
+  - first:
+      213: -1516245274873004218
+    second: Captain_Crook_86
+  - first:
+      213: 6812130390803392657
+    second: Captain_Crook_87
+  - first:
+      213: -1958871243337657370
+    second: Captain_Crook_88
+  - first:
+      213: -3581351046214308176
+    second: Captain_Crook_89
+  - first:
+      213: 8794222012295637148
+    second: Captain_Crook_90
+  - first:
+      213: -3298066416027819519
+    second: Captain_Crook_91
+  - first:
+      213: 3088218514321259031
+    second: Captain_Crook_92
+  - first:
+      213: 569096474236455182
+    second: Captain_Crook_93
+  - first:
+      213: 2436477948398737049
+    second: Captain_Crook_94
+  - first:
+      213: -3547838042120784251
+    second: Captain_Crook_95
+  - first:
+      213: -8787778634489625244
+    second: Captain_Crook_96
+  - first:
+      213: -2254119253988145023
+    second: Captain_Crook_97
+  - first:
+      213: -8858006773462557006
+    second: Captain_Crook_98
+  - first:
+      213: -6933375734808430343
+    second: Captain_Crook_99
+  - first:
+      213: -6016977665783727971
+    second: Captain_Crook_100
+  - first:
+      213: -7943182526439352422
+    second: Captain_Crook_101
+  - first:
+      213: 7150102368055801819
+    second: Captain_Crook_102
+  - first:
+      213: -5269974215426871490
+    second: Captain_Crook_103
+  - first:
+      213: -7567469080452027798
+    second: Captain_Crook_104
+  - first:
+      213: -7833470806709274404
+    second: Captain_Crook_105
+  - first:
+      213: -5599418127860632509
+    second: Captain_Crook_106
+  - first:
+      213: -3898158522170815094
+    second: Captain_Crook_107
+  - first:
+      213: 3491249018162850339
+    second: Captain_Crook_108
+  - first:
+      213: -5052420079412036954
+    second: Captain_Crook_109
+  - first:
+      213: 3910764916146747290
+    second: Captain_Crook_110
+  - first:
+      213: -6404694855136654183
+    second: Captain_Crook_111
+  - first:
+      213: 8239646326600969086
+    second: Captain_Crook_112
+  - first:
+      213: 4912484249343863567
+    second: Captain_Crook_113
+  - first:
+      213: 75446177675972413
+    second: Captain_Crook_114
+  - first:
+      213: -8263565626743548848
+    second: Captain_Crook_115
+  - first:
+      213: 8560359540671102362
+    second: Captain_Crook_116
+  - first:
+      213: 9210705454379054282
+    second: Captain_Crook_117
+  - first:
+      213: 3030377951457346028
+    second: Captain_Crook_118
+  - first:
+      213: -5118085170329370928
+    second: Captain_Crook_119
+  - first:
+      213: -1389625012490418276
+    second: Captain_Crook_120
+  - first:
+      213: 6965608410998695312
+    second: Captain_Crook_121
+  - first:
+      213: -9161569539558483559
+    second: Captain_Crook_122
+  - first:
+      213: 7295618047815091980
+    second: Captain_Crook_123
+  - first:
+      213: -6754145837890578333
+    second: Captain_Crook_124
+  - first:
+      213: 8847163450908049594
+    second: Captain_Crook_125
+  - first:
+      213: -3876924712498399809
+    second: Captain_Crook_126
+  - first:
+      213: 2135801085366786469
+    second: Captain_Crook_127
+  - first:
+      213: -5402623485830945975
+    second: Captain_Crook_128
+  - first:
+      213: -3217479879352670339
+    second: Captain_Crook_129
+  - first:
+      213: 4596118168594695070
+    second: Captain_Crook_130
+  - first:
+      213: -9078869940354256862
+    second: Captain_Crook_131
+  - first:
+      213: -5025416180129469144
+    second: Captain_Crook_132
+  - first:
+      213: -1162818520746411841
+    second: Captain_Crook_133
+  - first:
+      213: -2812464658785496064
+    second: Captain_Crook_134
+  - first:
+      213: 4352829880296276292
+    second: Captain_Crook_135
+  - first:
+      213: -5525558901313482502
+    second: Captain_Crook_136
+  - first:
+      213: 5934360883884910192
+    second: Captain_Crook_137
+  - first:
+      213: -4039640565357078544
+    second: Captain_Crook_138
+  - first:
+      213: -2581051500381598235
+    second: Captain_Crook_139
+  - first:
+      213: -9078415023964705098
+    second: Captain_Crook_140
+  - first:
+      213: 9070239318718011873
+    second: Captain_Crook_141
+  - first:
+      213: -2063207312718154170
+    second: Captain_Crook_142
+  - first:
+      213: -8174058174696288319
+    second: Captain_Crook_143
+  - first:
+      213: 3474502022117271617
+    second: Captain_Crook_144
+  - first:
+      213: 7189990453411524103
+    second: Captain_Crook_145
+  - first:
+      213: -6645660453145667549
+    second: Captain_Crook_146
+  - first:
+      213: 2021087049018299031
+    second: Captain_Crook_147
+  - first:
+      213: 2645525006879720034
+    second: Captain_Crook_148
+  - first:
+      213: 4230466636260554898
+    second: Captain_Crook_149
+  - first:
+      213: -683205432577281566
+    second: Captain_Crook_150
+  - first:
+      213: 7008744414986021915
+    second: Captain_Crook_151
+  - first:
+      213: 668216050047173963
+    second: Captain_Crook_152
+  - first:
+      213: -3077700446544958411
+    second: Captain_Crook_153
+  - first:
+      213: 3631091052504757598
+    second: Captain_Crook_154
+  - first:
+      213: 967740152050170837
+    second: Captain_Crook_155
+  - first:
+      213: 5782251415911749404
+    second: Captain_Crook_156
+  - first:
+      213: 1607901634962793870
+    second: Captain_Crook_157
+  - first:
+      213: 3862684595357821604
+    second: Captain_Crook_158
+  - first:
+      213: -8458554444994509452
+    second: Captain_Crook_159
+  - first:
+      213: -4553839505790002120
+    second: Captain_Crook_160
+  - first:
+      213: -32113467793644040
+    second: Captain_Crook_161
+  - first:
+      213: 7504106554447643327
+    second: Captain_Crook_162
+  - first:
+      213: 2218159865428598132
+    second: Captain_Crook_163
+  - first:
+      213: 6533749068577557056
+    second: Captain_Crook_164
+  - first:
+      213: -1156867473052980949
+    second: Captain_Crook_165
+  - first:
+      213: 6202014905922227422
+    second: Captain_Crook_166
+  - first:
+      213: 2710207733735097230
+    second: Captain_Crook_167
+  - first:
+      213: 122120362761895599
+    second: Captain_Crook_168
+  - first:
+      213: 8440842803579523548
+    second: Captain_Crook_169
+  - first:
+      213: -6937201306218900408
+    second: Captain_Crook_170
+  - first:
+      213: -7095927503184676776
+    second: Captain_Crook_171
+  - first:
+      213: -5615191088778439330
+    second: Captain_Crook_172
+  - first:
+      213: -4252002176608825151
+    second: Captain_Crook_173
+  - first:
+      213: 3687885920490760329
+    second: Captain_Crook_174
+  - first:
+      213: 4638859301814743758
+    second: Captain_Crook_175
+  - first:
+      213: 2383201349737521198
+    second: Captain_Crook_176
+  - first:
+      213: -2415059332416573909
+    second: Captain_Crook_177
+  - first:
+      213: -41244556558266077
+    second: Captain_Crook_178
+  - first:
+      213: 5751889549793174861
+    second: Captain_Crook_179
+  - first:
+      213: 7920921677487553453
+    second: Captain_Crook_180
+  - first:
+      213: 2283107387477890227
+    second: Captain_Crook_181
+  - first:
+      213: 3957823248232887487
+    second: Captain_Crook_182
+  - first:
+      213: 343626890409612861
+    second: Captain_Crook_183
+  - first:
+      213: 8369384471017194758
+    second: Captain_Crook_184
+  - first:
+      213: 5990495669655868153
+    second: Captain_Crook_185
+  - first:
+      213: 2025498096679308535
+    second: Captain_Crook_186
+  - first:
+      213: 1644237789166530070
+    second: Captain_Crook_187
+  - first:
+      213: 8023097818473635234
+    second: Captain_Crook_188
+  - first:
+      213: -2771188300197974307
+    second: Captain_Crook_189
+  - first:
+      213: 2937390372129651509
+    second: Captain_Crook_190
+  - first:
+      213: -8414597908959549497
+    second: Captain_Crook_191
+  - first:
+      213: 8687547771062824299
+    second: Captain_Crook_192
+  - first:
+      213: -887558162626393169
+    second: Captain_Crook_193
+  - first:
+      213: -4225748196253775393
+    second: Captain_Crook_194
+  - first:
+      213: 8545069885467433975
+    second: Captain_Crook_195
+  - first:
+      213: 1230424722742866472
+    second: Captain_Crook_196
+  - first:
+      213: -3924376585170411496
+    second: Captain_Crook_197
+  - first:
+      213: 8922090357547461999
+    second: Captain_Crook_198
+  - first:
+      213: 2118230133610961699
+    second: Captain_Crook_199
+  - first:
+      213: 3445153632031166911
+    second: Captain_Crook_200
+  - first:
+      213: 1481924322276764805
+    second: Captain_Crook_201
+  - first:
+      213: 4108663483586129819
+    second: Captain_Crook_202
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +647,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +681,4275 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Captain_Crook_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1920
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030db7c6a069f8560800000000000000
+      internalID: 7318232891014238256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b606dc9e969201550800000000000000
+      internalID: 6129444627722100843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2047
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda55065f5aa05e0800000000000000
+      internalID: -1942557815955149372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2047
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da361fbc47856d40800000000000000
+      internalID: 5577012477261396691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2047
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cafc6d45ca25b20800000000000000
+      internalID: 3121746972102339707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2047
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f2b5fd7201cb300800000000000000
+      internalID: 269107841172451177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2047
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ac2b91fbdaaaba0800000000000000
+      internalID: -6076853710901556720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1983
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc876c24101f5f10800000000000000
+      internalID: 2260543216793652444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1983
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b89e73f13975e0800000000000000
+      internalID: -1911441644971313956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1983
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99826527651c7bc40800000000000000
+      internalID: 5528099644650170521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1983
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce92812cf5a08890800000000000000
+      internalID: -7457778480612991281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1983
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6770433703b96610800000000000000
+      internalID: 1615018784895039339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b145c8680456ebe0800000000000000
+      internalID: -1448377835058806344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1983
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816cb7f755d941000800000000000000
+      internalID: 5802490070812184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2048
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9506590e20ef0f0800000000000000
+      internalID: -1081423696920290887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2698987b1d5f7e650800000000000000
+      internalID: 6262244087958178146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1919
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5be201481609b70800000000000000
+      internalID: 8903723683146544636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1919
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d6f6526762e7a90800000000000000
+      internalID: -7314366455927050953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1919
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b6dc321641fcb60800000000000000
+      internalID: 7768450289682443102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1919
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964b52d7cc186bee0800000000000000
+      internalID: -1245665531648428951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f87c1f5bb2c00b0800000000000000
+      internalID: -5761181762868244627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1855
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6581d9d4ad6495590800000000000000
+      internalID: -7685033385712084906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1855
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab1eeba26721be10800000000000000
+      internalID: 2211592196760411042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_24
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1855
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824feebca9104b3b0800000000000000
+      internalID: -5497767480754506712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1855
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eded535bad499520800000000000000
+      internalID: 2709282049073475049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1855
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04480ba5689f644c0800000000000000
+      internalID: -4303478038463478720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1855
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45991615cc3560920800000000000000
+      internalID: 2956142342419093844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1855
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09761f225ee1aa9a0800000000000000
+      internalID: -6221125965776328816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1791
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b689af7d27986a0800000000000000
+      internalID: -6446495119656326382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1791
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74128b38cb9847730800000000000000
+      internalID: 3995970212141211975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1791
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199e9c711606774a0800000000000000
+      internalID: -6595697159133599343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_32
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bbf46c42168e4e0800000000000000
+      internalID: -1952203627891278956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_33
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1791
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07507ec68a83e7060800000000000000
+      internalID: 6953057170739365232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_34
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1791
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d03898eb65bebe0800000000000000
+      internalID: -1446967478918640383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1791
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae774637808b919c0800000000000000
+      internalID: -3955928451233056790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_36
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c727ae9d4673c9560800000000000000
+      internalID: 7321788000489861756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb86f2a5c644620a0800000000000000
+      internalID: -6906757746365863746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1727
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a379a2c56a34ba30800000000000000
+      internalID: 4230070158739731363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_39
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1727
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca542537baf9730800000000000000
+      internalID: 4008110705172917389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a435b49db1cb10800000000000000
+      internalID: 2000088155922147060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_41
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1727
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32db21a51b4107c50800000000000000
+      internalID: 6660846600833908003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_42
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1727
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25b1aec2583419e0800000000000000
+      internalID: -1651633235032951506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_43
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1727
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d1c0628276e9fb0800000000000000
+      internalID: -4639157144010351212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_44
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f907d5292d5cfc30800000000000000
+      internalID: 4394489767716653557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e735001d3324f0800000000000000
+      internalID: -854772365253940860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd79de1e360305ae0800000000000000
+      internalID: -1562695865147222049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1663
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08ec274a93979a0800000000000000
+      internalID: -6234888830654185270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_48
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1664
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ffc8e022533890800000000000000
+      internalID: -7479544254833887852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1664
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f6f557bd035080800000000000000
+      internalID: -9199994532715366683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_50
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1663
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183b501ee0d4a7ad0800000000000000
+      internalID: -2703763899982433407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_51
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1664
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b930ba2a8c90d0800000000000000
+      internalID: -3414702501503848003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_52
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1664
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f79290460390810800000000000000
+      internalID: 1731968737909243681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1599
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327a06e51631cbe40800000000000000
+      internalID: 5673430939496130339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1599
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6467d7a61c2ef0400800000000000000
+      internalID: 292701821145544262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1599
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca413e2b4131dc40800000000000000
+      internalID: 5535259615982340811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_56
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1599
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6b4c1ad36f6d430800000000000000
+      internalID: 3807501279555794670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_57
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1599
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9310e863e1fd19270800000000000000
+      internalID: 8255624912804118841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_58
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1599
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e250470cff00ec7a0800000000000000
+      internalID: -6355140925727701714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_59
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1599
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79805d8f2a192a8a0800000000000000
+      internalID: -6295309199965091689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_60
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1599
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e6b539363840e0800000000000000
+      internalID: -2285517191548311164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_61
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1535
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d6b5caa71e6ca10800000000000000
+      internalID: 1929477407368768817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1535
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04161c518b0cdf5f0800000000000000
+      internalID: -721208468437900992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1535
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff673127ea9ad2780800000000000000
+      internalID: -8706115937934018817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_64
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1535
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3850e1319d2f448b0800000000000000
+      internalID: -5168739458171927165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1535
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631bd17b8030957d0800000000000000
+      internalID: -2929306746660998858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1535
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4621501b5102715a0800000000000000
+      internalID: -6550731855450795420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1535
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235280b1069d5b0f0800000000000000
+      internalID: -1101735527028611790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_68
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1535
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898371cf40d9581d0800000000000000
+      internalID: -3349098103145285480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_69
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1535
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9059dab126ccb390800000000000000
+      internalID: -7801142606341517155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1471
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3091168bc7092e0800000000000000
+      internalID: -2121058293146647585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1471
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855e795863fef2400800000000000000
+      internalID: 301722717505709400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1471
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3cb1bda22b78df0800000000000000
+      internalID: -177977763123444751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_73
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1471
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f738ca3fe61bec0800000000000000
+      internalID: -3552936638168203394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_74
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1471
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbfe4b3d10cc5040800000000000000
+      internalID: 4637792948066384816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1471
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4e602571384aec0800000000000000
+      internalID: -3556573669532179269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1471
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dca172948942fe20800000000000000
+      internalID: 3382847103850097873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1471
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565cbb4f104386f40800000000000000
+      internalID: 5721880509579773285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1471
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ca2ac479ff07bc0800000000000000
+      internalID: -3787246261327713206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_79
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1407
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4f0b8aae8352ed0800000000000000
+      internalID: -2439481042647583582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_80
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1407
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcdcb63da7a7aae0800000000000000
+      internalID: -1538076385334207309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1407
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f72197f3101c00800000000000000
+      internalID: 869216682095670958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1407
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2facdb1fc513cdbe0800000000000000
+      internalID: -1451230704657642766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_83
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1407
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e895cd5b94ebc20800000000000000
+      internalID: 3224095428678618748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_84
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1407
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bca9e9f8a7a91b0800000000000000
+      internalID: -5649068025323009229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1407
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299234ba7da9e390800000000000000
+      internalID: -7788503338039731921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_86
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1407
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f74d6b4f635fae0800000000000000
+      internalID: -1516245274873004218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_87
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1407
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198aa7b8f7c898e50800000000000000
+      internalID: 6812130390803392657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_88
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1343
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e391249bf0b0d4e0800000000000000
+      internalID: -1958871243337657370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_89
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1343
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be2c62c23c7c4ec0800000000000000
+      internalID: -3581351046214308176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_90
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1343
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c986dce835a5b0a70800000000000000
+      internalID: 8794222012295637148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_91
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1343
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102240b811aea32d0800000000000000
+      internalID: -3298066416027819519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_92
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1343
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a37ee606e8bda20800000000000000
+      internalID: 3088218514321259031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_93
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1343
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098ac56a36d5e700800000000000000
+      internalID: 569096474236455182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_94
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1343
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9961169f8cb10d120800000000000000
+      internalID: 2436477948398737049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_95
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1343
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f5c2191c83cec0800000000000000
+      internalID: -3547838042120784251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_96
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1343
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4658a7e34e98b0680800000000000000
+      internalID: -8787778634489625244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1279
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880ba83b72c7b0e0800000000000000
+      internalID: -2254119253988145023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1279
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be92c175c9021580800000000000000
+      internalID: -8858006773462557006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_99
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1279
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f83e68f083b7cf90800000000000000
+      internalID: -6933375734808430343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1279
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98708931b66f7ca0800000000000000
+      internalID: -6016977665783727971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_101
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1279
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a971e75b39524c190800000000000000
+      internalID: -7943182526439352422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_102
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1279
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd735ab88344a3360800000000000000
+      internalID: 7150102368055801819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_103
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1215
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f63026f5a4dd6b0800000000000000
+      internalID: -5269974215426871490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_104
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1215
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa7ea27f2faf690800000000000000
+      internalID: -7567469080452027798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_105
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1215
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd873b70ecbe94390800000000000000
+      internalID: -7833470806709274404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_106
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1215
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344fbf331eeda42b0800000000000000
+      internalID: -5599418127860632509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dc8d73a75f6e9c0800000000000000
+      internalID: -3898158522170815094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_108
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1215
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a270e0c78637030800000000000000
+      internalID: 3491249018162850339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_109
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1151
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa3896e4b232e9b0800000000000000
+      internalID: -5052420079412036954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1151
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97bcfa98f3d54630800000000000000
+      internalID: 3910764916146747290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_111
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1151
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ccec876f3fd17a0800000000000000
+      internalID: -6404694855136654183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_112
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1151
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b27e3bdaa195270800000000000000
+      internalID: 8239646326600969086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_113
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1151
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ba7d6b566ac2440800000000000000
+      internalID: 4912484249343863567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_114
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1151
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f890c16e90c0100800000000000000
+      internalID: 75446177675972413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_115
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1086
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05492df38dae15d80800000000000000
+      internalID: -8263565626743548848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_116
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1086
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db353c5a18cc670800000000000000
+      internalID: 8560359540671102362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_117
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1086
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac434037fcff2df70800000000000000
+      internalID: 9210705454379054282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_118
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1086
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18ac3f0b01e0a20800000000000000
+      internalID: 3030377951457346028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_119
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1086
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deb25487a8e8f8b0800000000000000
+      internalID: -5118085170329370928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_120
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1086
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c287e96f07bce0800000000000000
+      internalID: -1389625012490418276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_121
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1023
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095ec06c1ffcaa060800000000000000
+      internalID: 6965608410998695312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999d3993b019bd080800000000000000
+      internalID: -9161569539558483559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_123
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0782fce5fd3f3560800000000000000
+      internalID: 7295618047815091980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_124
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368595b35247442a0800000000000000
+      internalID: -6754145837890578333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_125
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab08139c84077ca70800000000000000
+      internalID: 8847163450908049594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_126
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1023
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5799ac385623ac0800000000000000
+      internalID: -3876924712498399809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_127
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1023
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a95e2c65c3e3ad10800000000000000
+      internalID: 2135801085366786469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_128
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9432ddf50960605b0800000000000000
+      internalID: -5402623485830945975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_129
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1023
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77a73fb8173953d0800000000000000
+      internalID: -3217479879352670339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_130
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1023
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e934ec08f11b8cf30800000000000000
+      internalID: 4596118168594695070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_131
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1023
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220763324ef510280800000000000000
+      internalID: -9078869940354256862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_132
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82de1e62c92224ab0800000000000000
+      internalID: -5025416180129469144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_133
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1023
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb83aac57b6dcdfe0800000000000000
+      internalID: -1162818520746411841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_134
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 959
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00410cd3b4e18f8d0800000000000000
+      internalID: -2812464658785496064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_135
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 959
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44104ceb6bb586c30800000000000000
+      internalID: 4352829880296276292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_136
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 959
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af056b574754153b0800000000000000
+      internalID: -5525558901313482502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076eee448c51b5250800000000000000
+      internalID: 5934360883884910192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_138
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f712a90f4050f7c0800000000000000
+      internalID: -4039640565357078544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_139
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed04ccd5534e2cd0800000000000000
+      internalID: -2581051500381598235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_140
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bea30d92adf20280800000000000000
+      internalID: -9078415023964705098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_141
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d7fbaa96ffdd70800000000000000
+      internalID: 9070239318718011873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_142
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646327361e30e53e0800000000000000
+      internalID: -2063207312718154170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_143
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf89dbe569ef8e80800000000000000
+      internalID: -8174058174696288319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_144
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 959
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1482daf2e29e73030800000000000000
+      internalID: 3474502022117271617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_145
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 959
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e2b02293af7c360800000000000000
+      internalID: 7189990453411524103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_146
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3281460370fd5c3a0800000000000000
+      internalID: -6645660453145667549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792d0e086f75c0c10800000000000000
+      internalID: 2021087049018299031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2628a772afac6b420800000000000000
+      internalID: 2645525006879720034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 895
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298b370edf2a5ba30800000000000000
+      internalID: 4230466636260554898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 895
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e13d926744c486f0800000000000000
+      internalID: -683205432577281566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_151
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 895
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1caeb859ef044160800000000000000
+      internalID: 7008744414986021915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_152
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c64805faf54900800000000000000
+      internalID: 668216050047173963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_153
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c60ae00cfc945d0800000000000000
+      internalID: -3077700446544958411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_154
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5535abe21a346230800000000000000
+      internalID: 3631091052504757598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_155
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 895
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db35dd7a8a1e6d00800000000000000
+      internalID: 967740152050170837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_156
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 895
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175b6fe60fae3050800000000000000
+      internalID: 5782251415911749404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_157
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 895
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e852ab9940a605610800000000000000
+      internalID: 1607901634962793870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_158
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 895
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2da19c230b9530800000000000000
+      internalID: 3862684595357821604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_159
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 895
+        width: 30
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4750dc03c8d2d9a80800000000000000
+      internalID: -8458554444994509452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_160
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 831
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1f35c8138dc0c0800000000000000
+      internalID: -4553839505790002120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_161
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 831
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f567af98f8ed8ff0800000000000000
+      internalID: -32113467793644040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 831
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2488e1721f32860800000000000000
+      internalID: 7504106554447643327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_163
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d56e135ac78ce10800000000000000
+      internalID: 2218159865428598132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_164
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aca1c192a8caa50800000000000000
+      internalID: 6533749068577557056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_165
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 831
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b292970a92bf1ffe0800000000000000
+      internalID: -1156867473052980949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_166
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc0c2f72bbf11650800000000000000
+      internalID: 6202014905922227422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_167
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e830cc413979c9520800000000000000
+      internalID: 2710207733735097230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_168
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 831
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb34aa2dbd1b100800000000000000
+      internalID: 122120362761895599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_169
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd11540fec5e32570800000000000000
+      internalID: 8440842803579523548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_170
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445277ba2c1abf90800000000000000
+      internalID: -6937201306218900408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_171
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 831
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b0cc1883368d90800000000000000
+      internalID: -7095927503184676776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_172
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 831
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e551c6f8475d212b0800000000000000
+      internalID: -5615191088778439330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_173
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c01b076c8addf4c0800000000000000
+      internalID: -4252002176608825151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 767
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988240794b00e2330800000000000000
+      internalID: 3687885920490760329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_175
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 767
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec23faf05f9806040800000000000000
+      internalID: 4638859301814743758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_176
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 767
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2026573005d21120800000000000000
+      internalID: 2383201349737521198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_177
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e61db255cfb7ed0800000000000000
+      internalID: -2415059332416573909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_178
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3211d695b487d6ff0800000000000000
+      internalID: -41244556558266077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_179
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 639
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4524ba1211d2df40800000000000000
+      internalID: 5751889549793174861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_180
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 639
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab36508c44cced60800000000000000
+      internalID: 7920921677487553453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_181
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 639
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b490be821a3faf10800000000000000
+      internalID: 2283107387477890227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_182
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 639
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb434ba56430de630800000000000000
+      internalID: 3957823248232887487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_183
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 639
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36132216dec4c400800000000000000
+      internalID: 343626890409612861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_184
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 639
+        width: 81
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60586af55d6062470800000000000000
+      internalID: 8369384471017194758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_185
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 447
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f29a529214822350800000000000000
+      internalID: 5990495669655868153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_186
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 447
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcccc199c30c1c10800000000000000
+      internalID: 2025498096679308535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_187
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 447
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e6b85ce8181d610800000000000000
+      internalID: 1644237789166530070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_188
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 447
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad155c25f4c75f60800000000000000
+      internalID: 8023097818473635234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_189
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 447
+        width: 104
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde2bf06ce2ca89d0800000000000000
+      internalID: -2771188300197974307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_190
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 447
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bb0710bf4b3c820800000000000000
+      internalID: 2937390372129651509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_191
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 255
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7a8b4c8c7593b80800000000000000
+      internalID: -8414597908959549497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_192
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 255
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6daf6f4bae509870800000000000000
+      internalID: 8687547771062824299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_193
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 255
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabc727bd82cea3f0800000000000000
+      internalID: -887558162626393169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_194
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 255
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9cb0c87602b55c0800000000000000
+      internalID: -4225748196253775393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_195
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 237
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb9c2089cf269670800000000000000
+      internalID: 8545069885467433975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_196
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 239
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82272f924c8531110800000000000000
+      internalID: 1230424722742866472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_197
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 62
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ae0cb940d989c0800000000000000
+      internalID: -3924376585170411496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_198
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 62
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ded8fa8e1a1db70800000000000000
+      internalID: 8922090357547461999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_199
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 62
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bd86a6517756d10800000000000000
+      internalID: 2118230133610961699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_200
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 62
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb15dd1a9f4afcf20800000000000000
+      internalID: 3445153632031166911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_201
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 62
+        width: 104
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c615dc15ad09410800000000000000
+      internalID: 1481924322276764805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Captain_Crook_202
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 62
+        width: 72
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f25c07ba7e40930800000000000000
+      internalID: 4108663483586129819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
