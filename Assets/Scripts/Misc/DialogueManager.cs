@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public GameObject player;
 
     private Queue<string> sentences;
 
@@ -18,9 +19,10 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        player.GetComponent<PlayerMovement>().speed = 0f;
         animator.SetBool("isOpen", true);
         
-        Debug.Log("Started convo with" + dialogue.name);
+        Debug.Log("Started convo with " + dialogue.name);
 
         nameText.text = dialogue.name;
 
@@ -49,16 +51,19 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
-        dialogueText.text = sentence;
+        // Coroutine to type out sentences, similar to a visual novel
+        dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
+            yield return new WaitForSeconds(0.015F);
             yield return null;
         }
     }
 
     void EndDialogue()
     {
+        player.GetComponent<PlayerMovement>().speed = 5f;
         animator.SetBool("isOpen", false);
 
         Debug.Log("End of convo");
