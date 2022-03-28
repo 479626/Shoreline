@@ -34,7 +34,8 @@ public class LevelOneWarrior : MonoBehaviour
             {
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 used++;
-                FindObjectOfType<DialogueInteraction>().TriggerDialogue();
+                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
+                trigger.TriggerDialogue();
             }
         }
     }
