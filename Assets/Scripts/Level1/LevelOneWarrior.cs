@@ -2,14 +2,40 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class LevelOneWarrior : MonoBehaviour
 {
+    bool triggerDialogue;
+    int used;
+
+    void Start()
+    {
+        triggerDialogue = false;
+    }
+
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        CheckForDialogue();
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.name == "Player")
         {
-            Debug.Log("Click registered");
-            FindObjectOfType<DialogueInteraction>().TriggerDialogue();
+            triggerDialogue = true;
+        }
+    }
+
+    void CheckForDialogue()
+    {
+        if(triggerDialogue == true)
+        {
+            if(Input.GetKey(KeyCode.F) && used == 0)
+            {
+                // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
+                used++;
+                FindObjectOfType<DialogueInteraction>().TriggerDialogue();
+            }
         }
     }
 }
