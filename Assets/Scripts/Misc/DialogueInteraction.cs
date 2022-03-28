@@ -8,7 +8,6 @@ public class DialogueInteraction : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        Debug.Log("Click registered");
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 

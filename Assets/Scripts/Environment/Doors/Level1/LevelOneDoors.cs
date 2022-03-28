@@ -16,7 +16,7 @@ public class LevelOneDoors : MonoBehaviour
             
             if(Input.GetKey(KeyCode.F))
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene("L1-House1");
             }
         }
     }
