@@ -6,7 +6,7 @@ public class DialogueInteractor : MonoBehaviour
 {
     public Interaction interaction;
     bool triggerDialogue;
-    public GameObject dm;
+    public GameObject dialogueManager;
     int used;
     private Rigidbody2D rb;
 
@@ -19,10 +19,9 @@ public class DialogueInteractor : MonoBehaviour
     void Update()
     {
         CheckForDialogue();
-        if (used > 0 && dm.GetComponent<DialogueManager>().iFinished1 == true)
+        if (used > 0 && dialogueManager.GetComponent<DialogueManager>().iFinished1 == true)
         {
-            rb.constraints =  ~RigidbodyConstraints2D.FreezePositionY | ~RigidbodyConstraints2D.FreezePositionX;
-            dm.GetComponent<DialogueManager>().iFinished1 = false;
+            dialogueManager.GetComponent<DialogueManager>().iFinished1 = false;
         }
     }
 
@@ -54,7 +53,6 @@ public class DialogueInteractor : MonoBehaviour
             {
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 used++;
-                rb.constraints = RigidbodyConstraints2D.FreezeAll;
                 DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 trigger.TriggerDialogue();
                 triggerDialogue = false;
