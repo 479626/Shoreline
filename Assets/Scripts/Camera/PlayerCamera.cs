@@ -19,6 +19,11 @@ public class PlayerCamera : MonoBehaviour
         width = height * Screen.width / Screen.height;
     }
 
+    void Awake()
+    {
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
+    }
+
     void Update()
     {
         // This will follow the player in the scene

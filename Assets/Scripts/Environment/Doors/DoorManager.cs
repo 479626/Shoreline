@@ -11,7 +11,6 @@ public class DoorManager : MonoBehaviour
 
     public Interaction interaction;
     private GameObject player;
-    private GameObject camera;
     private GameObject localPlayer;
 
     void Start()
@@ -38,7 +37,12 @@ public class DoorManager : MonoBehaviour
         if (player != null && Input.GetKey(KeyCode.F))
         {
             player.transform.position = new Vector3(teleportX, teleportY, 0F);
+
             DontDestroyOnLoad(player);
+            if (player != null)
+            {
+                Destroy(player);
+            }
             player = null;
             SceneManager.LoadScene(scene);
         }
