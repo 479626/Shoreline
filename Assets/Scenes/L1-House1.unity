@@ -45072,7 +45072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Bill Jr.
+    name: Pete Jr.
     sentences:
     - You're not a pirate, are you?
 --- !u!114 &1005003185
@@ -45159,6 +45159,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
+--- !u!1 &1143610241 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2198682895241510193, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
+  m_PrefabInstance: {fileID: 1143610240}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1145020935
 GameObject:
   m_ObjectHideFlags: 0
@@ -46904,6 +46909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4238866269011188427, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1143610241}
     - target: {fileID: 4238866269147254901, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

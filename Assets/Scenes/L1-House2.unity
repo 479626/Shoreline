@@ -17852,6 +17852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4238866269011188427, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1440313371}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
 --- !u!114 &1334805651 stripped
@@ -17933,6 +17937,11 @@ PrefabInstance:
 --- !u!4 &1440313370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2198682895241510204, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
+  m_PrefabInstance: {fileID: 1440313369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1440313371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2198682895241510193, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
   m_PrefabInstance: {fileID: 1440313369}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1469935972 stripped
@@ -18116,7 +18125,10 @@ MonoBehaviour:
   dialogue:
     name: Mary
     sentences:
-    - Hi
+    - You're not from here, are you?
+    - '*Stared for a moment*'
+    - We don't take kindly to strangers in this household...
+    - Leave.
 --- !u!114 &1792051418
 MonoBehaviour:
   m_ObjectHideFlags: 0
