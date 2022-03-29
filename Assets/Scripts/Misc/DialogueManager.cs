@@ -8,7 +8,6 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
-    public GameObject player;
     public bool iFinished1;
 
     private Queue<string> sentences;
@@ -21,7 +20,6 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        player.GetComponent<PlayerMovement>().speed = 0f;
         animator.SetBool("isOpen", true);
 
         Debug.Log("Started convo with " + dialogue.name);
@@ -65,7 +63,6 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        player.GetComponent<PlayerMovement>().speed = 3.5f;
         animator.SetBool("isOpen", false);
         iFinished1 = true;
 

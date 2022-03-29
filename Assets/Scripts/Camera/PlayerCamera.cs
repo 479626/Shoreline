@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerCamera : MonoBehaviour
 {
     public Transform player;
-
     public BoxCollider2D boundingBox;
     private Vector3 minBound, maxBound;
     private Camera c;

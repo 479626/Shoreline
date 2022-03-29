@@ -19,6 +19,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);

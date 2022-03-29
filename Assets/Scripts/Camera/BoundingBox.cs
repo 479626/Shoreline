@@ -7,7 +7,7 @@ public class BoundingBox : MonoBehaviour
     private BoxCollider2D bounds;
     private PlayerCamera theCamera;
 
-    void Start()
+    void Update()
     {
         bounds = GetComponent<BoxCollider2D>();
         theCamera = FindObjectOfType<PlayerCamera>();
