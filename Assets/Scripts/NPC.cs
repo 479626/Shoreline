@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public float waitTime, walkTime;
     private int walkDirection;
     private int blockDirection = -1;
+    private bool playerIsNear = false;
 
     private Rigidbody2D rb;
     public Animator animator;
@@ -26,7 +27,7 @@ public class NPC : MonoBehaviour
 
     void Update()
     {
-        if (isWalking)
+        if (isWalking && !playerIsNear)
         {
             walkCounter -= Time.deltaTime;
 
@@ -61,6 +62,7 @@ public class NPC : MonoBehaviour
         {
             rb.velocity = new Vector2(0, 0);
             walkCounter -= Time.deltaTime;
+            isWalking = false;
             animator.SetBool("moving", isWalking);
         }
         else
@@ -79,8 +81,26 @@ public class NPC : MonoBehaviour
     {
         if (col.gameObject.tag == "Wall")
         {
+            Debug.Log("WALL OH NO");
             isWalking = false;
+            rb.velocity = Vector2.zero;
             blockDirection = walkDirection;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.name == "Player")
+        {
+            playerIsNear = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name == "Player")
+        {
+            playerIsNear = true;
         }
     }
 
