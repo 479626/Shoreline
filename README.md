@@ -1,5 +1,8 @@
 # Shoreline
-![Shoreline](https://i.imgur.com/UfMZRny)
+<p align="center">
+      <img width="256" src="https://i.imgur.com/ObzHSAc.png" alt="Shoreline">
+</p>
+
 
 Shoreline takes place in a small island in the middle of the ocean, settlers named it ‘Skeleton Cove’, after the skeletal remains found within the cove when they had first arrived. Throughout the game with NPC (Non-Player Character) interactions, the player will learn about the devastation of the village through the many raids carried out by the pirate faction which the player will soon learn is the antagonist in the story.
 
@@ -19,10 +22,11 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 - [ ] Create health system
 - [ ] Create combat system
 - [ ] Create blacksmith menu & functions
-- [ ] Create door system
+- [x] Create door system
 - [ ] Create loot table
 - [ ] Create day-night cycle
 - [ ] Create music
+- [x] Create basic AI for NPCs
 - [x] Create dialogue system
 - [ ] Create unique dialogue for every scene/level
 - [ ] Create sound effects
