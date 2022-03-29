@@ -7,8 +7,14 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 3.5f;
     public Rigidbody2D rb;
     public Animator animator;
+    public VectorValue startingPosition;
     private static GameObject player;
     Vector2 movement;
+
+    void Start()
+    {
+        transform.position = startingPosition.initialValue;
+    }
 
     void Update()
     {
