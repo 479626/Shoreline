@@ -7,6 +7,7 @@ public class DialogueInteractor : MonoBehaviour
     public Interaction interaction;
     bool triggerDialogue;
     public GameObject dialogueManager;
+    public InteractionCounter count;
     int used;
     private Rigidbody2D rb;
 
@@ -14,14 +15,15 @@ public class DialogueInteractor : MonoBehaviour
     {
         triggerDialogue = false;
         rb = GetComponent<Rigidbody2D>();
+        used = 0;
     }
 
     void Update()
     {
         CheckForDialogue();
-        if (used > 0 && dialogueManager.GetComponent<DialogueManager>().iFinished1 == true)
+        if (used > 0 && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
         {
-            dialogueManager.GetComponent<DialogueManager>().iFinished1 = false;
+            dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
         }
     }
 
@@ -57,6 +59,7 @@ public class DialogueInteractor : MonoBehaviour
                 trigger.TriggerDialogue(1);
                 triggerDialogue = false;
                 interaction.InteractOff();
+                count.levelOne++;
             }
         }
     }

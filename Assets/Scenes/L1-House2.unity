@@ -18122,13 +18122,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9c2f16e242a96488c77ab219bd15ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
+  dialogueOne:
+    portrait: {fileID: 0}
     name: Mary
     sentences:
-    - You're not from here, are you?
-    - '*Stared for a moment*'
-    - We don't take kindly to strangers in this household...
-    - Leave.
+    - We don't take kindly to strangers in this household.
+  dialogueTwo:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []
+  dialogueThree:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []
 --- !u!114 &1792051418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18181,6 +18187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
+  count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
 --- !u!1 &1973815811
 GameObject:
   m_ObjectHideFlags: 0
@@ -19119,6 +19126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
+  count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
 --- !u!114 &4911570091839591930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19131,9 +19139,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9c2f16e242a96488c77ab219bd15ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
+  dialogueOne:
+    portrait: {fileID: 0}
     name: Anne
     sentences:
-    - Do I know you..?
+    - Do I know you?
     - No?
-    - Didn't think so, get OUT of my room! *screamed*
+    - Didn't think so. Get OUT of my room! *screams*
+  dialogueTwo:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []
+  dialogueThree:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []

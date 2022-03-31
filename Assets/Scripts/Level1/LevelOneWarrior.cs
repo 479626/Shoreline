@@ -7,22 +7,31 @@ using UnityEngine.SceneManagement;
 public class LevelOneWarrior : MonoBehaviour
 {
     public Interaction interaction;
-    bool triggerDialogue;
-    public GameObject dm;
-    int used;
+    bool triggerDialogue, interactionThreshold, finalMessage;
+    public GameObject dialogueManager;
+    public int nextLevelScene;
+    public InteractionCounter count;
 
     void Start()
     {
         triggerDialogue = false;
+        interactionThreshold = false;
+        finalMessage = false;
+        dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
     }
 
     void Update()
     {
         CheckForDialogue();
-        if (used > 0 && dm.GetComponent<DialogueManager>().iFinished1 == true)
+        if (finalMessage == true && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
         {
-            SceneManager.LoadScene("L1-Battle");
-            dm.GetComponent<DialogueManager>().iFinished1 = false;
+            Debug.Log("COMPLETED DIALOGUE TRACKS & READY TO MOVE ON");
+            SceneManager.LoadScene(nextLevelScene);
+            dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
+        }
+        if (count.levelOne > 3)
+        {
+            interactionThreshold = true;
         }
     }
 
@@ -30,10 +39,13 @@ public class LevelOneWarrior : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
-            if (used == 0)
+            interaction.InteractOn();
+
+            if (interactionThreshold)
             {
                 interaction.InteractOn();
             }
+
             triggerDialogue = true;
         }
     }
@@ -50,21 +62,24 @@ public class LevelOneWarrior : MonoBehaviour
     {
         if (triggerDialogue == true)
         {
-            if (Input.GetKey(KeyCode.F) && used == 0)
+            DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
+
+            if (Input.GetKey(KeyCode.F) && interactionThreshold == false)
             {
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
-                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 trigger.TriggerDialogue(1);
                 triggerDialogue = false;
                 interaction.InteractOff();
+                dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
             }
 
-            if (Input.GetKey(KeyCode.G) && used == 0)
+            if (Input.GetKey(KeyCode.F) && interactionThreshold == true)
             {
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
-                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 trigger.TriggerDialogue(2);
                 triggerDialogue = false;
+                interactionThreshold = false;
+                finalMessage = true;
                 interaction.InteractOff();
             }
         }
