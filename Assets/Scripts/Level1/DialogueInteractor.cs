@@ -54,7 +54,7 @@ public class DialogueInteractor : MonoBehaviour
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 used++;
                 DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-                trigger.TriggerDialogue();
+                trigger.TriggerDialogue(1);
                 triggerDialogue = false;
                 interaction.InteractOff();
             }

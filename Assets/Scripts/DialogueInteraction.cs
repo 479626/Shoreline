@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class DialogueInteraction : MonoBehaviour
 {
-    public Dialogue dialogue;
+    public Dialogue dialogueOne;
+    public Dialogue dialogueTwo;
+    public Dialogue dialogueThree;
 
-    public void TriggerDialogue()
+    public void TriggerDialogue(int id)
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        if (id == 1)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogueOne);
+        }
+        if (id == 2)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogueTwo);
+        }
+        if (id == 3)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogueThree);
+        }
     }
-
 }

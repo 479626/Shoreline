@@ -29,7 +29,7 @@ public class LevelOneLock : MonoBehaviour
         if (triggerDialogue == true)
         {
             DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-            trigger.TriggerDialogue();
+            trigger.TriggerDialogue(1);
             triggerDialogue = false;
         }
     }

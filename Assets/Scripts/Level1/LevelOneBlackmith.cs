@@ -41,7 +41,7 @@ public class LevelOneBlackmith : MonoBehaviour
             if (Input.GetKey(KeyCode.F))
             {
                 DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-                trigger.TriggerDialogue();
+                trigger.TriggerDialogue(1);
                 triggerDialogue = false;
                 interaction.InteractOff();
             }
