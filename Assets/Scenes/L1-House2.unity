@@ -14818,7 +14818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 1
-  playerPos: {x: 2.5, y: 5}
+  playerPos: {x: 2.5, y: 6}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1334805651}
 --- !u!61 &379364158
