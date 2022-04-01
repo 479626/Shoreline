@@ -11,10 +11,13 @@ public class LevelTwoPlayer : MonoBehaviour
     public LayerMask enemyLayer;
     public HealthBar healthBar;
     public GameObject warrior;
+    public GameObject levelTwoManager;
     Vector2 movement;
 
     public float attackRange = 0.5f;
     public float speed = 3.5f;
+    public float attackRate = 1f;
+    public float nextAttackTime = 0f;
     public int maxHealth, currentHealth;
 
     void Start()
@@ -29,8 +32,30 @@ public class LevelTwoPlayer : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         if (Input.GetButtonDown("Fire1"))
-            Attack();
-        else MoveLogic();
+        {
+            if (Time.time >= nextAttackTime)
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+        }
+        else
+        {
+            MoveLogic();
+        }
+
+        if (currentHealth < 0)
+        {
+            StartCoroutine(Death());
+        }
+    }
+
+    IEnumerator Death()
+    {
+        animator.SetBool("isDead", true);
+        yield return new WaitForSeconds(1f);
+        levelTwoManager.GetComponent<Restart>().Death();
+        yield break;
     }
 
     void MoveLogic()

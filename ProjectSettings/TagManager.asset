@@ -26,8 +26,8 @@ TagManager:
   - Camera
   - Platform
   - UserInterface
-  - 
-  - 
+  - Enemy
+  - HealthBar
   - 
   - 
   - 
@@ -76,4 +76,7 @@ TagManager:
     locked: 0
   - name: Camera
     uniqueID: 1151902507
+    locked: 0
+  - name: HealthBar
+    uniqueID: 892886469
     locked: 0
