@@ -13,6 +13,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject quitButton;
     public GameObject muteButtonOn;
     public GameObject muteButtonOff;
+    public InteractionCounter count;
     [SerializeField] AudioMixer mixer;
 
     public Animator transition;
@@ -25,16 +26,17 @@ public class ButtonScript : MonoBehaviour
 
     void Update()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     public void OnStartButton()
     {
-        StartCoroutine(LoadLevel(1));
+        count.levelOne = 0;
+        SceneManager.LoadScene(1);
     }
 
 
-    IEnumerator LoadLevel(int LevelIndex)
+    /*IEnumerator LoadLevel(int LevelIndex)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
@@ -64,5 +66,5 @@ public class ButtonScript : MonoBehaviour
     public void OnButtonClick()
     {
         SoundManager.instance.ClickSound();
-    }
+    }*/
 }
