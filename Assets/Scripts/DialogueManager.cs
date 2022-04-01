@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -21,33 +22,36 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        player.GetComponent<PlayerMovement>().speed = 0f;
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "L2-Battle")
+        {
+            player.GetComponent<LevelTwoPlayer>().speed = 0f;
+        }
+        else
+        {
+            player.GetComponent<PlayerMovement>().speed = 0f;
+        }
         animator.SetBool("isOpen", true);
 
-        Debug.Log("Started convo with " + dialogue.name);
-
         nameText.text = dialogue.name;
-
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
-
         DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
     {
-        Debug.Log("Test message for display next sentence");
+        string sentence = sentences.Dequeue();
+        
         if (sentences.Count == 0)
         {
             EndDialogue();
             return;
         }
-
-        string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
@@ -66,11 +70,17 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        player.GetComponent<PlayerMovement>().speed = 3.5f;
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "L2-Battle")
+        {
+            player.GetComponent<LevelTwoPlayer>().speed = 0f;
+        }
+        else
+        {
+            player.GetComponent<PlayerMovement>().speed = 3.5f;
+        }
         animator.SetBool("isOpen", false);
         finishedDialogue = true;
-
-        Debug.Log("End of convo");
     }
 
 }
