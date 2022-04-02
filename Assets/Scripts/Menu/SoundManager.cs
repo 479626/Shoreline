@@ -7,17 +7,8 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    [SerializeField] AudioSource swordSource;
-    [SerializeField] List<AudioClip> swordClips = new List<AudioClip>();
-    [SerializeField] AudioSource walkSource;
-    [SerializeField] List<AudioClip> walkClips = new List<AudioClip>();
-    [SerializeField] AudioSource jumpSource;
-    [SerializeField] List<AudioClip> jumpClips = new List<AudioClip>();
-    [SerializeField] AudioSource blockSource;
-    [SerializeField] List<AudioClip> blockClips = new List<AudioClip>();
-    [SerializeField] AudioSource clickSource;
-    [SerializeField] List<AudioClip> clickClips = new List<AudioClip>();
-
+    [SerializeField] AudioSource swingSource, doorSource, clickSource, walkSource, attackSource, maleSpeechSource, femaleSpeechSource;
+    [SerializeField] List<AudioClip> swingClips, doorClips, clickClips, walkClips, attackClips, maleSpeechClips, femaleSpeechClips = new List<AudioClip>();
     [SerializeField] AudioMixer mixer;
 
     public const string MUSIC_KEY = "MusicVolume";
@@ -47,11 +38,11 @@ public class SoundManager : MonoBehaviour
         mixer.SetFloat(Sliders.SFX, Mathf.Log10(sfxVolume) * 20);
     }
 
-    public void SwordSound()
+    public void SwingSound()
     {
-        AudioClip clip = swordClips[Random.Range(0, swordClips.Count)];
+        AudioClip clip = swingClips[Random.Range(0, swingClips.Count)];
 
-        swordSource.PlayOneShot(clip);
+        swingSource.PlayOneShot(clip);
     }
 
     public void WalkSound()
@@ -61,24 +52,38 @@ public class SoundManager : MonoBehaviour
         walkSource.PlayOneShot(clip);
     }
 
-    public void JumpSound()
+    public void AttackSound()
     {
-        AudioClip clip = jumpClips[Random.Range(0, jumpClips.Count)];
+        AudioClip clip = attackClips[Random.Range(0, attackClips.Count)];
 
-        jumpSource.PlayOneShot(clip);
+        attackSource.PlayOneShot(clip);
     }
 
-    public void BlockSound()
+    public void MaleSpeechSound()
     {
-        AudioClip clip = blockClips[Random.Range(0, blockClips.Count)];
+        AudioClip clip = maleSpeechClips[Random.Range(0, maleSpeechClips.Count)];
 
-        blockSource.PlayOneShot(clip);
+        maleSpeechSource.PlayOneShot(clip);
+    }
+
+    public void FemaleSpeechSound()
+    {
+        AudioClip clip = femaleSpeechClips[Random.Range(0, femaleSpeechClips.Count)];
+
+        femaleSpeechSource.PlayOneShot(clip);
+    }
+
+    public void DoorSound()
+    {
+        AudioClip clip = doorClips[Random.Range(0, doorClips.Count)];
+
+        doorSource.PlayOneShot(clip);
     }
 
     public void ClickSound()
     {
         AudioClip clip = clickClips[Random.Range(0, clickClips.Count)];
 
-        blockSource.PlayOneShot(clip);
+        clickSource.PlayOneShot(clip);
     }
 }

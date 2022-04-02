@@ -19,6 +19,7 @@ public class SceneTransition : MonoBehaviour
 
             if (Input.GetKey(KeyCode.F))
             {
+                SoundManager.instance.DoorSound();
                 playerStorage.initialValue = playerPos;
                 SceneManager.LoadScene(scene);
             }

@@ -26,9 +26,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    public void SetSpeed(float newSpeed)
+    public void PlayWalkSound()
     {
-        speed = newSpeed;
+        SoundManager.instance.WalkSound();
     }
 
     void FixedUpdate()

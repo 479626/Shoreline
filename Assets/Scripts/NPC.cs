@@ -122,4 +122,9 @@ public class NPC : MonoBehaviour
         isWalking = true;
         walkCounter = walkTime;
     }
+
+    public void PlayWalkSound()
+    {
+        SoundManager.instance.WalkSound();
+    }
 }
