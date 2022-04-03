@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class UserInterface : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Vector2 velocity;
+    private Rigidbody2D rb;
+
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        velocity.x = 6;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        rb.velocity = velocity;
     }
 }

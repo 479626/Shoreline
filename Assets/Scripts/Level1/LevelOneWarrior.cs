@@ -62,10 +62,9 @@ public class LevelOneWarrior : MonoBehaviour
     {
         if (triggerDialogue == true)
         {
-            DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-
             if (Input.GetKey(KeyCode.F) && interactionThreshold == false)
             {
+                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 trigger.TriggerDialogue(1);
                 triggerDialogue = false;
@@ -75,6 +74,7 @@ public class LevelOneWarrior : MonoBehaviour
 
             if (Input.GetKey(KeyCode.F) && interactionThreshold == true)
             {
+                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
                 // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 trigger.TriggerDialogue(2);
                 triggerDialogue = false;
