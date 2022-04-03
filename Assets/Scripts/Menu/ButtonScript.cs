@@ -9,24 +9,15 @@ using UnityEngine.SceneManagement;
 public class ButtonScript : MonoBehaviour
 {
     public GameObject startButton;
-    public GameObject optionButton;
-    public GameObject quitButton;
-    public GameObject muteButtonOn;
-    public GameObject muteButtonOff;
+    public Animator animator;
     public InteractionCounter count;
     [SerializeField] AudioMixer mixer;
 
-    public Animator transition;
     public float transitionTime = 1f;
 
     void Start()
     {
         startButton.GetComponent<Button>().Select();
-    }
-
-    void Update()
-    {
-        //DontDestroyOnLoad(gameObject);
     }
 
     public void OnStartButton()
@@ -35,17 +26,16 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void OnQuitButton()
+    {
+        Application.Quit();
+    }
 
     /*IEnumerator LoadLevel(int LevelIndex)
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(LevelIndex);
-    }
-
-    public void OnQuitButton()
-    {
-        Application.Quit();
     }
 
     public void OnMuteButtonOn()
