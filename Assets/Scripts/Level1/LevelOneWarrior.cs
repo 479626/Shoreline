@@ -23,7 +23,7 @@ public class LevelOneWarrior : MonoBehaviour
     void Update()
     {
         CheckForDialogue();
-        if (finalMessage == true && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
+        if (finalMessage && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
         {
             Debug.Log("COMPLETED DIALOGUE TRACKS & READY TO MOVE ON");
             SceneManager.LoadScene(nextLevelScene);
@@ -40,13 +40,12 @@ public class LevelOneWarrior : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             interaction.InteractOn();
+            triggerDialogue = true;
 
             if (interactionThreshold)
             {
                 interaction.InteractOn();
             }
-
-            triggerDialogue = true;
         }
     }
 
@@ -55,32 +54,30 @@ public class LevelOneWarrior : MonoBehaviour
         if (col.gameObject.name == "Player")
         {
             interaction.InteractOff();
+            triggerDialogue = false;
         }
     }
 
     void CheckForDialogue()
     {
-        if (triggerDialogue == true)
+        if (triggerDialogue == true && Input.GetKey(KeyCode.F))
         {
-            if (Input.GetKey(KeyCode.F) && interactionThreshold == false)
+            if (interactionThreshold)
             {
-                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-                // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
-                trigger.TriggerDialogue(1);
-                triggerDialogue = false;
-                interaction.InteractOff();
-                dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
-            }
-
-            if (Input.GetKey(KeyCode.F) && interactionThreshold == true)
-            {
-                DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-                // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
-                trigger.TriggerDialogue(2);
+                Debug.Log("Triggered dialogue 2");
+                gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(2);
                 triggerDialogue = false;
                 interactionThreshold = false;
                 finalMessage = true;
                 interaction.InteractOff();
+            }
+            else
+            {
+                Debug.Log("Triggered dialogue 1");
+                gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(1);
+                triggerDialogue = false;
+                interaction.InteractOff();
+                dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
             }
         }
     }

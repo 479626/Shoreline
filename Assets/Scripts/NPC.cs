@@ -81,7 +81,6 @@ public class NPC : MonoBehaviour
     {
         if (col.gameObject.tag == "Wall")
         {
-            Debug.Log("WALL OH NO");
             isWalking = false;
             rb.velocity = Vector2.zero;
             blockDirection = walkDirection;

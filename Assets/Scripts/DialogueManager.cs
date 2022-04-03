@@ -45,20 +45,19 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        string sentence = sentences.Dequeue();
-        
         if (sentences.Count == 0)
         {
             EndDialogue();
             return;
         }
+        string sentence = sentences.Dequeue();
+
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
 
     IEnumerator TypeSentence(string sentence)
     {
-        // Coroutine to type out sentences, similar to a visual novel
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
