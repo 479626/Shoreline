@@ -25,7 +25,6 @@ public class LevelOneWarrior : MonoBehaviour
         CheckForDialogue();
         if (finalMessage && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
         {
-            Debug.Log("COMPLETED DIALOGUE TRACKS & READY TO MOVE ON");
             SceneManager.LoadScene(nextLevelScene);
             dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
         }
@@ -64,7 +63,6 @@ public class LevelOneWarrior : MonoBehaviour
         {
             if (interactionThreshold)
             {
-                Debug.Log("Triggered dialogue 2");
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(2);
                 triggerDialogue = false;
                 interactionThreshold = false;
@@ -73,7 +71,6 @@ public class LevelOneWarrior : MonoBehaviour
             }
             else
             {
-                Debug.Log("Triggered dialogue 1");
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(1);
                 triggerDialogue = false;
                 interaction.InteractOff();

@@ -5,20 +5,27 @@ using UnityEngine;
 public class LevelTwoPlayer : MonoBehaviour
 {
     private static GameObject player;
+
+    [Header("Movement")]
+    public float speed = 3.5f;
     public Rigidbody2D rb;
     public Animator animator;
-    public Transform range;
-    public LayerMask enemyLayer;
-    public HealthBar healthBar;
-    public GameObject warrior;
-    public GameObject levelTwoManager;
     Vector2 movement;
 
+    [Header("Combat")]
     public float attackRange = 0.5f;
-    public float speed = 3.5f;
     public float attackRate = 1f;
     public float nextAttackTime = 0f;
+    public int minDamage, maxDamage;
+    public GameObject warrior;
+    public Transform range;
+    public LayerMask enemyLayer;
+
+    [Header("Health")]
+    public bool dead = false;
     public int maxHealth, currentHealth;
+    public GameObject deathEffect;
+    public HealthBar healthBar;
 
     void Start()
     {
@@ -46,15 +53,17 @@ public class LevelTwoPlayer : MonoBehaviour
 
         if (currentHealth < 0)
         {
+            dead = true;
             StartCoroutine(Death());
         }
     }
 
     IEnumerator Death()
     {
+        speed = 0f;
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1f);
-        levelTwoManager.GetComponent<Restart>().Death();
+        deathEffect.GetComponent<Restart>().Death();
         yield break;
     }
 
@@ -69,7 +78,7 @@ public class LevelTwoPlayer : MonoBehaviour
 
     void Attack()
     {
-        int damage = Random.Range(8, 10);
+        int damage = Random.Range(minDamage, maxDamage);
         StartCoroutine(Attacking());
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(range.position, attackRange, enemyLayer);
         foreach(Collider2D enemy in hitEnemies)

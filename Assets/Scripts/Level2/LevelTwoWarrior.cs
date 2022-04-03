@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class LevelTwoWarrior : MonoBehaviour
 {
-
-    bool triggerDialogue, defeated;
-    public GameObject dialogueManager;
     public int nextLevelScene, maxHealth, currentHealth, damage;
+    public GameObject dialogueManager;
     public HealthBar healthBar;
     public Animator animator;
-
+    private bool triggerDialogue, defeated;
+    private Rigidbody2D rb;
 
     void Start()
     {
         triggerDialogue = false;
         defeated = false;
         dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
+        rb = GetComponent<Rigidbody2D>();
 
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
