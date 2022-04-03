@@ -19,19 +19,19 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 ## Developement TODO
 - [ ] Create game scenes
 - [x] Create animations for the Player and NPCs
-- [ ] Create health system
-- [ ] Create combat system
+- [x] Create health system
+- [x] Create combat system
 - [ ] Create blacksmith menu & functions
 - [x] Create door system
 - [ ] Create loot table
 - [ ] Create day-night cycle
-- [ ] Create music
+- [x] Create music
 - [x] Create basic AI for NPCs
 - [x] Create dialogue system
 - [ ] Create unique dialogue for every scene/level
-- [ ] Create sound effects
+- [x] Create sound effects
 - [ ] Create HUD (Heads-Up Display)
-- [ ] Create UI (User Interface)
+- [x] Create UI (User Interface)
 
 # Additional Information
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=479626&count_private=true&hide=prs,contribs&theme=tokyonight)
