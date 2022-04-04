@@ -62,7 +62,6 @@ public class EnemyController : MonoBehaviour
     {
         int damage = Random.Range(minDamage, maxDamage);
 
-        Debug.Log("Hey I worked");
         defaultSpeed = 0f;
         animator.SetTrigger("attack");
         yield return new WaitForSeconds(1.25f);
