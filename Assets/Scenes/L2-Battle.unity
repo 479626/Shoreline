@@ -35734,6 +35734,7 @@ MonoBehaviour:
   dialogueManager: {fileID: 51571725}
   healthBar: {fileID: 611983564}
   animator: {fileID: 3260757876911875164}
+  dead: 0
 --- !u!58 &3260757876911875169
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -35762,12 +35763,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ae446fae9e6af4db6ec2df19f988bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowedToAttack: 1
   animator: {fileID: 3260757876911875164}
   target: {fileID: 650784235}
   player: {fileID: 650784232}
   defaultSpeed: 0.75
   rb: {fileID: 3260757876911875157}
-  enemyName: 
+  enemyName: Warrior
   damageRange: {fileID: 358538212}
   attackRange: 1.25
   nextAttackTime: 0

@@ -38,7 +38,7 @@ public class LevelTwoPlayer : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !dead && speed != 0)
         {
             if (Time.time >= nextAttackTime)
             {
@@ -99,6 +99,7 @@ public class LevelTwoPlayer : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        SoundManager.instance.AttackSound();
 
         healthBar.SetHealth(currentHealth);
     }
@@ -110,6 +111,18 @@ public class LevelTwoPlayer : MonoBehaviour
             return;
         }
         Gizmos.DrawWireSphere(range.position, attackRange);
+    }
+
+    public void PlaySound(string id)
+    {
+        if (id == "walk")
+        {
+            SoundManager.instance.WalkSound();
+        }
+        if (id == "swing")
+        {
+            SoundManager.instance.SwingSound();
+        }
     }
 
 }

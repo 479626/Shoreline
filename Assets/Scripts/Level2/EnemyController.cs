@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    [Header("Miscellaneous")]
+    public bool allowedToAttack = true;
+
     [Header("Components")]
     public Animator animator;
     public Transform target;
@@ -52,10 +55,17 @@ public class EnemyController : MonoBehaviour
 
     public void FindPlayer()
     {
-        animator.SetBool("movement", true);
-        animator.SetFloat("X", (target.position.x - transform.position.x));
-        animator.SetFloat("Y", (target.position.y - transform.position.y));
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, defaultSpeed * Time.deltaTime);
+        if (allowedToAttack)
+        {
+            animator.SetBool("movement", true);
+            animator.SetFloat("X", (target.position.x - transform.position.x));
+            animator.SetFloat("Y", (target.position.y - transform.position.y));
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position, defaultSpeed * Time.deltaTime);
+        }
+        else
+        {
+            animator.SetBool("movement", false);
+        }
     }
 
     IEnumerator Attacking()
@@ -65,7 +75,7 @@ public class EnemyController : MonoBehaviour
         defaultSpeed = 0f;
         animator.SetTrigger("attack");
         yield return new WaitForSeconds(1.25f);
-        if (Vector3.Distance(target.position, transform.position) <= attackRange)
+        if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack)
         {
             player.GetComponent<LevelTwoPlayer>().TakeDamage(damage);
         }
