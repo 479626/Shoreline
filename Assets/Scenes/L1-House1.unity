@@ -45086,17 +45086,14 @@ MonoBehaviour:
     name: Pete Jr.
     sentences:
     - You aren't a pirate are you?
-    - Test1
   dialogueTwo:
     portrait: {fileID: 0}
     name: 
-    sentences:
-    - Test2
+    sentences: []
   dialogueThree:
     portrait: {fileID: 0}
     name: 
-    sentences:
-    - Test3
+    sentences: []
 --- !u!114 &1005003185
 MonoBehaviour:
   m_ObjectHideFlags: 0
