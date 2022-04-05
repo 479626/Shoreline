@@ -6,24 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/User-Interface.unity
+    path: Assets/Scenes/UI/User-Interface.unity
     guid: 4f421eabdeb779943a882577a62ab88d
   - enabled: 1
-    path: Assets/Scenes/L1-Town.unity
+    path: Assets/Scenes/L1-Scenes/L1-Town.unity
     guid: e31d963e6e8b4cf468b4edd99f33ea60
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/L1-House1.unity
+    path: Assets/Scenes/L1-Scenes/L1-House1.unity
     guid: fffc8869951047f40a3e671add5bc591
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/L1-House2.unity
+    path: Assets/Scenes/L1-Scenes/L1-House2.unity
     guid: a3df3c32bba3fa642992b110a695ca35
   - enabled: 1
-    path: Assets/Scenes/Level 1 Scenes/L1-House3.unity
+    path: Assets/Scenes/L1-Scenes/L1-House3.unity
     guid: eebccd7388bd7bd448eaa160abc5442b
   - enabled: 1
-    path: Assets/Scenes/L1-House4.unity
+    path: Assets/Scenes/L1-Scenes/L1-House4.unity
     guid: fe1e9ba22a4d05141b10b8ba660c9399
   - enabled: 1
-    path: Assets/Scenes/L2-Battle.unity
+    path: Assets/Scenes/L2-Scenes/L2-Battle.unity
     guid: 39b8326a02114624eb5191c0ed4b567e
+  - enabled: 1
+    path: Assets/Scenes/L3-Town.unity
+    guid: 1c630c2756d6dd749ba7692f2893c61e
   m_configObjects: {}
