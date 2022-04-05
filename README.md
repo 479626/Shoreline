@@ -36,4 +36,4 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 # Additional Information
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=479626&count_private=true&hide=prs,contribs&theme=tokyonight)
 
-_The Art assets used in this game do not belong to me, they are taken from [OpenGameArt](https://opengameart.org), credits to: Stephen Challener (Redshrike), Johannes Sjölund (wulax), Thane Brimhall (pennomi), Matthew Krohn (makrohn)_
+_The Art assets used in this game do not belong to me, see the [credits directory](https://github.com/479626/Shoreline/tree/main/credits) for all of the required credits._
