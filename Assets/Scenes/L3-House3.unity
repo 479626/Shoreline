@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 7
   playerPos: {x: 11.5, y: 6}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 343219182}
@@ -522,8 +522,7 @@ MonoBehaviour:
     portrait: {fileID: 0}
     name: Christopher
     sentences:
-    - You best not be one of those pirate-folk!
-    - My boy is scared enough as it is!
+    - I was wrong about you, Traveller. I apologise.
   dialogueTwo:
     portrait: {fileID: 0}
     name: 
@@ -26231,12 +26230,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     name: Timmy
     sentences:
-    - My parents say I shouldn't talk to strangers...
-    - But I'm not much of a listener. *Giggled*
-    - Elder Ulric says we should stay inside until the pirates are gone... It's been
-      2 months now.
-    - '*Sighed*'
-    - When do you think we'll be able to go outside again?
+    - I knew you were good!
+    - My Dad says you are going to help us! Maybe we'll finally get to go outside.
   dialogueTwo:
     portrait: {fileID: 0}
     name: 

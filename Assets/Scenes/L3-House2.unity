@@ -14817,7 +14817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 7
   playerPos: {x: 2.5, y: 6}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1334805651}
@@ -18126,7 +18126,9 @@ MonoBehaviour:
     portrait: {fileID: 0}
     name: Mary
     sentences:
-    - We don't take kindly to strangers in this household.
+    - I apologise for rudeness last time we spoke...
+    - I'm afraid of those Pirates taking more of my loved ones, I hope you and the
+      Warrior can finally set us free.
   dialogueTwo:
     portrait: {fileID: 0}
     name: 
@@ -19143,9 +19145,8 @@ MonoBehaviour:
     portrait: {fileID: 0}
     name: Anne
     sentences:
-    - Do I know you?
-    - No?
-    - Didn't think so. Get OUT of my room! *screams*
+    - What are you doing here again...
+    - Just because my Mother likes you, doesn't mean I have to.
   dialogueTwo:
     portrait: {fileID: 0}
     name: 
