@@ -33,7 +33,7 @@ public class LevelTwoWarrior : MonoBehaviour
             StartCoroutine(Progress());
         }
 
-        if (currentHealth < 0 && dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
+        if (dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
         {
             gameObject.GetComponent<EnemyController>().allowedToAttack = true;
             dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
