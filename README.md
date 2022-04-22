@@ -24,14 +24,17 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 - [ ] Create blacksmith menu & functions
 - [x] Create door system
 - [ ] Create loot table
-- [ ] Create day-night cycle
+- [x] Create day-night cycle
 - [x] Create music
 - [x] Create basic AI for NPCs
 - [x] Create dialogue system
-- [ ] Create unique dialogue for every scene/level
+- [x] Create unique dialogue for every scene/level
 - [x] Create sound effects
+- [x] Create scene transitions
+- [x] Create monster spawner
 - [ ] Create HUD (Heads-Up Display)
 - [x] Create UI (User Interface)
+- [x] Create pause menu
 
 # Additional Information
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=479626&count_private=true&hide=prs,contribs&theme=tokyonight)
