@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
     public static ButtonManager instance;
-    private bool mapIsOpen;
+    public static bool gamePaused;
+    private bool mapIsOpen, paused;
+    public GameObject pauseMenu;
     
     void Awake()
     {
+        pauseMenu.SetActive(false);
         if (instance == null)
         {
             instance = this;
@@ -22,16 +26,41 @@ public class ButtonManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKey(KeyCode.Escape))
         {
-            OpenPauseMenu();
+            if (gamePaused)
+            {
+                Resume();
+            }
+            else
+            {
+                OpenPauseMenu();
+            }
         }
     }
 
     void OpenPauseMenu()
     {
-        Debug.Log("Pause menu opened");
-        // Open pause menu
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        gamePaused = true;
+    }
+
+    public void Quit()
+    {
+        Time.timeScale = 1f;
+        pauseMenu.SetActive(false);
+        SceneManager.LoadScene(0);
+    }
+
+    public void Resume()
+    {
+        if (gamePaused)
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1f;
+            gamePaused = false;
+        }
     }
 
     /*void OnGUI()
