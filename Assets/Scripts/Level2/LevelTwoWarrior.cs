@@ -9,14 +9,11 @@ public class LevelTwoWarrior : MonoBehaviour
     public GameObject dialogueManager;
     public HealthBar healthBar;
     public Animator animator;
-    private bool triggerDialogue, defeated;
     public bool dead = false;
     private Rigidbody2D rb;
 
     void Start()
     {
-        triggerDialogue = false;
-        defeated = false;
         dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
         rb = GetComponent<Rigidbody2D>();
 

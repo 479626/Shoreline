@@ -1601,7 +1601,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -31285,6 +31285,18 @@ PrefabInstance:
     - target: {fileID: 3250676711200471401, guid: 3b9b0dd0aeb7ba34a8132b122f40061a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250676711200471403, guid: 3b9b0dd0aeb7ba34a8132b122f40061a, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250676711200471403, guid: 3b9b0dd0aeb7ba34a8132b122f40061a, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250676711200471403, guid: 3b9b0dd0aeb7ba34a8132b122f40061a, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 3250676711200471413, guid: 3b9b0dd0aeb7ba34a8132b122f40061a, type: 3}
       propertyPath: m_Name

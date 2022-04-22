@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L3-House4.unity
     guid: e56103bbd5839524a8834f587fed5707
+  - enabled: 1
+    path: Assets/Scenes/Cove.unity
+    guid: 92cd879a3470fa54997c80e2aa12ce60
   m_configObjects: {}

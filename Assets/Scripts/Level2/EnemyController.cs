@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
     [Header("Miscellaneous")]
-    public bool allowedToAttack = true;
+    public bool allowedToAttack;
 
     [Header("Components")]
     public Animator animator;
@@ -26,6 +27,11 @@ public class EnemyController : MonoBehaviour
     public int minDamage, maxDamage;
     public float maxRange, minRange;
     public float attackRate = 1f;
+
+    void Awake()
+    {
+        allowedToAttack = true;
+    }
 
     void Update()
     {

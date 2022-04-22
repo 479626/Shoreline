@@ -11,25 +11,28 @@ public class SceneTransition : MonoBehaviour
     public VectorValue playerStorage;
     public Interaction interaction;
 
+    void MovePlayer()
+    {
+        SoundManager.instance.DoorSound();
+        playerStorage.initialValue = playerPos;
+        SceneManager.LoadScene(scene);
+    }
+
+    #region Collision Detection
 
     public void OnTriggerStay2D(Collider2D col)
     {
         if (col.CompareTag("Player") && !col.isTrigger)
         {
             interaction.InteractOn();
-            if (SceneManager.GetActiveScene().buildIndex == 1)
-            {
-                anim.SetBool("Open", true);
-            }
-            if (SceneManager.GetActiveScene().buildIndex == 7)
+            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 7)
             {
                 anim.SetBool("Open", true);
             }
             if (Input.GetKey(KeyCode.F))
             {
-                SoundManager.instance.DoorSound();
-                playerStorage.initialValue = playerPos;
-                SceneManager.LoadScene(scene);
+                Debug.Log("F key recognised");
+                MovePlayer();
             }
         }
     }
@@ -42,4 +45,6 @@ public class SceneTransition : MonoBehaviour
             interaction.InteractOff();
         }
     }
+
+    #endregion
 }

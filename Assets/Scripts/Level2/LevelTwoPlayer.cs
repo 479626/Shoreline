@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelTwoPlayer : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class LevelTwoPlayer : MonoBehaviour
     public float attackRate = 1f;
     public float nextAttackTime = 0f;
     public int minDamage, maxDamage;
-    public GameObject warrior;
+    public GameObject enemy;
     public Transform range;
     public LayerMask enemyLayer;
 
@@ -31,6 +32,7 @@ public class LevelTwoPlayer : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(20);
     }
 
     void Update()
@@ -86,7 +88,14 @@ public class LevelTwoPlayer : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(range.position, attackRange, enemyLayer);
         foreach(Collider2D enemy in hitEnemies)
         {
-            warrior.GetComponent<LevelTwoWarrior>().TakeDamage(damage);
+            if (SceneManager.GetActiveScene().name == "L2-Battle")
+            {
+                enemy.GetComponent<LevelTwoWarrior>().TakeDamage(damage);
+            }
+            if (SceneManager.GetActiveScene().name == "Cove")
+            {
+                enemy.GetComponent<Crab>().TakeDamage(damage);
+            }
         }
     }
 

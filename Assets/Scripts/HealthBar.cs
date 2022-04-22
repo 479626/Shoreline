@@ -12,6 +12,7 @@ public class HealthBar : MonoBehaviour
     
     public void SetMaxHealth(int health)
     {
+        Debug.Log("A script has accessed 'SetMaxHealth' " + health);
         healthBar.maxValue = health;
         healthBar.value = health;
 
@@ -20,6 +21,7 @@ public class HealthBar : MonoBehaviour
 
     public void SetHealth(int health)
     {
+        Debug.Log("A script has accessed 'SetHealth' " + health);
         healthBar.value = health;
 
         fill.color = gradient.Evaluate(healthBar.normalizedValue);
