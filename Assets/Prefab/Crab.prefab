@@ -126,19 +126,19 @@ MonoBehaviour:
   animator: {fileID: 7793255638717370536}
   target: {fileID: 0}
   player: {fileID: 0}
-  defaultSpeed: 0.75
+  defaultSpeed: 0.9
   rb: {fileID: 7793255638717370540}
   enemyName: Crab
   damageRange: {fileID: 7793255639241447674}
-  attackRange: 6
+  attackRange: 1
   nextAttackTime: 0
   playerLayer:
     serializedVersion: 2
     m_Bits: 8192
-  minDamage: 5
+  minDamage: 10
   maxDamage: 15
-  maxRange: 4
-  minRange: 0.75
+  maxRange: 7
+  minRange: 0.9
   attackRate: 0.25
 --- !u!95 &7793255638717370536
 Animator:

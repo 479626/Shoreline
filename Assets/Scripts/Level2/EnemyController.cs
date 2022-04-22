@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
     [Header("Combat")]
     public string enemyName;
     public Transform damageRange;
-    public float attackRange = 0.75f;
+    public float attackRange;
     public float nextAttackTime = 0f;
     public LayerMask playerLayer;
     public int minDamage, maxDamage;
@@ -33,8 +33,15 @@ public class EnemyController : MonoBehaviour
         allowedToAttack = true;
     }
 
+    void Start()
+    {
+        target = GameObject.Find("Player").transform;
+        player = GameObject.Find("Player");
+    }
+
     void Update()
     {
+
         if (player.GetComponent<LevelTwoPlayer>().dead == true)
         {
             animator.SetBool("movement", false);

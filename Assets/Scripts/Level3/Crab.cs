@@ -32,7 +32,7 @@ public class Crab : MonoBehaviour
         animator.SetBool("death", true);
         yield return new WaitForSeconds(1);
         Destroy(gameObject);
-        yield return null;
+        yield break;
     }
 
     public void TakeDamage(int damage)
