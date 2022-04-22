@@ -30,7 +30,7 @@ public class Crab : MonoBehaviour
     IEnumerator Die()
     {
         animator.SetBool("death", true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.25f);
         Destroy(gameObject);
         yield break;
     }
