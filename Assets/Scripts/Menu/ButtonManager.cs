@@ -26,7 +26,7 @@ public class ButtonManager : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKey(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
         {
             if (gamePaused)
             {
@@ -36,6 +36,11 @@ public class ButtonManager : MonoBehaviour
             {
                 OpenPauseMenu();
             }
+        }
+        
+        if (Input.GetKey(KeyCode.L))
+        {
+            SceneManager.LoadScene(12);
         }
     }
 
