@@ -14874,7 +14874,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 7
+  scene: 8
+  anim: {fileID: 0}
   playerPos: {x: 2.5, y: 6}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1334805651}

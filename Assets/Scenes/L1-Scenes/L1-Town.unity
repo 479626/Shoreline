@@ -13276,7 +13276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 5
+  scene: 6
   anim: {fileID: 542814815}
   playerPos: {x: 0, y: -4}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
@@ -13325,7 +13325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 3
+  scene: 4
   anim: {fileID: 2144895721}
   playerPos: {x: 2.5, y: -1.5}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
@@ -20141,7 +20141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 2
+  scene: 3
   anim: {fileID: 410593840}
   playerPos: {x: -5, y: -7}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
@@ -23886,7 +23886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interaction: {fileID: 1496432166}
   dialogueManager: {fileID: 524208240}
-  nextLevelScene: 6
+  nextLevelScene: 7
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
 --- !u!61 &879626203
 BoxCollider2D:
@@ -36491,7 +36491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 4
+  scene: 5
   anim: {fileID: 1863776906}
   playerPos: {x: 0, y: -2}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}

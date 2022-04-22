@@ -40625,7 +40625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d4f04de8d7c28041bef7132360a0b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelScene: 7
+  nextLevelScene: 8
   maxHealth: 200
   currentHealth: 0
   damage: 10

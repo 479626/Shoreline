@@ -25,7 +25,6 @@ public class ButtonScript : MonoBehaviour
     public void OnStartButton()
     {
         count.levelOne = 0;
-        StartCoroutine(FindObjectOfType<LevelManager>().LoadLevel(1));
     }
 
     public void OnQuitButton()
