@@ -20,22 +20,17 @@ public class ButtonScript : MonoBehaviour
         startButton.GetComponent<Button>().Select();
     }
 
+    #region Button Methods
+
     public void OnStartButton()
     {
         count.levelOne = 0;
-        SceneManager.LoadScene(1);
+        StartCoroutine(FindObjectOfType<LevelManager>().LoadLevel(1));
     }
 
     public void OnQuitButton()
     {
         Application.Quit();
-    }
-
-    /*IEnumerator LoadLevel(int LevelIndex)
-    {
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(LevelIndex);
     }
 
     public void OnMuteButtonOn()
@@ -56,5 +51,7 @@ public class ButtonScript : MonoBehaviour
     public void OnButtonClick()
     {
         SoundManager.instance.ClickSound();
-    }*/
+    }
+
+    #endregion
 }

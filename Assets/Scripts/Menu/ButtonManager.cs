@@ -46,6 +46,8 @@ public class ButtonManager : MonoBehaviour
         gamePaused = true;
     }
 
+    #region Button Methods
+
     public void Quit()
     {
         Time.timeScale = 1f;
@@ -62,6 +64,8 @@ public class ButtonManager : MonoBehaviour
             gamePaused = false;
         }
     }
+
+    #endregion
 
     /*void OnGUI()
     {
