@@ -13441,6 +13441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 11
+  anim: {fileID: 542814817}
   playerPos: {x: 0, y: -4}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
@@ -13735,6 +13736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 9
+  anim: {fileID: 2144895721}
   playerPos: {x: 2.5, y: -1.5}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
@@ -20551,6 +20553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 8
+  anim: {fileID: 410593843}
   playerPos: {x: -5, y: -7}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
@@ -20579,6 +20582,7 @@ GameObject:
   - component: {fileID: 410593842}
   - component: {fileID: 410593841}
   - component: {fileID: 410593840}
+  - component: {fileID: 410593843}
   m_Layer: 0
   m_Name: House1
   m_TagString: L1HouseOne
@@ -20679,6 +20683,25 @@ Transform:
   m_Father: {fileID: 971014664}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &410593843
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410593839}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d2918b57771b1d844a3b97e7f51220e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &447926896
 GameObject:
   m_ObjectHideFlags: 0
@@ -23751,6 +23774,7 @@ GameObject:
   - component: {fileID: 542814814}
   - component: {fileID: 542814816}
   - component: {fileID: 542814815}
+  - component: {fileID: 542814817}
   m_Layer: 0
   m_Name: House4
   m_TagString: L1HouseOne
@@ -23851,6 +23875,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &542814817
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542814813}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 65c9f29ca0128ef4b8fa7780eaf7d224, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &819156060
 GameObject:
   m_ObjectHideFlags: 0
@@ -32842,6 +32885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 0
+  anim: {fileID: 0}
   playerPos: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
@@ -34694,6 +34738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1863776904}
   - component: {fileID: 1863776905}
+  - component: {fileID: 1863776906}
   m_Layer: 0
   m_Name: House3
   m_TagString: L1HouseOne
@@ -34768,6 +34813,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1863776906
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863776903}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdcb90f3fe63e994f80443e34648b1bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1916270732
 GameObject:
   m_ObjectHideFlags: 0
@@ -34780,6 +34844,7 @@ GameObject:
   - component: {fileID: 1916270735}
   - component: {fileID: 1916270736}
   - component: {fileID: 1916270737}
+  - component: {fileID: 1916270734}
   m_Layer: 0
   m_Name: Blacksmith
   m_TagString: L1Blacksmith
@@ -34801,6 +34866,25 @@ Transform:
   m_Father: {fileID: 971014664}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1916270734
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916270732}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd1dc462d91cc694d83d19a1336e5ff6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1916270735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36793,6 +36877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 10
+  anim: {fileID: 1863776906}
   playerPos: {x: 0, y: -2}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
@@ -36969,6 +37054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2144895720}
   - component: {fileID: 2144895723}
+  - component: {fileID: 2144895721}
   m_Layer: 0
   m_Name: House2
   m_TagString: L1HouseOne
@@ -36991,6 +37077,25 @@ Transform:
   m_Father: {fileID: 971014664}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2144895721
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144895719}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1cf88281b9e3fd840a3fe89dc9fd0706, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &2144895723
 SpriteRenderer:
   m_ObjectHideFlags: 0

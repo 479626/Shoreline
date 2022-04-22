@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     public int scene;
+    public Animator anim;
     public Vector2 playerPos;
     public VectorValue playerStorage;
     public Interaction interaction;
@@ -16,7 +17,14 @@ public class SceneTransition : MonoBehaviour
         if (col.CompareTag("Player") && !col.isTrigger)
         {
             interaction.InteractOn();
-
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                anim.SetBool("Open", true);
+            }
+            if (SceneManager.GetActiveScene().buildIndex == 7)
+            {
+                anim.SetBool("Open", true);
+            }
             if (Input.GetKey(KeyCode.F))
             {
                 SoundManager.instance.DoorSound();
@@ -30,6 +38,7 @@ public class SceneTransition : MonoBehaviour
     {
         if (col.CompareTag("Player") && !col.isTrigger)
         {
+            anim.SetBool("Open", false);
             interaction.InteractOff();
         }
     }
