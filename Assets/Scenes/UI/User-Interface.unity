@@ -13894,7 +13894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selfDestructEnabled: 1
-  selfDestructTime: 10
+  selfDestructTime: 14
   boundBox: {fileID: 1812427825}
   canSpawnMobs: 1
   enableOne: 1
@@ -13930,7 +13930,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -58.371788, y: -0.8790245}
