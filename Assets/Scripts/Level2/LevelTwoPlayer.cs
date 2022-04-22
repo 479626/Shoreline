@@ -32,7 +32,6 @@ public class LevelTwoPlayer : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-        healthBar.SetHealth(20);
     }
 
     void Update()

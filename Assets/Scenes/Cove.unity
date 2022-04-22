@@ -2433,7 +2433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selfDestructEnabled: 0
   selfDestructTime: 0
-  boundBox: {fileID: 0}
+  boundBox: {fileID: 1579976362}
   canSpawnMobs: 1
   enableOne: 1
   enableTwo: 1
