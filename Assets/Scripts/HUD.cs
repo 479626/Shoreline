@@ -8,12 +8,18 @@ public class HUD : MonoBehaviour
     public static HUD instance;
     public GameObject display;
     public InteractionCounter counter;
-    [SerializeField] private Text currentTime;
-    [SerializeField] private Text coinCount;
+    [SerializeField] private Text currentTime, coinCount;
 
     void Awake()
     {
         display.SetActive(false);
+
+        if (SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            Debug.Log("Enabled");
+            display.SetActive(true);
+        }
+
         if (instance == null)
         {
             instance = this;
@@ -27,11 +33,6 @@ public class HUD : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex > 1)
-        {
-            display.SetActive(true);
-        }
-
         UpdateDisplay();
     }
 
