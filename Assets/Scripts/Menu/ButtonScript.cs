@@ -21,6 +21,7 @@ public class ButtonScript : MonoBehaviour
     public void OnStartButton()
     {
         count.levelOne = 0;
+        count.coins = 0;
     }
 
     public void OnQuitButton()

@@ -20,7 +20,7 @@ public class Light : MonoBehaviour
     void UpdateLight()
     {
         // Getting the current hour from the user's system time
-        System.DateTime time = System.DateTime.Now;
+        DateTime time = DateTime.Now;
         hour = time.Hour;
         
         // Light changing logic
