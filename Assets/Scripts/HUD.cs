@@ -12,21 +12,18 @@ public class HUD : MonoBehaviour
     public InteractionCounter counter;
     [SerializeField] private Text currentTime, coinCount;
 
-    void Awake()
+    /*void Awake()
     {
-        if (SceneManager.GetActiveScene().name != "User-Interface")
+        if (instance == null)
         {
-            if (instance == null)
-            {
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
-                Destroy(gameObject);
-            }
+            instance = this;
+            DontDestroyOnLoad(gameObject);
         }
-    }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }*/
 
     void Update()
     {
