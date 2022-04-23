@@ -12,19 +12,6 @@ public class HUD : MonoBehaviour
     public InteractionCounter counter;
     [SerializeField] private Text currentTime, coinCount;
 
-    /*void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }*/
-
     void Update()
     {
         UpdateDisplay();

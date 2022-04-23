@@ -33532,7 +33532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 13
   anim: {fileID: 410593843}
-  playerPos: {x: 0, y: 0}
+  playerPos: {x: 25.5, y: -4}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1496432166}
 --- !u!61 &1423721698
