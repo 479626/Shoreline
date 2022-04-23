@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,22 +14,17 @@ public class HUD : MonoBehaviour
 
     void Awake()
     {
-        display.SetActive(false);
-
-        if (SceneManager.GetActiveScene().buildIndex != 1)
+        if (SceneManager.GetActiveScene().name != "User-Interface")
         {
-            Debug.Log("Enabled");
-            display.SetActive(true);
-        }
-
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
+            if (instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
@@ -40,5 +37,12 @@ public class HUD : MonoBehaviour
     {
         currentTime.text = DateTime.Now.ToString("hh:mm tt");
         coinCount.text = counter.coins.ToString();
+    }
+
+    public IEnumerator LoadDisplay()
+    {
+        yield return new WaitForSeconds(1f);
+        display.SetActive(true);
+        Debug.Log("Turned on display");
     }
 }

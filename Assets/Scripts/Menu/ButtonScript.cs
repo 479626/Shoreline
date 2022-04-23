@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 public class ButtonScript : MonoBehaviour
 {
     public GameObject startButton;
+    public GameObject display;
     public Animator animator;
     public InteractionCounter count;
     [SerializeField] AudioMixer mixer;

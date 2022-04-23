@@ -5,12 +5,12 @@ public class ButtonManager : MonoBehaviour
 {
     public static ButtonManager instance;
     public static bool gamePaused;
-    private bool mapIsOpen, paused;
-    public GameObject pauseMenu;
+    public GameObject pauseMenu, display;
     
     void Awake()
     {
         pauseMenu.SetActive(false);
+
         if (instance == null)
         {
             instance = this;
@@ -24,6 +24,18 @@ public class ButtonManager : MonoBehaviour
 
     void Update()
     {
+        CheckForPause();
+
+        
+        // Temporary cheat for debugging purposes
+        if (Input.GetKey(KeyCode.L))
+        {
+            SceneManager.LoadScene(13);
+        }
+    }
+    
+    void CheckForPause()
+    {
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
         {
             if (gamePaused)
@@ -35,15 +47,11 @@ public class ButtonManager : MonoBehaviour
                 OpenPauseMenu();
             }
         }
-        
-        if (Input.GetKey(KeyCode.L))
-        {
-            SceneManager.LoadScene(12);
-        }
     }
 
     void OpenPauseMenu()
     {
+        display.SetActive(false);
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         gamePaused = true;
@@ -54,8 +62,8 @@ public class ButtonManager : MonoBehaviour
     public void Quit()
     {
         Time.timeScale = 1f;
+        SceneManager.LoadScene(1);
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene(0);
     }
 
     public void Resume()
@@ -63,9 +71,15 @@ public class ButtonManager : MonoBehaviour
         if (gamePaused)
         {
             pauseMenu.SetActive(false);
+            display.SetActive(true);
             Time.timeScale = 1f;
             gamePaused = false;
         }
+    }
+
+    public void ResetTime()
+    {
+        Time.timeScale = 1f;
     }
 
     #endregion

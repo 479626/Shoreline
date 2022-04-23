@@ -22,8 +22,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        Scene scene = SceneManager.GetActiveScene();
-        if (scene.name == "L2-Battle")
+        if (SceneManager.GetActiveScene().name == "L2-Battle")
         {
             player.GetComponent<LevelTwoPlayer>().speed = 0f;
         }
@@ -69,8 +68,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        Scene scene = SceneManager.GetActiveScene();
-        if (scene.name == "L2-Battle")
+        if (SceneManager.GetActiveScene().name == "L2-Battle")
         {
             player.GetComponent<LevelTwoPlayer>().speed = 0f;
         }

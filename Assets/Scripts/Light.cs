@@ -24,7 +24,7 @@ public class Light : MonoBehaviour
         hour = time.Hour;
         
         // Light changing logic
-        if (hour >= 16 && hour < 18) // 4pm - 6pm
+        if (hour >= 15 && hour < 18) // 3pm - 6pm
         {
             volume.weight = 0.25f;
         }
@@ -68,7 +68,7 @@ public class Light : MonoBehaviour
         {
             volume.weight = 0.25f;
         }
-        if (hour >= 8 && hour < 15) // 8am - 3pm
+        if (hour >= 8 && hour < 14) // 8am - 2pm
         {
             volume.weight = 0f;
         }

@@ -17,28 +17,30 @@ public class LevelManager : MonoBehaviour
 
     void Awake()
     {
-        int decision = Random.Range(0, 2);
-
-        if (decision == 0)
+        if (SceneManager.GetActiveScene().name == "Loading")
         {
-            string message = jokes[Random.Range(0, jokes.Count)];
+            int decision = Random.Range(0, 2);
 
-            tip.text = message;
+            if (decision == 0)
+            {
+                string message = jokes[Random.Range(0, jokes.Count)];
+
+                tip.text = message;
+            }
+            if (decision == 1)
+            {
+                string message = gameTips[Random.Range(0, gameTips.Count)];
+
+                tip.text = message;
+            }
+            if (decision == 2)
+            {
+                string message = controlInfo[Random.Range(0, controlInfo.Count)];
+
+                tip.text = message;
+            }
+            StartCoroutine(Initialize());
         }
-        if (decision == 1)
-        {
-            string message = gameTips[Random.Range(0, gameTips.Count)];
-
-            tip.text = message;
-        }
-        if (decision == 2)
-        {
-            string message = controlInfo[Random.Range(0, controlInfo.Count)];
-
-            tip.text = message;
-        }
-
-        StartCoroutine(Initialize());
     }
 
     void Start()
@@ -69,6 +71,7 @@ public class LevelManager : MonoBehaviour
         {
             anim.SetTrigger("Load");
         }
+        yield break;
     }
 
     IEnumerator Initialize()
