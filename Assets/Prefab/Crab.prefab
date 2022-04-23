@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7793255638717370532}
   - component: {fileID: 7793255638717370535}
   - component: {fileID: 7793255638717370539}
+  - component: {fileID: 1461714425145375249}
   - component: {fileID: 7793255638717370534}
   - component: {fileID: 7793255638717370536}
   - component: {fileID: 7793255638717370538}
@@ -109,7 +110,22 @@ MonoBehaviour:
   damage: 0
   healthBar: {fileID: 7793255640403579820}
   animator: {fileID: 7793255638717370536}
+  dropManager: {fileID: 1461714425145375249}
   dead: 0
+--- !u!114 &1461714425145375249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793255638717370543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4edb5d8d02f79554684a329cb4c4caaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  silverCoin: {fileID: 4929994232338268105, guid: a054afc9737e9424eb2d54855f55f796, type: 3}
+  counter: {fileID: 0}
 --- !u!114 &7793255638717370534
 MonoBehaviour:
   m_ObjectHideFlags: 0

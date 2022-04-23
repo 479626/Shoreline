@@ -4,4 +4,6 @@ using UnityEngine;
 public class InteractionCounter : ScriptableObject
 {
     public int levelOne, levelThree;
+    public int coins;
+    public bool meetElderUlric;
 }

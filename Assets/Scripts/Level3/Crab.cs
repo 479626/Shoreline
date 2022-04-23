@@ -6,6 +6,7 @@ public class Crab : MonoBehaviour
     public int maxHealth, currentHealth, damage;
     public HealthBar healthBar;
     public Animator animator;
+    public DropManager dropManager;
     public bool dead = false;
     private Rigidbody2D rb;
 
@@ -28,8 +29,9 @@ public class Crab : MonoBehaviour
 
     IEnumerator Die()
     {
-        animator.SetBool("death", true);
+        animator.SetTrigger("death");
         yield return new WaitForSeconds(0.25f);
+        dropManager.SpawnCoin("Coin (Crab)", transform.position.x, transform.position.y);
         Destroy(gameObject);
         yield break;
     }
