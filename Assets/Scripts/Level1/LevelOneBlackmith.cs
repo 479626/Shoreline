@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelOneBlackmith : MonoBehaviour
@@ -19,7 +17,7 @@ public class LevelOneBlackmith : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             interaction.InteractOn();
             triggerDialogue = true;
@@ -28,7 +26,7 @@ public class LevelOneBlackmith : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             interaction.InteractOff();
         }

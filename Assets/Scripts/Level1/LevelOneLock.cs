@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelOneLock : MonoBehaviour
@@ -18,7 +16,7 @@ public class LevelOneLock : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             triggerDialogue = true;
         }
@@ -26,7 +24,7 @@ public class LevelOneLock : MonoBehaviour
 
     void CheckForDialogue()
     {
-        if (triggerDialogue == true)
+        if (triggerDialogue)
         {
             DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
             trigger.TriggerDialogue(1);

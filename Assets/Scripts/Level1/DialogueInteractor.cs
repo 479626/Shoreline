@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DialogueInteractor : MonoBehaviour
@@ -29,7 +27,7 @@ public class DialogueInteractor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             if (used == 0)
             {
@@ -41,7 +39,7 @@ public class DialogueInteractor : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             interaction.InteractOff();
         }
@@ -49,11 +47,10 @@ public class DialogueInteractor : MonoBehaviour
 
     void CheckForDialogue()
     {
-        if (triggerDialogue == true)
+        if (triggerDialogue)
         {
             if (Input.GetKey(KeyCode.F) && used == 0)
             {
-                // If the player is in range of the NPC and it's thier first interaction, then trigger dialogue.
                 used++;
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(1);
                 triggerDialogue = false;

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -25,7 +23,7 @@ public class SceneTransition : MonoBehaviour
         if (col.CompareTag("Player") && !col.isTrigger)
         {
             interaction.InteractOn();
-            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 7)
+            if (SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 8)
             {
                 anim.SetBool("Open", true);
             }

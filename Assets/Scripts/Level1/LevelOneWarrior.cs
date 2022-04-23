@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -36,7 +34,7 @@ public class LevelOneWarrior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             interaction.InteractOn();
             triggerDialogue = true;
@@ -50,7 +48,7 @@ public class LevelOneWarrior : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.gameObject.name == "Player")
+        if (col.CompareTag("Player"))
         {
             interaction.InteractOff();
             triggerDialogue = false;
@@ -59,7 +57,7 @@ public class LevelOneWarrior : MonoBehaviour
 
     void CheckForDialogue()
     {
-        if (triggerDialogue == true && Input.GetKey(KeyCode.F))
+        if (triggerDialogue && Input.GetKey(KeyCode.F))
         {
             if (interactionThreshold)
             {
