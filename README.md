@@ -21,9 +21,9 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 - [x] Create animations for the Player and NPCs
 - [x] Create health system
 - [x] Create combat system
-- [ ] Create blacksmith menu & functions
+- [X] Create blacksmith menu & functions
 - [x] Create door system
-- [ ] Create loot table
+- [X] Create loot table
 - [x] Create day-night cycle
 - [x] Create music
 - [x] Create basic AI for NPCs
@@ -32,7 +32,7 @@ To report any bugs, please open an issue in the Shoreline repository and I'll en
 - [x] Create sound effects
 - [x] Create scene transitions
 - [x] Create monster spawner
-- [ ] Create HUD (Heads-Up Display)
+- [X] Create HUD (Heads-Up Display)
 - [x] Create UI (User Interface)
 - [x] Create pause menu
 
