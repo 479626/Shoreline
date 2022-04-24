@@ -121,6 +121,8 @@ MonoBehaviour:
   speed: 3.5
   rb: {fileID: 2198682895241510205}
   animator: {fileID: 2198682895241510206}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
+  startingPosition: {fileID: 0}
 --- !u!50 &2198682895241510205
 Rigidbody2D:
   serializedVersion: 4

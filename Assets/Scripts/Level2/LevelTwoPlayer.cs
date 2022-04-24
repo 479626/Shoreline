@@ -7,7 +7,8 @@ public class LevelTwoPlayer : MonoBehaviour
     private static GameObject player;
 
     [Header("Movement")]
-    public float speed = 3.5f;
+    public float speed;
+    public PlayerStats stats;
     public Rigidbody2D rb;
     public Animator animator;
     Vector2 movement;
@@ -16,6 +17,7 @@ public class LevelTwoPlayer : MonoBehaviour
     public float attackRange = 0.5f;
     public float attackRate = 1f;
     public float nextAttackTime = 0f;
+    public bool attacking = false;
     public int minDamage, maxDamage;
     public GameObject enemy;
     public Transform range;
@@ -69,19 +71,27 @@ public class LevelTwoPlayer : MonoBehaviour
 
     void MoveLogic()
     {
-        if (!ButtonManager.gamePaused)
+        if (!attacking && !ButtonManager.gamePaused && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
+            speed = 3.5f + stats.speedModifier;
             rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
 
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude);
         }
+
+        if (FindObjectOfType<DialogueManager>().dialogueInProgress)
+        {
+            animator.SetFloat("Speed", 0);
+            movement.x = 0;
+            movement.y = 0;
+        }
     }
 
     void Attack()
     {
-        int damage = Random.Range(minDamage, maxDamage);
+        int damage = Random.Range(minDamage, maxDamage) + stats.damageBonus;
         StartCoroutine(Attacking());
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(range.position, attackRange, enemyLayer);
         foreach(Collider2D enemy in hitEnemies)
@@ -99,10 +109,10 @@ public class LevelTwoPlayer : MonoBehaviour
 
     IEnumerator Attacking()
     {
-        speed = 0f;
+        attacking = true;
         animator.SetTrigger("Attack");
         yield return new WaitForSeconds(0.5f);
-        speed = 3.5f;
+        attacking = false;
         yield break;
     }
 

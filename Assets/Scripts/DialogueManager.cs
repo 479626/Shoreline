@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    public bool dialogueInProgress;
     public bool finishedDialogue;
     public GameObject player;
 
@@ -22,14 +23,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        if (SceneManager.GetActiveScene().name == "L2-Battle")
-        {
-            player.GetComponent<LevelTwoPlayer>().speed = 0f;
-        }
-        else
-        {
-            player.GetComponent<PlayerMovement>().speed = 0f;
-        }
+        dialogueInProgress = true;
         animator.SetBool("isOpen", true);
 
         nameText.text = dialogue.name;
@@ -68,14 +62,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        if (SceneManager.GetActiveScene().name == "L2-Battle")
-        {
-            player.GetComponent<LevelTwoPlayer>().speed = 0f;
-        }
-        else
-        {
-            player.GetComponent<PlayerMovement>().speed = 3.5f;
-        }
+        dialogueInProgress = false;
         animator.SetBool("isOpen", false);
         finishedDialogue = true;
     }

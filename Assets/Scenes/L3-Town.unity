@@ -13343,6 +13343,7 @@ MonoBehaviour:
   speed: 3.5
   rb: {fileID: 66341515}
   animator: {fileID: 66341512}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   startingPosition: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
 --- !u!61 &66341517
 BoxCollider2D:
@@ -23933,6 +23934,7 @@ MonoBehaviour:
   nameText: {fileID: 1281178460}
   dialogueText: {fileID: 819156062}
   animator: {fileID: 1228364436}
+  dialogueInProgress: 0
   finishedDialogue: 0
   player: {fileID: 66341511}
 --- !u!4 &524208242

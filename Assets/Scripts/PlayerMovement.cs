@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 3.5f;
+    public float speed;
     public Rigidbody2D rb;
     public Animator animator;
+    public PlayerStats stats;
     public VectorValue startingPosition;
     private static GameObject player;
     Vector2 movement;
@@ -31,7 +32,8 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveLogic()
     {
-        if (!ButtonManager.gamePaused)
+        speed = 3.5f + stats.speedModifier;
+        if (!ButtonManager.gamePaused && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
@@ -39,6 +41,13 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude);
+        }
+        
+        if (FindObjectOfType<DialogueManager>().dialogueInProgress)
+        {
+            animator.SetFloat("Speed", 0);
+            movement.x = 0;
+            movement.y = 0;
         }
     }
 
