@@ -23374,6 +23374,7 @@ MonoBehaviour:
   nameText: {fileID: 1281178460}
   dialogueText: {fileID: 819156062}
   animator: {fileID: 1228364436}
+  dialogueInProgress: 0
   finishedDialogue: 0
   player: {fileID: 1887683954}
 --- !u!4 &524208242
@@ -33304,7 +33305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 1340920810}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   currentTime: {fileID: 1340923052}
   coinCount: {fileID: 1340923041}
 --- !u!1 &1496432165

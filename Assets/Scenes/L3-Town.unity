@@ -13201,6 +13201,81 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: 191}
   m_SizeDelta: {x: 278.9428, y: 35.137085}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &42348608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42348609}
+  - component: {fileID: 42348611}
+  - component: {fileID: 42348610}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42348609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42348608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1916270733}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42348610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42348608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 14
+  anim: {fileID: 1916270734}
+  playerPos: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
+  interaction: {fileID: 1496432166}
+--- !u!61 &42348611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42348608}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000011920929, y: -0.07079433}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.33378702, y: 0.62090755}
+  m_EdgeRadius: 0
 --- !u!1 &66341511
 GameObject:
   m_ObjectHideFlags: 0
@@ -24191,7 +24266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 796699035}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   currentTime: {fileID: 1384528136}
   coinCount: {fileID: 1395227328}
 --- !u!114 &796699037
@@ -35641,7 +35716,6 @@ GameObject:
   - component: {fileID: 1916270733}
   - component: {fileID: 1916270735}
   - component: {fileID: 1916270736}
-  - component: {fileID: 1916270737}
   - component: {fileID: 1916270734}
   m_Layer: 0
   m_Name: Blacksmith
@@ -35660,7 +35734,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -14.03, y: 11.56, z: 114.69681}
   m_LocalScale: {x: 3.2126377, y: 3.8098028, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 42348609}
   m_Father: {fileID: 971014664}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35761,31 +35836,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.48}
   m_EdgeRadius: 0
---- !u!114 &1916270737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916270732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e9c2f16e242a96488c77ab219bd15ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueOne:
-    portrait: {fileID: 0}
-    name: 
-    sentences:
-    - I don't have any money...
-  dialogueTwo:
-    portrait: {fileID: 0}
-    name: 
-    sentences: []
-  dialogueThree:
-    portrait: {fileID: 0}
-    name: 
-    sentences: []
 --- !u!1 &1940502992
 GameObject:
   m_ObjectHideFlags: 0

@@ -18112,7 +18112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 758884541}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   currentTime: {fileID: 1471123147}
   coinCount: {fileID: 2117263273}
 --- !u!114 &758884543

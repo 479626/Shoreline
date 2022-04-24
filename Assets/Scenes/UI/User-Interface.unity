@@ -1568,6 +1568,7 @@ MonoBehaviour:
   display: {fileID: 8072765197254914245, guid: 5198d8c015bb90644bca0a5c97d3f3ff, type: 3}
   animator: {fileID: 0}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   mixer: {fileID: 0}
   transitionTime: 1
 --- !u!114 &196289814

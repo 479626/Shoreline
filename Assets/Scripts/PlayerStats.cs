@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     public float speedModifier;
-    public int damageBonus;
+    public int coins, damageBonus;
     public string swordType, bootType;
     public bool greedy;
 }

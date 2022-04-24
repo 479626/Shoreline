@@ -718,7 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 8072765197254914245}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 0}
   currentTime: {fileID: 8072765196872882655}
   coinCount: {fileID: 8072765195564301375}
 --- !u!1 &8072765197410346364

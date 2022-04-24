@@ -5985,11 +5985,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
+  stats: {fileID: 0}
   rb: {fileID: 650784236}
   animator: {fileID: 650784233}
   attackRange: 0.9
   attackRate: 1
   nextAttackTime: 0
+  attacking: 0
   minDamage: 8
   maxDamage: 10
   enemy: {fileID: 3260757876911875165}
@@ -38652,7 +38654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 1913177331}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   currentTime: {fileID: 268670454}
   coinCount: {fileID: 2028699715}
 --- !u!114 &1913177333

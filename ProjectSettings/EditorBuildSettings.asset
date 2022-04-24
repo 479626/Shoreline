@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cove.unity
     guid: 92cd879a3470fa54997c80e2aa12ce60
+  - enabled: 1
+    path: Assets/Scenes/Blacksmith.unity
+    guid: 583dcc3207807554f9b566d2dc5a64ab
   m_configObjects: {}

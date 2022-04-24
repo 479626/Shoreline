@@ -9,7 +9,7 @@ public class HUD : MonoBehaviour
 {
     public static HUD instance;
     public GameObject display;
-    public InteractionCounter counter;
+    public PlayerStats stats;
     [SerializeField] private Text currentTime, coinCount;
 
     void Update()
@@ -20,7 +20,7 @@ public class HUD : MonoBehaviour
     void UpdateDisplay()
     {
         currentTime.text = DateTime.Now.ToString("hh:mm tt");
-        coinCount.text = counter.coins.ToString();
+        coinCount.text = stats.coins.ToString();
     }
 
     public IEnumerator LoadDisplay()

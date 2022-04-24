@@ -8,6 +8,7 @@ public class ButtonScript : MonoBehaviour
     public GameObject display;
     public Animator animator;
     public InteractionCounter count;
+    public PlayerStats stats;
     [SerializeField] AudioMixer mixer;
 
     public float transitionTime = 1f;
@@ -22,7 +23,12 @@ public class ButtonScript : MonoBehaviour
     public void OnStartButton()
     {
         count.levelOne = 0;
-        count.coins = 0;
+        stats.coins = 0;
+        stats.greedy = false;
+        stats.speedModifier = 0;
+        stats.damageBonus = 0;
+        stats.bootType = "Old Running Shoes";
+        stats.swordType = "Rusty Rapier";
     }
 
     public void OnQuitButton()
