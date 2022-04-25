@@ -16,6 +16,8 @@ TagManager:
   - L1Beach
   - Warrior
   - Wall
+  - Crab
+  - Skeleton
   layers:
   - Default
   - TransparentFX

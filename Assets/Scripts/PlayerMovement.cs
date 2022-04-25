@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
     void MoveLogic()
     {
         speed = 3.5f + stats.speedModifier;
-        if (!ButtonManager.gamePaused && !FindObjectOfType<DialogueManager>().dialogueInProgress)
+        if (Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");

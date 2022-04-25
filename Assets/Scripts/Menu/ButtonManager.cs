@@ -5,11 +5,13 @@ public class ButtonManager : MonoBehaviour
 {
     public static ButtonManager instance;
     public static bool gamePaused;
-    public GameObject pauseMenu, display;
-    
+    public GameObject pauseMenu;
+
     void Awake()
     {
         pauseMenu.SetActive(false);
+        gamePaused = false;
+        Time.timeScale = 1f;
 
         if (instance == null)
         {
@@ -26,14 +28,13 @@ public class ButtonManager : MonoBehaviour
     {
         CheckForPause();
 
-        
         // Temporary cheat for debugging purposes
         if (Input.GetKey(KeyCode.L))
         {
             SceneManager.LoadScene(13);
         }
     }
-    
+
     void CheckForPause()
     {
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
@@ -42,7 +43,7 @@ public class ButtonManager : MonoBehaviour
             {
                 Resume();
             }
-            else
+            else if (!gamePaused && Time.timeScale != 0)
             {
                 OpenPauseMenu();
             }
@@ -51,7 +52,6 @@ public class ButtonManager : MonoBehaviour
 
     void OpenPauseMenu()
     {
-        display.SetActive(false);
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         gamePaused = true;
@@ -71,15 +71,9 @@ public class ButtonManager : MonoBehaviour
         if (gamePaused)
         {
             pauseMenu.SetActive(false);
-            display.SetActive(true);
             Time.timeScale = 1f;
             gamePaused = false;
         }
-    }
-
-    public void ResetTime()
-    {
-        Time.timeScale = 1f;
     }
 
     #endregion

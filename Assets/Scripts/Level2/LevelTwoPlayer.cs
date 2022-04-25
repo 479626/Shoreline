@@ -72,7 +72,7 @@ public class LevelTwoPlayer : MonoBehaviour
 
     void MoveLogic()
     {
-        if (!attacking && !ButtonManager.gamePaused && !FindObjectOfType<DialogueManager>().dialogueInProgress)
+        if (!attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
             speed = 3.5f + stats.speedModifier;
             rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
