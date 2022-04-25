@@ -23,15 +23,6 @@ public class ButtonScript : MonoBehaviour
     public void OnStartButton()
     {
         Time.timeScale = 1f;
-
-        stats.currentLevel = 0;
-        count.levelOne = 0;
-        stats.coins = 0;
-        stats.greedy = false;
-        stats.speedModifier = 0;
-        stats.damageBonus = 0;
-        stats.bootType = "Old Running Shoes";
-        stats.swordType = "Rusty Rapier";
     }
 
     public void OnQuitButton()

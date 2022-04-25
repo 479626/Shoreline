@@ -7,5 +7,5 @@ public class PlayerStats : ScriptableObject
     public int coins, damageBonus;
     public int currentLevel;
     public string swordType, bootType;
-    public bool greedy;
+    public bool greedy, discoverBlacksmith, defeatedWarrior;
 }

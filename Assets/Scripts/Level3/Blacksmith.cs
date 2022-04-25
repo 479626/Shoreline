@@ -27,6 +27,7 @@ public class Blacksmith : MonoBehaviour
 
     void Awake()
     {
+        stats.discoverBlacksmith = true;
         buyMenu.SetActive(false);    
     }
 

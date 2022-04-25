@@ -41428,6 +41428,7 @@ MonoBehaviour:
   currentHealth: 0
   damage: 10
   dialogueManager: {fileID: 51571725}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 611983564}
   animator: {fileID: 3260757876911875164}
   dead: 0

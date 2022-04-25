@@ -6,6 +6,7 @@ public class LevelTwoWarrior : MonoBehaviour
 {
     public int nextLevelScene, maxHealth, currentHealth, damage;
     public GameObject dialogueManager;
+    public PlayerStats stats;
     public HealthBar healthBar;
     public Animator animator;
     public bool dead = false;
@@ -25,6 +26,7 @@ public class LevelTwoWarrior : MonoBehaviour
         if (currentHealth < 0)
         {
             dead = true;
+            stats.defeatedWarrior = true;
             currentHealth = 200;
             StartCoroutine(Progress());
         }

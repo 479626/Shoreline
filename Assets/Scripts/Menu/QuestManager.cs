@@ -2,18 +2,82 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestManager : MonoBehaviour
 {
     public static QuestManager instance;
-    public GameObject questMenu;
+    
+    [Header("Variables")]
+    public QuestProgress progress;
+    public InteractionCounter counter;
+    public PlayerStats stats;
+    public GameObject questMenu, levelOneButton, levelOneQuests, levelTwoQuests, levelThreeQuests, levelFourQuests;
     public static bool gamePaused, quests;
+    private bool oneLevelOne, twoLevelOne, oneLevelTwo, oneLevelThree, twoLevelThree, threeLevelThree, fourLevelThree;
+
+    [Header("UI Elements")]
+    public List<Text> levelOneRewardAmounts = new List<Text>();
+    public List<Slider> levelOneSliders = new List<Slider>();
+    public List<Text> levelTwoRewardAmounts = new List<Text>();
+    public List<Slider> levelTwoSliders = new List<Slider>();
+    public List<Text> levelThreeRewardAmounts = new List<Text>();
+    public List<Slider> levelThreeSliders = new List<Slider>();
+    public List<Text> levelFourRewardAmounts = new List<Text>();
+    public List<Slider> levelFourSliders = new List<Slider>();
+
+    void CheckForProgress()
+    {
+        // Level three local variables TEMP FOR DEBUG
+        Text rewardAmountFour = levelThreeRewardAmounts[0];
+        Text rewardAmountFive = levelThreeRewardAmounts[1];
+        Text rewardAmountSix = levelThreeRewardAmounts[2];
+        Text rewardAmountSeven = levelThreeRewardAmounts[3];
+        Slider sliderValueFour = levelThreeSliders[0];
+        Slider sliderValueFive = levelThreeSliders[1];
+        Slider sliderValueSix = levelThreeSliders[2];
+        Slider sliderValueSeven = levelThreeSliders[3];
+
+        // Level one quests
+        levelOneSliders[0].value = counter.levelOne;
+        levelOneRewardAmounts[0].text = "3";
+        levelOneRewardAmounts[1].text = "1";
+        if (counter.levelOne > 3 && !oneLevelOne)
+        {
+            oneLevelOne = true;
+            levelOneRewardAmounts[0].color = Color.green;
+            stats.coins = stats.coins + 3;
+        }
+        if (stats.discoverBlacksmith && !twoLevelOne)
+        {
+            levelOneSliders[1].value = 1;
+            twoLevelOne = true;
+            levelOneRewardAmounts[1].color = Color.green;
+            stats.coins = stats.coins + 1;
+        }
+
+        // Level two quests
+        levelTwoRewardAmounts[0].text = "10";
+        if (stats.defeatedWarrior & !oneLevelTwo)
+        {
+            oneLevelTwo = true;
+            levelTwoSliders[0].value = 1;
+            levelTwoRewardAmounts[0].color = Color.green;
+            stats.coins = stats.coins + 10;
+        }
+
+        // Level three quests
+    }
 
     void Awake()
     {
         questMenu.SetActive(false);
         Time.timeScale = 1f;
         quests = false;
+        levelOneQuests.SetActive(true);
+        levelTwoQuests.SetActive(false);
+        levelThreeQuests.SetActive(false);
+        levelFourQuests.SetActive(false);
 
         if (instance == null)
         {
@@ -29,11 +93,34 @@ public class QuestManager : MonoBehaviour
     void Update()
     {
         CheckForQuests();
+        CheckForProgress();
+    }
+
+    public void ClearQuestProgression()
+    {
+        Debug.Log("Clearing all progress");
+        progress.crabKills = 0;
+        progress.discoverBlacksmith = 0;
+        progress.defeatWarrior = 0;
+        progress.meetElderUlric = 0;
+        progress.itemPurchase = 0;
+        progress.levelThreeWarrior = 0;
+
+        stats.currentLevel = 0;
+        counter.levelOne = 0;
+        stats.coins = 0;
+        stats.greedy = false;
+        stats.discoverBlacksmith = false;
+        stats.defeatedWarrior = false;
+        stats.speedModifier = 0;
+        stats.damageBonus = 0;
+        stats.bootType = "Old Running Shoes";
+        stats.swordType = "Rusty Rapier";
     }
 
     void CheckForQuests()
     {
-        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Escape))
+        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Q))
         {
             if (quests)
             {
