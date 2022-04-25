@@ -5985,7 +5985,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
-  stats: {fileID: 0}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   rb: {fileID: 650784236}
   animator: {fileID: 650784233}
   attackRange: 0.9
