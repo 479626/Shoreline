@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b247d66e5f3c5f4c9b5e92d2c39b483, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  speedModifier: 2
-  coins: 121
-  damageBonus: 25
-  swordType: Rusty Rapier
-  bootType: Old Running Shoes
+  speedModifier: 0
+  coins: 0
+  damageBonus: 0
+  currentLevel: 0
+  swordType: Damascus Steel Rapier
+  bootType: Master Running Shoes
   greedy: 0

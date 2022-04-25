@@ -15,11 +15,15 @@ public class Blacksmith : MonoBehaviour
     private int currentPrice, currentItem, potionPrice, bootPrice, swordPrice;
 
     [Header("UI Elements")]
+    public Animator uiAnim;
     public Slider slider;
     public Image icon;
     public GameObject buyMenu, buyButton;
     public Text itemName, itemDescription, upgradePercentage, buttonText;
     public Sprite sword, potions, boots;
+
+    [Header("NPC")]
+    public Animator blacksmithAnim;
 
     void Awake()
     {
@@ -64,10 +68,11 @@ public class Blacksmith : MonoBehaviour
         buyMenu.SetActive(true);
     }
 
-    #region Button Functions
+        #region Button Functions
 
     public void OnExit()
     {
+        SoundManager.instance.DoorSound();
         playerStorage.initialValue = playerPos;
 
         switch (stats.currentLevel)
@@ -86,6 +91,9 @@ public class Blacksmith : MonoBehaviour
         if (stats.coins >= currentPrice)
         {
             stats.coins = stats.coins - currentPrice;
+            SoundManager.instance.PurchaseSound();
+            blacksmithAnim.SetTrigger("Sale");
+
             if (currentItem == 0)
             {
                 if (!stats.greedy)
@@ -110,6 +118,12 @@ public class Blacksmith : MonoBehaviour
                     OnBack();
                 }
             }
+        }
+        else
+        {
+            SoundManager.instance.FailSound();
+            blacksmithAnim.SetTrigger("Fail");
+            uiAnim.SetTrigger("Fail");
         }
     }
 
