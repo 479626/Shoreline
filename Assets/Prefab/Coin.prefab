@@ -117,9 +117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4edb5d8d02f79554684a329cb4c4caaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  silverCoin: {fileID: 0}
+  silverCoin: {fileID: 4929994232338268105}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
-  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
 --- !u!61 &5858991292937529131
 BoxCollider2D:
   m_ObjectHideFlags: 0

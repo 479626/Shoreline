@@ -31,6 +31,7 @@ public class LevelTwoPlayer : MonoBehaviour
 
     void Start()
     {
+        FindObjectOfType<DialogueManager>().dialogueInProgress = false;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -94,7 +95,7 @@ public class LevelTwoPlayer : MonoBehaviour
         int damage = Random.Range(minDamage, maxDamage) + stats.damageBonus;
         StartCoroutine(Attacking());
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(range.position, attackRange, enemyLayer);
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
             if (SceneManager.GetActiveScene().name == "L2-Battle")
             {
@@ -102,7 +103,14 @@ public class LevelTwoPlayer : MonoBehaviour
             }
             if (SceneManager.GetActiveScene().name == "Cove")
             {
-                enemy.GetComponent<Crab>().TakeDamage(damage);
+                if (enemy.CompareTag("Skeleton"))
+                {
+                    enemy.GetComponent<Skeleton>().TakeDamage(damage);
+                }
+                if (enemy.CompareTag("Crab"))
+                {
+                    enemy.GetComponent<Crab>().TakeDamage(damage);
+                }
             }
         }
     }
