@@ -6,7 +6,6 @@ public class Blacksmith : MonoBehaviour
 {
     [Header("Exit Transport")]
     public VectorValue playerStorage;
-    public int scene;
     public Vector2 playerPos;
 
     [Header("Script Variables")]
@@ -19,7 +18,7 @@ public class Blacksmith : MonoBehaviour
     public Slider slider;
     public Image icon;
     public GameObject buyMenu, buyButton;
-    public Text itemName, upgradePercentage, buttonText;
+    public Text itemName, itemDescription, upgradePercentage, buttonText;
     public Sprite sword, potions, boots;
 
     void Awake()
@@ -35,11 +34,11 @@ public class Blacksmith : MonoBehaviour
             Debug.Log("Added 1 coin. You have: " + stats.coins);
         }
 
-        upgradePercentage.text = "Power level " + percentage.ToString() + "%";
+        upgradePercentage.text = "Upgraded: " + percentage.ToString() + "%";
         buttonText.text = "Buy for: " + currentPrice.ToString();
     }
 
-    private void UpdateMenu(Sprite newImage, string newName, float sliderValue, int price)
+    private void UpdateMenu(Sprite newImage, string newName, string newDescription, float sliderValue, int price)
     {
         buyButton.SetActive(true);
 
@@ -59,6 +58,7 @@ public class Blacksmith : MonoBehaviour
         currentPrice = price;
         slider.value = sliderValue;
         percentage = sliderValue * 100F;
+        itemDescription.text = newDescription;
         itemName.text = newName;
         icon.sprite = newImage;
         buyMenu.SetActive(true);
@@ -69,7 +69,16 @@ public class Blacksmith : MonoBehaviour
     public void OnExit()
     {
         playerStorage.initialValue = playerPos;
-        SceneManager.LoadScene(scene);
+
+        switch (stats.currentLevel)
+        {
+            case 1:
+                SceneManager.LoadScene(2);
+                break;
+            case 3:
+                SceneManager.LoadScene(8);
+                break;
+        }
     }
 
     public void OnPurchase()
@@ -112,6 +121,7 @@ public class Blacksmith : MonoBehaviour
     public void SwordUpgrade()
     {
         currentItem = 1;
+        string swordDescription = "Gain a bonus +5 damage per attack";
 
         if (stats.damageBonus >= 20)
         {
@@ -141,12 +151,13 @@ public class Blacksmith : MonoBehaviour
         float swordLevel = stats.damageBonus / 20f;
         string swordName = stats.swordType;
 
-        UpdateMenu(sword, swordName, swordLevel, swordPrice);
+        UpdateMenu(sword, swordName, swordDescription, swordLevel, swordPrice);
     }
 
     public void CoinPotion()
     {
         currentItem = 0;
+        string potionDescription = "Gain a bonus silver coin every item drop";
 
         if (stats.greedy)
         {
@@ -159,13 +170,14 @@ public class Blacksmith : MonoBehaviour
             potionPrice = 15;
         }
 
-        UpdateMenu(potions, potionType, potionLevel, potionPrice);
+        UpdateMenu(potions, potionType, potionDescription, potionLevel, potionPrice);
     }
 
     public void ShoeUpgrade()
     {
         currentItem = 2;
         float currentSpeed = stats.speedModifier;
+        string bootDescription = "Gain a +0.5 speed buff";
 
         if (currentSpeed == 2f)
         {
@@ -195,7 +207,7 @@ public class Blacksmith : MonoBehaviour
         float speedLevel = stats.speedModifier / 2f;
         string bootType = stats.bootType;
 
-        UpdateMenu(boots, bootType, speedLevel, bootPrice);
+        UpdateMenu(boots, bootType, bootDescription, speedLevel, bootPrice);
     }
 
     #endregion

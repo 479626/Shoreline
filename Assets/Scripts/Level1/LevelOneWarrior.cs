@@ -9,6 +9,14 @@ public class LevelOneWarrior : MonoBehaviour
     public GameObject dialogueManager;
     public int nextLevelScene;
     public InteractionCounter count;
+    public PlayerStats stats;
+
+    void Awake()
+    {
+        Debug.Log("Recognised Level 1 and saved progress");
+        stats.currentLevel = 1;
+    }
+
 
     void Start()
     {
