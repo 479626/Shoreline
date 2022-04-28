@@ -24755,6 +24755,7 @@ MonoBehaviour:
   dialogueManager: {fileID: 524208240}
   nextLevelScene: 6
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 0}
 --- !u!61 &879626203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25888,8 +25889,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1396585053
-  m_SortingLayer: 3
+  m_SortingLayerID: -351377969
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}

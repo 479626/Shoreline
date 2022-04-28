@@ -18403,6 +18403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4238866269011188426, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4238866269011188427, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
       propertyPath: player
       value: 
@@ -18789,8 +18793,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1457275573
+  m_SortingLayer: 4
   m_SortingOrder: 5
   m_Sprite: {fileID: -5690765542451061502, guid: c9d2da0a3438c574cb6be29a19aab1d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18811,7 +18815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1792051411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.24, y: 6.07, z: 0}
+  m_LocalPosition: {x: 3.24, y: 6.68, z: 0}
   m_LocalScale: {x: 2.7, y: 2.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

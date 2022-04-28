@@ -14310,6 +14310,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1701000164 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8942047489446418749, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
+  m_PrefabInstance: {fileID: 409406036372408596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749388138
 GameObject:
   m_ObjectHideFlags: 0
@@ -14543,6 +14548,10 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   questMenu: {fileID: 1270751850}
   levelOneButton: {fileID: 652711026}
+  levelOneQuests: {fileID: 0}
+  levelTwoQuests: {fileID: 0}
+  levelThreeQuests: {fileID: 0}
+  levelFourQuests: {fileID: 0}
   levelOneRewardAmounts:
   - {fileID: 1489695739}
   - {fileID: 347438416}
@@ -31731,6 +31740,22 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 663.4928
       objectReference: {fileID: 0}
+    - target: {fileID: 5277881614740165307, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
+      propertyPath: seagullSource
+      value: 
+      objectReference: {fileID: 1701000164}
+    - target: {fileID: 5277881614740165307, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
+      propertyPath: seagullClips.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277881614740165307, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
+      propertyPath: seagullClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7cb8f80e8eeaea84485b00336cea76cc, type: 3}
+    - target: {fileID: 5277881614740165307, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
+      propertyPath: seagullClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 55f7e4f1f2242564cabcc3cdbcb3f02f, type: 3}
     - target: {fileID: 8942047489446418749, guid: 40bac6fcc7c143a4886868f781c95b45, type: 3}
       propertyPath: MaxDistance
       value: 663.4928
