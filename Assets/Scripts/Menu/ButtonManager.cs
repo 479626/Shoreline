@@ -28,8 +28,6 @@ public class ButtonManager : MonoBehaviour
     void Update()
     {
         CheckForPause();
-        Debug.Log(settingsMenuOpen);
-
 
         // Temporary cheat for debugging purposes
         if (Input.GetKey(KeyCode.L))

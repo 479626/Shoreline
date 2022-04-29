@@ -18,7 +18,7 @@ public class Blacksmith : MonoBehaviour
     public Animator uiAnim;
     public Slider slider;
     public Image icon;
-    public GameObject buyMenu, buyButton;
+    public GameObject buyMenu, buyButton, shoeButton;
     public Text itemName, itemDescription, upgradePercentage, buttonText;
     public Sprite sword, potions, boots;
 
@@ -27,6 +27,7 @@ public class Blacksmith : MonoBehaviour
 
     void Awake()
     {
+        shoeButton.GetComponent<Button>().Select();
         stats.discoverBlacksmith = true;
         buyMenu.SetActive(false);    
     }
@@ -126,6 +127,7 @@ public class Blacksmith : MonoBehaviour
             blacksmithAnim.SetTrigger("Fail");
             uiAnim.SetTrigger("Fail");
         }
+        shoeButton.GetComponent<Button>().Select();
     }
 
     public void OnBack()
