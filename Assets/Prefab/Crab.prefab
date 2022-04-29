@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
   m_SortingLayer: 5
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 4033355307889638888, guid: e53afd61143576f4c943e5259b68c513, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -140,8 +140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedToAttack: 1
   animator: {fileID: 7793255638717370536}
-  target: {fileID: 0}
-  player: {fileID: 0}
+  target: {fileID: 2198682895241510204, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
+  player: {fileID: 2198682895241510193, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
   defaultSpeed: 0.9
   rb: {fileID: 7793255638717370540}
   enemyName: Crab

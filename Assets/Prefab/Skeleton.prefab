@@ -622,8 +622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedToAttack: 0
   animator: {fileID: 102324212590322620}
-  target: {fileID: 0}
-  player: {fileID: 0}
+  target: {fileID: 2198682895241510204, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
+  player: {fileID: 2198682895241510193, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
   defaultSpeed: 2.75
   rb: {fileID: 3528053661620203901}
   enemyName: Skeleton
