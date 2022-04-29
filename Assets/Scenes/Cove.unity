@@ -2320,6 +2320,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7793255638717370540, guid: 12d396ff9c6a8cf4790a24d789c1f370, type: 3}
+      propertyPath: m_Mass
+      value: 100000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7793255638717370540, guid: 12d396ff9c6a8cf4790a24d789c1f370, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7793255638717370543, guid: 12d396ff9c6a8cf4790a24d789c1f370, type: 3}
       propertyPath: m_Name
       value: Crab

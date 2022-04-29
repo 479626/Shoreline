@@ -83,6 +83,12 @@ public class NPC : MonoBehaviour
             rb.velocity = Vector2.zero;
             blockDirection = walkDirection;
         }
+        if (col.gameObject.tag == "Enemy")
+        {
+            isWalking = false;
+            rb.velocity = Vector2.zero;
+            blockDirection = walkDirection;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D col)
