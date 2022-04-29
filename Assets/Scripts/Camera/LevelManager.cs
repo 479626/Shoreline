@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
     public GameObject loadingScreen;
+    public PlayerStats stats;
     public Animator anim;
     public static LevelManager instance;
     public Slider slider;
@@ -14,7 +15,7 @@ public class LevelManager : MonoBehaviour
     public Text tip;
 
     [SerializeField] private List<string> gameTips, jokes, controlInfo = new List<string>();
-
+    
     void Awake()
     {
         if (SceneManager.GetActiveScene().name == "Loading")

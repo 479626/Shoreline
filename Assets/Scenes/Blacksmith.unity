@@ -1711,6 +1711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   playerPos: {x: -6, y: 17}
+  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   uiAnim: {fileID: 569639124}
   slider: {fileID: 217719364}

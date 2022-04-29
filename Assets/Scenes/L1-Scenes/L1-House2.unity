@@ -19004,6 +19004,7 @@ MonoBehaviour:
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Mary
 --- !u!1 &1968481661
 GameObject:
   m_ObjectHideFlags: 0
@@ -19981,6 +19982,7 @@ MonoBehaviour:
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Anne
 --- !u!114 &4911570091839591930
 MonoBehaviour:
   m_ObjectHideFlags: 0

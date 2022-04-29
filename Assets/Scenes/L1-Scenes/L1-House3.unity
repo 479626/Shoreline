@@ -1007,6 +1007,7 @@ MonoBehaviour:
   interaction: {fileID: 343219182}
   dialogueManager: {fileID: 1085787666}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Christopher
 --- !u!1 &683954090
 GameObject:
   m_ObjectHideFlags: 0
@@ -27114,3 +27115,4 @@ MonoBehaviour:
   interaction: {fileID: 343219182}
   dialogueManager: {fileID: 1085787666}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Timmy

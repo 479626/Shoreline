@@ -16006,6 +16006,7 @@ MonoBehaviour:
   interaction: {fileID: 1650168400}
   dialogueManager: {fileID: 29095175}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Gary
 --- !u!95 &1925919278
 Animator:
   serializedVersion: 3

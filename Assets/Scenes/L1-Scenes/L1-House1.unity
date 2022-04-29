@@ -44288,6 +44288,7 @@ MonoBehaviour:
   interaction: {fileID: 2112319406}
   dialogueManager: {fileID: 4238866268660041813}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Beth
 --- !u!1001 &601869331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45259,6 +45260,7 @@ MonoBehaviour:
   interaction: {fileID: 2112319406}
   dialogueManager: {fileID: 4238866268660041813}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: Pete Jr
 --- !u!4 &1058477204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2198682895241510204, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}

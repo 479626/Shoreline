@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -108,6 +107,15 @@ public class QuestManager : MonoBehaviour
 
         stats.currentLevel = 0;
         counter.levelOne = 0;
+        counter.npcBeth = 0;
+        counter.npcPete = 0;
+        counter.npcPeteJr = 0;
+        counter.npcMary = 0;
+        counter.npcAnne = 0;
+        counter.npcChristopher = 0;
+        counter.npcTimmy = 0;
+        counter.npcGary = 0;
+        counter.npcUlric = 0;
         stats.coins = 0;
         stats.greedy = false;
         stats.discoverBlacksmith = false;
