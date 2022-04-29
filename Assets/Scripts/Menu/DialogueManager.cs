@@ -8,10 +8,11 @@ public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
+    public Image portrait;
     public Animator animator;
     public bool dialogueInProgress;
     public bool finishedDialogue;
-    public GameObject player;
+    public GameObject player, image;
 
     private Queue<string> sentences;
 
@@ -26,6 +27,15 @@ public class DialogueManager : MonoBehaviour
         dialogueInProgress = true;
         animator.SetBool("isOpen", true);
 
+        if (dialogue.portrait == null)
+        {
+            image.SetActive(false);
+        }
+        else
+        {
+            image.SetActive(true);
+            portrait.sprite = dialogue.portrait;
+        }
         nameText.text = dialogue.name;
         sentences.Clear();
 
