@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   silverCoin: {fileID: 4929994232338268105, guid: a054afc9737e9424eb2d54855f55f796, type: 3}
-  stats: {fileID: 0}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
 --- !u!114 &7793255638717370534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   rb: {fileID: 7793255638717370540}
   enemyName: Crab
   damageRange: {fileID: 7793255639241447674}
-  attackRange: 1
+  attackRange: 1.5
   nextAttackTime: 0
   playerLayer:
     serializedVersion: 2
