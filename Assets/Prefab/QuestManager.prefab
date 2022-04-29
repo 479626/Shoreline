@@ -210,6 +210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2851497457962276138}
+  - component: {fileID: 6767375887512775451}
   m_Layer: 0
   m_Name: QuestManager
   m_TagString: Untagged
@@ -232,6 +233,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6767375887512775451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2851497457962276137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15c072926ce23c459b9b7b473df958b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  progress: {fileID: 11400000, guid: 842c9e54b3ae6554e9484454b2455a0f, type: 2}
+  counter: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
+  questMenu: {fileID: 2851497459805426287}
+  levelOneButton: {fileID: 2851497457928302648}
+  levelOneQuests: {fileID: 2851497458659835343}
+  levelTwoQuests: {fileID: 2851497458205619316}
+  levelThreeQuests: {fileID: 2851497459899619099}
+  levelFourQuests: {fileID: 2851497459645298982}
+  levelOneRewardAmounts:
+  - {fileID: 2851497459601456704}
+  - {fileID: 2851497459622783806}
+  levelOneSliders:
+  - {fileID: 2851497459064566733}
+  - {fileID: 2851497458635234731}
+  levelTwoRewardAmounts:
+  - {fileID: 2851497458454242837}
+  levelTwoSliders:
+  - {fileID: 2851497459500184109}
+  levelThreeRewardAmounts:
+  - {fileID: 2851497459380930909}
+  - {fileID: 2851497458714827586}
+  - {fileID: 2851497458372483454}
+  - {fileID: 2851497459255108557}
+  levelThreeSliders:
+  - {fileID: 2851497459042721132}
+  - {fileID: 2851497459469272763}
+  - {fileID: 2851497460043770755}
+  - {fileID: 2851497458481166155}
+  levelFourRewardAmounts: []
+  levelFourSliders: []
+  anim: {fileID: 0}
+  questText: {fileID: 0}
+  rewardText: {fileID: 0}
 --- !u!1 &2851497458021732356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,8 +1363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 145, y: 104}
-  m_SizeDelta: {x: 23.3427, y: 30}
+  m_AnchoredPosition: {x: 136.20667, y: 104}
+  m_SizeDelta: {x: 40.9294, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2851497458454242838
 CanvasRenderer:

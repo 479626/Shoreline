@@ -10,11 +10,32 @@ public class HUD : MonoBehaviour
     public static HUD instance;
     public GameObject display;
     public PlayerStats stats;
+    private bool exist;
     [SerializeField] private Text currentTime, coinCount;
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+            exist = true;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
         UpdateDisplay();
+
+        if (exist && SceneManager.GetActiveScene().name == "User-Interface")
+        {
+            exist = false;
+            Destroy(gameObject);
+        }
     }
 
     void UpdateDisplay()

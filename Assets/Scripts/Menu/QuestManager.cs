@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,6 +26,11 @@ public class QuestManager : MonoBehaviour
     public List<Text> levelFourRewardAmounts = new List<Text>();
     public List<Slider> levelFourSliders = new List<Slider>();
 
+    [Header("Quest Award")]
+    public Animator anim;
+    public Text questText;
+    public Text rewardText;
+
     void CheckForProgress()
     {
         // Level three local variables TEMP FOR DEBUG
@@ -43,29 +49,50 @@ public class QuestManager : MonoBehaviour
         levelOneRewardAmounts[1].text = "1";
         if (counter.levelOne > 3 && !oneLevelOne)
         {
+            string reward = levelOneRewardAmounts[0].text;
+            string questName = "Meet the townspeople";
             oneLevelOne = true;
             levelOneRewardAmounts[0].color = Color.green;
             stats.coins = stats.coins + 3;
+            StartCoroutine(AwardQuest(questName, reward));
         }
         if (stats.discoverBlacksmith && !twoLevelOne)
         {
+            string reward = levelOneRewardAmounts[1].text;
+            string questName = "Visit the blacksmith";
             levelOneSliders[1].value = 1;
             twoLevelOne = true;
             levelOneRewardAmounts[1].color = Color.green;
             stats.coins = stats.coins + 1;
+            StartCoroutine(AwardQuest(questName, reward));
         }
 
         // Level two quests
         levelTwoRewardAmounts[0].text = "10";
         if (stats.defeatedWarrior & !oneLevelTwo)
         {
+            string reward = levelTwoRewardAmounts[0].text;
+            string questName = "Defeat the warrior";
             oneLevelTwo = true;
             levelTwoSliders[0].value = 1;
             levelTwoRewardAmounts[0].color = Color.green;
             stats.coins = stats.coins + 10;
+            StartCoroutine(AwardQuest(questName, reward));
         }
 
         // Level three quests
+    }
+
+    public IEnumerator AwardQuest(string quest, string reward)
+    {
+        Debug.Log("Player was awarded from: " + quest + " [" + reward + "]");
+        questText.text = quest;
+        rewardText.text = reward;
+        anim.SetBool("open", true);
+        SoundManager.instance.PurchaseSound();
+        yield return new WaitForSeconds(3f);
+        anim.SetBool("open", false);
+        yield return null;
     }
 
     void Awake()
