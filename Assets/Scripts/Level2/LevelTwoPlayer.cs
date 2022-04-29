@@ -43,7 +43,7 @@ public class LevelTwoPlayer : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1") && !dead && speed != 0)
         {
-            if (Time.time >= nextAttackTime)
+            if (Time.time >= nextAttackTime && !FindObjectOfType<DialogueManager>().dialogueInProgress)
             {
                 Attack();
                 nextAttackTime = Time.time + 1f / attackRate;
