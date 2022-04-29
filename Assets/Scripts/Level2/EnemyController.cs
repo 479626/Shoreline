@@ -84,10 +84,10 @@ public class EnemyController : MonoBehaviour
         int damage = Random.Range(minDamage, maxDamage);
 
         defaultSpeed = 0f;
-        animator.SetTrigger("attack");
-        yield return new WaitForSeconds(1.25f);
-        if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack)
+        if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack && !player.GetComponent<LevelTwoPlayer>().dead)
         {
+            animator.SetTrigger("attack");
+            yield return new WaitForSeconds(1.25f);
             player.GetComponent<LevelTwoPlayer>().TakeDamage(damage);
         }
         defaultSpeed = 0.75f;

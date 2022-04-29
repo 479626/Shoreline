@@ -23,21 +23,8 @@ public class LevelTwoWarrior : MonoBehaviour
 
     void Update()
     {
-        if (currentHealth < 0)
-        {
-            dead = true;
-            stats.defeatedWarrior = true;
-            currentHealth = 200;
-            StartCoroutine(Progress());
-        }
-
-        if (dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
-        {
-            gameObject.GetComponent<EnemyController>().allowedToAttack = true;
-            dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
-            SceneManager.LoadScene(nextLevelScene);
-        }
-
+        CheckHealth();
+        CheckForDialogue();
     }
 
     IEnumerator Progress()
@@ -55,6 +42,36 @@ public class LevelTwoWarrior : MonoBehaviour
 
         animator.SetTrigger("hurt");
         healthBar.SetHealth(currentHealth);
+    }
+
+    void CheckForDialogue()
+    {
+        if (dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
+        {
+            gameObject.GetComponent<EnemyController>().allowedToAttack = true;
+            dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
+            SceneManager.LoadScene(nextLevelScene);
+        }
+
+        if (dialogueManager.GetComponent<DialogueManager>().dialogueInProgress)
+        {
+            gameObject.GetComponent<EnemyController>().allowedToAttack = false;
+        }
+        else
+        {
+            gameObject.GetComponent<EnemyController>().allowedToAttack = true;
+        }
+    }
+
+    void CheckHealth()
+    {
+        if (currentHealth < 0)
+        {
+            dead = true;
+            stats.defeatedWarrior = true;
+            currentHealth = 200;
+            StartCoroutine(Progress());
+        }
     }
 
     public void PlaySound(string id)

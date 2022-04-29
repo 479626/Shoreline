@@ -64,6 +64,7 @@ public class LevelTwoPlayer : MonoBehaviour
     IEnumerator Death()
     {
         speed = 0f;
+        dead = true;
         animator.SetBool("isDead", true);
         yield return new WaitForSeconds(1f);
         deathEffect.GetComponent<Restart>().Death();
@@ -72,7 +73,7 @@ public class LevelTwoPlayer : MonoBehaviour
 
     void MoveLogic()
     {
-        if (!attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
+        if (!dead && !attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
             speed = 3.5f + stats.speedModifier;
             rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
