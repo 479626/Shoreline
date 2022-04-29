@@ -18794,7 +18794,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: -5690765542451061502, guid: c9d2da0a3438c574cb6be29a19aab1d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18929,7 +18929,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -18953,6 +18953,8 @@ MonoBehaviour:
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!1 &1973815811
 GameObject:
   m_ObjectHideFlags: 0
@@ -19831,7 +19833,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: 451134077447635704, guid: 5644c801b64265e47b872ea69adf6aae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -19906,7 +19908,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -19987,6 +19989,8 @@ MonoBehaviour:
   interaction: {fileID: 1334805651}
   dialogueManager: {fileID: 1469935972}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!114 &4911570091839591930
 MonoBehaviour:
   m_ObjectHideFlags: 0

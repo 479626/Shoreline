@@ -5921,7 +5921,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -994618935
-  m_SortingLayer: 5
+  m_SortingLayer: 4
   m_SortingOrder: 5
   m_Sprite: {fileID: 2627569318837190064, guid: a0b6d29a3a64872469d4a93f5082d857, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -41290,7 +41290,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -41398,7 +41398,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 4
   m_Sprite: {fileID: -8828615341614158377, guid: 249b5c5a2b9cc5a4d87936b62f86c9bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

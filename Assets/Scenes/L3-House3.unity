@@ -795,8 +795,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1457275573
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: 7338265710659943335, guid: ce8e28820bb521a43b6483fe97aca873, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -835,7 +835,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -911,6 +911,8 @@ MonoBehaviour:
   interaction: {fileID: 343219182}
   dialogueManager: {fileID: 1085787666}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!1 &677574762
 GameObject:
   m_ObjectHideFlags: 0
@@ -26824,7 +26826,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -26948,7 +26950,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: 451134077447635704, guid: 5644c801b64265e47b872ea69adf6aae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27052,3 +27054,5 @@ MonoBehaviour:
   interaction: {fileID: 343219182}
   dialogueManager: {fileID: 1085787666}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0

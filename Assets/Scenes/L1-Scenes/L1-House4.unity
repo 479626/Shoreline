@@ -16007,6 +16007,7 @@ MonoBehaviour:
   dialogueManager: {fileID: 29095175}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   npcName: Gary
+  used: 0
 --- !u!95 &1925919278
 Animator:
   serializedVersion: 3
@@ -16064,8 +16065,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1457275573
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: 5468967754826987777, guid: a835edbf28dbd634da0d403497aa5110, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16104,7 +16105,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

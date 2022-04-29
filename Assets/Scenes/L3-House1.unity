@@ -44423,7 +44423,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: -2993932263597342784, guid: 147e41eb486a4ae4aa5c1aa49d3fef6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -44462,7 +44462,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -44537,6 +44537,8 @@ MonoBehaviour:
   interaction: {fileID: 2112319406}
   dialogueManager: {fileID: 4238866268660041813}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!1 &594615002
 GameObject:
   m_ObjectHideFlags: 0
@@ -45452,7 +45454,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: 451134077447635704, guid: 5644c801b64265e47b872ea69adf6aae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -45508,7 +45510,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -45583,6 +45585,8 @@ MonoBehaviour:
   interaction: {fileID: 2112319406}
   dialogueManager: {fileID: 4238866268660041813}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!4 &1058477204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2198682895241510204, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
@@ -47756,7 +47760,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000
+  m_Mass: 100000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -47806,6 +47810,8 @@ MonoBehaviour:
   interaction: {fileID: 2112319406}
   dialogueManager: {fileID: 4238866268660041813}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
+  npcName: 
+  used: 0
 --- !u!95 &1984868748
 Animator:
   serializedVersion: 3
@@ -47864,7 +47870,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1457275573
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 5
   m_Sprite: {fileID: -1742839038594811114, guid: c872564175e958e428683161c8a089b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
