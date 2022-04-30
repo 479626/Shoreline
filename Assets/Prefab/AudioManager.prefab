@@ -53,6 +53,7 @@ MonoBehaviour:
   femaleSpeechSource: {fileID: 8942047489446418749}
   purchaseSource: {fileID: 8942047489446418749}
   failSource: {fileID: 8942047489446418749}
+  thunderSource: {fileID: 8942047489446418749}
   swingClips:
   - {fileID: 8300000, guid: ed32710f463f19c489a2cac573d41364, type: 3}
   - {fileID: 8300000, guid: efb6d6ab0b788cf44a34a00e99612128, type: 3}
@@ -74,6 +75,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7d5381aa8cb0a134da02c4e1fee89800, type: 3}
   failClips:
   - {fileID: 8300000, guid: b33dcf978661b13449689d71df206a40, type: 3}
+  thunderClips:
+  - {fileID: 8300000, guid: f4b4123ffff65e7438b997659c56306c, type: 3}
+  - {fileID: 8300000, guid: 6553f6dbcc4613b498ac6b9d6654a528, type: 3}
   mixer: {fileID: 24100000, guid: f115bec3f06655d4d8e4a74f1733fb77, type: 2}
 --- !u!82 &8942047489446418749
 AudioSource:
