@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -38,6 +37,7 @@ public class DialogueManager : MonoBehaviour
         }
         nameText.text = dialogue.name;
         sentences.Clear();
+        SoundManager.instance.MaleSpeechSound();
 
         foreach (string sentence in dialogue.sentences)
         {
@@ -48,6 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        SoundManager.instance.PurchaseSound();
         if (sentences.Count == 0)
         {
             EndDialogue();

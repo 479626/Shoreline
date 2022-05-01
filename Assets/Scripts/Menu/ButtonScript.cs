@@ -23,11 +23,22 @@ public class ButtonScript : MonoBehaviour
     public void OnStartButton()
     {
         Time.timeScale = 1f;
+        SoundManager.instance.PurchaseSound();
     }
 
     public void OnQuitButton()
     {
         Application.Quit();
+    }
+
+    public void OnSettingsButton()
+    {
+
+    }
+
+    public void PlaySound()
+    {
+        SoundManager.instance.PurchaseSound();
     }
 
     public void OnMuteButtonOn()

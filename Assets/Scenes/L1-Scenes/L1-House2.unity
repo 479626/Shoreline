@@ -18306,6 +18306,7 @@ MonoBehaviour:
   isWalking: 0
   waitTime: 2
   walkTime: 3
+  gender: 0
   animator: {fileID: 1792051412}
 --- !u!50 &1792051419
 Rigidbody2D:
@@ -19268,6 +19269,7 @@ MonoBehaviour:
   isWalking: 0
   waitTime: 3
   walkTime: 2
+  gender: 0
   animator: {fileID: 4911570091839591904}
 --- !u!114 &4911570091839591912
 MonoBehaviour:

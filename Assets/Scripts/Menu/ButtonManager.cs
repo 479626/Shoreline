@@ -36,6 +36,11 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
+    public void PlaySound()
+    {
+        SoundManager.instance.PurchaseSound();
+    }
+
     void CheckForPause()
     {
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
