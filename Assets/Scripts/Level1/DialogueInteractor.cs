@@ -3,7 +3,7 @@ using UnityEngine;
 public class DialogueInteractor : MonoBehaviour
 {
     public Interaction interaction;
-    bool triggerDialogue;
+    private bool triggerDialogue;
     public GameObject dialogueManager;
     public InteractionCounter count;
     public string npcName;

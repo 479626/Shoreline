@@ -13,11 +13,16 @@ public class DropManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        GiveCoins();
+        Destroy(gameObject);
+    }
+    
+    private void GiveCoins()
+    {
         stats.coins++;
         if (stats.greedy)
         {
             stats.coins++;
         }
-        Destroy(gameObject);
     }
 }

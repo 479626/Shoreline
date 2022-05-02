@@ -12,7 +12,7 @@ public class ButtonScript : MonoBehaviour
     public List<GameObject> menuObjects = new List<GameObject>();
     public InteractionCounter count;
     public PlayerStats stats;
-    [SerializeField] AudioMixer mixer;
+    [SerializeField] private AudioMixer mixer;
 
     public float transitionTime = 1f;
 
@@ -31,7 +31,7 @@ public class ButtonScript : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         PlayerPrefs.GetInt("mute", 0);
         CheckSettings();
-        yield break;
+        yield return null;
     }
 
     public void CheckSettings()

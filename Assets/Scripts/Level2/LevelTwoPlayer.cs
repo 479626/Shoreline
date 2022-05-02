@@ -122,7 +122,7 @@ public class LevelTwoPlayer : MonoBehaviour
         animator.SetTrigger("Attack");
         yield return new WaitForSeconds(0.5f);
         attacking = false;
-        yield break;
+        yield return null;
     }
 
     public void TakeDamage(int damage)

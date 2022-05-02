@@ -13,40 +13,37 @@ public class LevelManager : MonoBehaviour
     public Slider slider;
     public Text progress;
     public Text tip;
+    private string message;
 
     [SerializeField] private List<string> gameTips, jokes, controlInfo = new List<string>();
     
     void Awake()
     {
-        if (SceneManager.GetActiveScene().name == "Loading")
-        {
-            int decision = Random.Range(0, 2);
-
-            if (decision == 0)
-            {
-                string message = jokes[Random.Range(0, jokes.Count)];
-
-                tip.text = message;
-            }
-            if (decision == 1)
-            {
-                string message = gameTips[Random.Range(0, gameTips.Count)];
-
-                tip.text = message;
-            }
-            if (decision == 2)
-            {
-                string message = controlInfo[Random.Range(0, controlInfo.Count)];
-
-                tip.text = message;
-            }
-            StartCoroutine(Initialize());
-        }
+        anim = gameObject.GetComponent<Animator>();
     }
 
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        if (SceneManager.GetActiveScene().name == "Loading")
+        {
+            int decision = Random.Range(0, 2);
+
+            switch (decision)
+            {
+                case 0:
+                    message = jokes[Random.Range(0, jokes.Count)];
+                    break;
+                case 1:
+                    message = gameTips[Random.Range(0, gameTips.Count)];
+                    break;
+                case 2:
+                    message = controlInfo[Random.Range(0, controlInfo.Count)];
+                    break;
+            }
+            tip.text = message;
+
+            StartCoroutine(Initialize());
+        }
     }
 
     public void LoadLevel(int buildIndex)
@@ -72,13 +69,13 @@ public class LevelManager : MonoBehaviour
         {
             anim.SetTrigger("Load");
         }
-        yield break;
+        yield return null;
     }
 
     IEnumerator Initialize()
     {
         yield return new WaitForSeconds(2f);
         LoadLevel(1);
-        yield break;
+        yield return null;
     }
 }

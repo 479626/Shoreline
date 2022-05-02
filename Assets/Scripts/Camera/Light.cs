@@ -19,11 +19,9 @@ public class Light : MonoBehaviour
 
     void UpdateLight()
     {
-        // Getting the current hour from the user's system time
         DateTime time = DateTime.Now;
         hour = time.Hour;
-        
-        // Light changing logic
+
         if (hour >= 15 && hour < 18) // 3pm - 6pm
         {
             volume.weight = 0.25f;

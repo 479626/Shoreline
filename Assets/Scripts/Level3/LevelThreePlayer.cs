@@ -6,7 +6,6 @@ public class LevelThreePlayer : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Recognised Level 3 and saved progress");
         stats.currentLevel = 3;       
     }
 }

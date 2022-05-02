@@ -39,25 +39,4 @@ public class Sliders : MonoBehaviour
         PlayerPrefs.SetFloat(SoundManager.MUSIC_KEY, musicSlider.value);
         PlayerPrefs.SetFloat(SoundManager.SFX_KEY, effectsSlider.value);
     }
-
-    /*   public Slider musicVolumeSlider;
-       void Start()
-       {
-           if (!PlayerPrefs.HasKey("musicVolume"))
-           {
-               PlayerPrefs.SetFloat("musicVolume", 1);
-               LoadVolume();
-           }
-           else
-           {
-               LoadVolume();
-           }    
-       }
-       public void LoadVolume()
-       {
-           musicVolumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
-       }
-       public void SaveVolume()
-       {
-           PlayerPrefs.SetFloat("musicVolume", musicVolumeSlider.value);*/
 }

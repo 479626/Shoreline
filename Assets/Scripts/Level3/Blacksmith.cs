@@ -34,14 +34,8 @@ public class Blacksmith : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.C))
-        {
-            stats.coins++;
-            Debug.Log("Added 1 coin. You have: " + stats.coins);
-        }
-
-        upgradePercentage.text = "Upgraded: " + percentage.ToString() + "%";
-        buttonText.text = "Buy for: " + currentPrice.ToString();
+        upgradePercentage.text = "Upgraded: " + percentage + "%";
+        buttonText.text = "Buy for: " + currentPrice;
     }
 
     private void UpdateMenu(Sprite newImage, string newName, string newDescription, float sliderValue, int price)
@@ -92,7 +86,7 @@ public class Blacksmith : MonoBehaviour
     {
         if (stats.coins >= currentPrice)
         {
-            stats.coins = stats.coins - currentPrice;
+            stats.coins -= currentPrice;
             SoundManager.instance.PurchaseSound();
             blacksmithAnim.SetTrigger("Sale");
 
@@ -108,7 +102,7 @@ public class Blacksmith : MonoBehaviour
             {
                 if (stats.damageBonus < 20)
                 {
-                    stats.damageBonus = stats.damageBonus + 5;
+                    stats.damageBonus += 5;
                     OnBack();
                 }
             }
@@ -116,7 +110,7 @@ public class Blacksmith : MonoBehaviour
             {
                 if (stats.speedModifier < 2f)
                 {
-                    stats.speedModifier = stats.speedModifier + 0.5f;
+                    stats.speedModifier += 0.5f;
                     OnBack();
                 }
             }

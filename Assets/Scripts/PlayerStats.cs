@@ -11,7 +11,6 @@ public class PlayerStats : ScriptableObject
 
     private void OnEnable()
     {
-        Debug.Log("Resetting all variables in PlayerStats");
         currentLevel = 0;
 
         discoverBlacksmith = false;

@@ -48,6 +48,5 @@ public class HUD : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         display.SetActive(true);
-        Debug.Log("Turned on display");
     }
 }

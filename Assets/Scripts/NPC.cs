@@ -77,13 +77,7 @@ public class NPC : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Wall")
-        {
-            isWalking = false;
-            rb.velocity = Vector2.zero;
-            blockDirection = walkDirection;
-        }
-        if (col.gameObject.tag == "Enemy")
+        if (col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Enemy"))
         {
             isWalking = false;
             rb.velocity = Vector2.zero;

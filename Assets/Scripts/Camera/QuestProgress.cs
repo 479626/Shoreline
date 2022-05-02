@@ -7,7 +7,6 @@ public class QuestProgress : ScriptableObject
 
     private void OnEnable()
     {
-        Debug.Log("Resetting all variables in QuestProgress");
         crabKills = 0;
         discoverBlacksmith = 0;
         defeatWarrior = 0;

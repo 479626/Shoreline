@@ -28,12 +28,6 @@ public class ButtonManager : MonoBehaviour
     void Update()
     {
         CheckForPause();
-
-        // Temporary cheat for debugging purposes
-        if (Input.GetKey(KeyCode.L))
-        {
-            SceneManager.LoadScene(13);
-        }
     }
 
     public void PlaySound()
@@ -106,15 +100,4 @@ public class ButtonManager : MonoBehaviour
     }
 
     #endregion
-
-    /*void OnGUI()
-    {
-        Listens to any key press, logic can be used for anything in future
-        Event e = Event.current;
-        if (e.isKey && e.keyCode != KeyCode.None)
-        {
-            // Logic
-        }
-    }*/
-
 }

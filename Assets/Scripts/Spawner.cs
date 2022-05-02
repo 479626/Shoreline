@@ -16,7 +16,6 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-
         if (enableOne)
         {
             StartCoroutine(spawnMobs(oneSpawnRate, typeOne));
@@ -33,13 +32,14 @@ public class Spawner : MonoBehaviour
 
     IEnumerator spawnMobs(float spawnRate, GameObject mob)
     {
+        var waitTime = new WaitForSeconds(selfDestructTime); 
         if (canSpawnMobs)
         {
             yield return new WaitForSeconds(spawnRate);
             GameObject newMob = Instantiate(mob, new Vector3(Random.Range(boundBox.bounds.min.x, boundBox.bounds.max.x), Random.Range(boundBox.bounds.min.y, boundBox.bounds.max.y), 0), Quaternion.identity);
             if (selfDestructEnabled)
             {
-                yield return new WaitForSeconds(selfDestructTime);
+                yield return waitTime;
                 Destroy(newMob);
                 StartCoroutine(spawnMobs(spawnRate, mob));
             }
