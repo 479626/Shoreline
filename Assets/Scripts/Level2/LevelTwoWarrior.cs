@@ -5,14 +5,20 @@ using UnityEngine;
 public class LevelTwoWarrior : MonoBehaviour
 {
     public int nextLevelScene, maxHealth, currentHealth, damage;
-    public GameObject dialogueManager;
+    public GameObject dialogueManager, dialogueInteraction;
     public PlayerStats stats;
     public HealthBar healthBar;
     public Animator animator;
     public bool dead = false;
     private Rigidbody2D rb;
+    private EnemyController enemyController;
 
-    void Start()
+    private void Awake()
+    {
+        enemyController = gameObject.GetComponent<EnemyController>();
+    }
+
+    private void Start()
     {
         dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
         rb = GetComponent<Rigidbody2D>();
@@ -21,17 +27,17 @@ public class LevelTwoWarrior : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    void Update()
+    private void Update()
     {
         CheckHealth();
         CheckForDialogue();
     }
 
-    IEnumerator Progress()
+    private IEnumerator Progress()
     {
-        gameObject.GetComponent<EnemyController>().allowedToAttack = false;
+        enemyController.allowedToAttack = false;
         yield return new WaitForSeconds(1f);
-        gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(2);
+        dialogueInteraction.GetComponent<DialogueInteraction>().TriggerDialogue(2);
         yield break;
     }
 
@@ -44,26 +50,26 @@ public class LevelTwoWarrior : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-    void CheckForDialogue()
+    private void CheckForDialogue()
     {
         if (dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
         {
-            gameObject.GetComponent<EnemyController>().allowedToAttack = true;
+            enemyController.allowedToAttack = true;
             dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
             SceneManager.LoadScene(nextLevelScene);
         }
 
         if (dialogueManager.GetComponent<DialogueManager>().dialogueInProgress)
         {
-            gameObject.GetComponent<EnemyController>().allowedToAttack = false;
+            enemyController.allowedToAttack = false;
         }
         else
         {
-            gameObject.GetComponent<EnemyController>().allowedToAttack = true;
+            enemyController.allowedToAttack = true;
         }
     }
 
-    void CheckHealth()
+    private void CheckHealth()
     {
         if (currentHealth < 0)
         {

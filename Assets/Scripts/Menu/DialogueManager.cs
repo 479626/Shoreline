@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> sentences;
 
-    void Start()
+    private void Start()
     {
         sentences = new Queue<string>();
         finishedDialogue = false;
@@ -39,6 +39,7 @@ public class DialogueManager : MonoBehaviour
         sentences.Clear();
         SoundManager.instance.MaleSpeechSound();
 
+        Debug.Log(sentences.Count, this);
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
@@ -48,6 +49,7 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        Debug.Log("DisplayNextSentence queued sentences: " + sentences.Count, this);
         SoundManager.instance.PurchaseSound();
         if (sentences.Count == 0)
         {
@@ -60,7 +62,7 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
     }
 
-    IEnumerator TypeSentence(string sentence)
+    private IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -71,7 +73,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void EndDialogue()
+    private void EndDialogue()
     {
         dialogueInProgress = false;
         animator.SetBool("isOpen", false);

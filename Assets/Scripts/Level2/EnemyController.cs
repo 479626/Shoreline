@@ -17,27 +17,25 @@ public class EnemyController : MonoBehaviour
     private float speed;
 
     [Header("Combat")]
-    public string enemyName;
     public Transform damageRange;
     public float attackRange;
     public float nextAttackTime = 0f;
-    public LayerMask playerLayer;
     public int minDamage, maxDamage;
     public float maxRange, minRange;
     public float attackRate = 1f;
 
-    void Awake()
+    private void Awake()
     {
         allowedToAttack = true;
     }
 
-    void Start()
+    private void Start()
     {
         target = GameObject.Find("Player").transform;
         player = GameObject.Find("Player");
     }
 
-    void Update()
+    private void Update()
     {
 
         if (player.GetComponent<LevelTwoPlayer>().dead == true)
@@ -47,11 +45,9 @@ public class EnemyController : MonoBehaviour
         }
         if (Vector3.Distance(target.position, transform.position) <= attackRange)
         {
-            if (Time.time >= nextAttackTime)
-            {
-                StartCoroutine(Attacking());
-                nextAttackTime = Time.time + 1f / attackRate;
-            }
+            if (!(Time.time >= nextAttackTime)) return;
+            StartCoroutine(Attacking());
+            nextAttackTime = Time.time + 1f / attackRate;
         }
 
         else if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange)
@@ -64,7 +60,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    public void FindPlayer()
+    private void FindPlayer()
     {
         if (allowedToAttack)
         {
@@ -81,7 +77,7 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator Attacking()
     {
-        int damage = Random.Range(minDamage, maxDamage);
+        var damage = Random.Range(minDamage, maxDamage);
 
         defaultSpeed = 0f;
         yield return new WaitForSeconds(1.25f);
@@ -91,10 +87,10 @@ public class EnemyController : MonoBehaviour
             player.GetComponent<LevelTwoPlayer>().TakeDamage(damage);
         }
         defaultSpeed = 0.75f;
-        yield break;
+        yield return null;
     }
 
-    void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         if (damageRange == null)
         {
