@@ -13,7 +13,7 @@ public class NPC : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
 
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
@@ -23,7 +23,7 @@ public class NPC : MonoBehaviour
         Direction();
     }
 
-    void Update()
+    private void Update()
     {
         if (isWalking && !playerIsNear)
         {
@@ -101,7 +101,7 @@ public class NPC : MonoBehaviour
         }
     }
 
-    public void Direction()
+    private void Direction()
     {
         if (blockDirection != -1)
         {

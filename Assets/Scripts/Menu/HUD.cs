@@ -13,7 +13,7 @@ public class HUD : MonoBehaviour
     private bool exist;
     [SerializeField] private Text currentTime, coinCount;
 
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -27,7 +27,7 @@ public class HUD : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         UpdateDisplay();
 
@@ -38,7 +38,7 @@ public class HUD : MonoBehaviour
         }
     }
 
-    void UpdateDisplay()
+    private void UpdateDisplay()
     {
         currentTime.text = DateTime.Now.ToString("hh:mm tt");
         coinCount.text = stats.coins.ToString();

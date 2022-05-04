@@ -8,38 +8,36 @@ public class DialogueInteractor : MonoBehaviour
     public InteractionCounter count;
     public string npcName;
     public bool used;
-    private Rigidbody2D rb;
+    private DialogueManager dialogue;
 
     void Start()
     {
+        dialogue = dialogueManager.GetComponent<DialogueManager>();
         triggerDialogue = false;
-        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         CheckForDialogue();
-        if (used && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
+        if (used && dialogue.finishedDialogue == true)
         {
-            dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
+            dialogue.finishedDialogue = false;
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
+        if (!col.CompareTag("Player")) return;
+        
+        CheckIfUsed();
+        if (!used)
         {
-            CheckIfUsed();
-            Debug.Log("[" + this.gameObject.name + "] used: " + used);
-            if (!used)
-            {
-                interaction.InteractOn();
-            }
-            triggerDialogue = true;
+            interaction.InteractOn();
         }
+        triggerDialogue = true;
     }
 
-    void OnTriggerExit2D(Collider2D col)
+    private void OnTriggerExit2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
@@ -47,7 +45,7 @@ public class DialogueInteractor : MonoBehaviour
         }
     }
 
-    void CheckForDialogue()
+    private void CheckForDialogue()
     {
         if (triggerDialogue)
         {
@@ -62,7 +60,7 @@ public class DialogueInteractor : MonoBehaviour
         }
     }
 
-    void CheckIfUsed()
+    private void CheckIfUsed()
     {
         switch (npcName)
         {

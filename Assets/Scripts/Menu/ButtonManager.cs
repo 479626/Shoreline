@@ -8,7 +8,7 @@ public class ButtonManager : MonoBehaviour
     private bool settingsMenuOpen;
     public GameObject pauseMenu, settingsMenu;
 
-    void Awake()
+    private void Awake()
     {
         pauseMenu.SetActive(false);
         gamePaused = false;
@@ -25,7 +25,7 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         CheckForPause();
     }
@@ -35,7 +35,7 @@ public class ButtonManager : MonoBehaviour
         SoundManager.instance.PurchaseSound();
     }
 
-    void CheckForPause()
+    private void CheckForPause()
     {
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
         {
@@ -58,7 +58,7 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    void OpenPauseMenu()
+    private void OpenPauseMenu()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;

@@ -44211,7 +44211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 2112319406}
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 718453814}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   npcName: Beth
   used: 0
@@ -44329,6 +44329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
+--- !u!1 &718453814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4238866269011188426, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
+  m_PrefabInstance: {fileID: 718453813}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &771653359
 GameObject:
   m_ObjectHideFlags: 0
@@ -45166,7 +45171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 2112319406}
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 718453814}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   npcName: Pete Jr
   used: 0

@@ -32,7 +32,7 @@ public class Weather : MonoBehaviour
         }
     }
 
-    IEnumerator Loop()
+    private IEnumerator Loop()
     {
         yield return new WaitForSeconds(3f);
         SoundManager.instance.ThunderSound();

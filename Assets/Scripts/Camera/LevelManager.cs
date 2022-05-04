@@ -17,33 +17,31 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private List<string> gameTips, jokes, controlInfo = new List<string>();
     
-    void Awake()
+    private void Awake()
     {
         anim = gameObject.GetComponent<Animator>();
     }
 
-    void Start()
+    private void Start()
     {
-        if (SceneManager.GetActiveScene().name == "Loading")
+        if (SceneManager.GetActiveScene().name != "Loading") return;
+        var decision = Random.Range(0, 2);
+
+        switch (decision)
         {
-            int decision = Random.Range(0, 2);
-
-            switch (decision)
-            {
-                case 0:
-                    message = jokes[Random.Range(0, jokes.Count)];
-                    break;
-                case 1:
-                    message = gameTips[Random.Range(0, gameTips.Count)];
-                    break;
-                case 2:
-                    message = controlInfo[Random.Range(0, controlInfo.Count)];
-                    break;
-            }
-            tip.text = message;
-
-            StartCoroutine(Initialize());
+            case 0:
+                message = jokes[Random.Range(0, jokes.Count)];
+                break;
+            case 1:
+                message = gameTips[Random.Range(0, gameTips.Count)];
+                break;
+            case 2:
+                message = controlInfo[Random.Range(0, controlInfo.Count)];
+                break;
         }
+        tip.text = message;
+
+        StartCoroutine(Initialize());
     }
 
     public void LoadLevel(int buildIndex)
@@ -51,9 +49,9 @@ public class LevelManager : MonoBehaviour
         StartCoroutine(LoadAsync(buildIndex));
     }
 
-    public IEnumerator LoadAsync(int buildIndex)
+    private IEnumerator LoadAsync(int buildIndex)
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(buildIndex);
+        var operation = SceneManager.LoadSceneAsync(buildIndex);
 
         loadingScreen.SetActive(true);
 
@@ -72,7 +70,7 @@ public class LevelManager : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator Initialize()
+    private IEnumerator Initialize()
     {
         yield return new WaitForSeconds(2f);
         LoadLevel(1);

@@ -7,19 +7,19 @@ public class Light : MonoBehaviour
     public Volume volume;
     public int hour;
 
-    void Start()
+    private void Start()
     {
         volume = gameObject.GetComponent<Volume>();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         UpdateLight();
     }
 
-    void UpdateLight()
+    private void UpdateLight()
     {
-        DateTime time = DateTime.Now;
+        var time = DateTime.Now;
         hour = time.Hour;
 
         if (hour >= 15 && hour < 18) // 3pm - 6pm

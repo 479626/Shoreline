@@ -8,21 +8,23 @@ public class PlayerMovement : MonoBehaviour
     public PlayerStats stats;
     public VectorValue startingPosition;
     private static GameObject player;
-    Vector2 movement;
+    private Vector2 movement;
+    private DialogueManager dialogueManager;
 
-    void Start()
+    private void Start()
     {
+        dialogueManager = FindObjectOfType<DialogueManager>();
         transform.position = startingPosition.initialValue;
     }
 
-    void Update()
+    private void Update()
     {
         MoveLogic();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
     }
 
     public void PlayWalkSound()
@@ -30,10 +32,10 @@ public class PlayerMovement : MonoBehaviour
         SoundManager.instance.WalkSound();
     }
 
-    void MoveLogic()
+    private void MoveLogic()
     {
         speed = 3.5f + stats.speedModifier;
-        if (Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
+        if (Time.timeScale != 0f && !dialogueManager.dialogueInProgress)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
@@ -42,13 +44,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Speed", movement.sqrMagnitude);
         }
+
+        if (!dialogueManager.dialogueInProgress) return;
         
-        if (FindObjectOfType<DialogueManager>().dialogueInProgress)
-        {
-            animator.SetFloat("Speed", 0);
-            movement.x = 0;
-            movement.y = 0;
-        }
+        animator.SetFloat("Speed", 0);
+        movement.x = 0;
+        movement.y = 0;
     }
 
 }

@@ -10,7 +10,7 @@ public class Crab : MonoBehaviour
     public bool dead = false;
     private Rigidbody2D rb;
 
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
@@ -18,22 +18,18 @@ public class Crab : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    void Update()
+    private void Update()
     {
-        if (currentHealth < 0)
-        {
-            dead = true;
-            StartCoroutine(Die());
-        }
+        CheckForDeath();
     }
 
-    IEnumerator Die()
+    private IEnumerator Die()
     {
         animator.SetTrigger("death");
         yield return new WaitForSeconds(0.25f);
         dropManager.SpawnCoin("Coin (Crab)", transform.position.x, transform.position.y);
         Destroy(gameObject);
-        yield break;
+        yield return null;
     }
 
     public void TakeDamage(int damage)
@@ -41,5 +37,13 @@ public class Crab : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+    }
+
+    private void CheckForDeath()
+    {
+        if (currentHealth >= 0) return;
+        
+        dead = true;
+        StartCoroutine(Die());
     }
 }

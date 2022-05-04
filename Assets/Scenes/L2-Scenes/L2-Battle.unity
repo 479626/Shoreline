@@ -5473,7 +5473,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &378943318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5986,7 +5986,6 @@ Transform:
   m_Children:
   - {fileID: 1376788536}
   - {fileID: 378943316}
-  - {fileID: 725979832}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6041,7 +6040,7 @@ MonoBehaviour:
   dead: 0
   maxHealth: 100
   currentHealth: 0
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 867988994}
   healthBar: {fileID: 1437903298}
 --- !u!61 &650784238
 BoxCollider2D:
@@ -6069,90 +6068,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.20329177, y: 0.25556552}
   m_EdgeRadius: 0
---- !u!1 &725979831
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 725979832}
-  - component: {fileID: 725979835}
-  - component: {fileID: 725979834}
-  - component: {fileID: 725979833}
-  m_Layer: 14
-  m_Name: No Collision
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &725979832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725979831}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 650784235}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725979833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725979831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf4a06c045d7fc1418db93dbe24fe89b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectCollider: {fileID: 650784238}
-  noCollisionZone: {fileID: 725979834}
---- !u!70 &725979834
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725979831}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0054935617, y: 0.012464683}
-  m_Size: {x: 0.2472965, y: 0.45596513}
-  m_Direction: 0
---- !u!50 &725979835
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725979831}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &867988994
 GameObject:
   m_ObjectHideFlags: 0
@@ -6223,7 +6138,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &867988998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7198,7 +7113,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &1094507629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9867,7 +9782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.8018868, g: 0.7353227, b: 0.6770648, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -38393,90 +38308,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1812355273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1812355274}
-  - component: {fileID: 1812355277}
-  - component: {fileID: 1812355276}
-  - component: {fileID: 1812355275}
-  m_Layer: 14
-  m_Name: No Collision
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1812355274
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812355273}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3260757876911875166}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1812355275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812355273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf4a06c045d7fc1418db93dbe24fe89b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectCollider: {fileID: 3260757876911875152}
-  noCollisionZone: {fileID: 1812355276}
---- !u!70 &1812355276
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812355273}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0054935617, y: 0.012464683}
-  m_Size: {x: 0.2472965, y: 0.45596513}
-  m_Direction: 0
---- !u!50 &1812355277
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812355273}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1943405543
 GameObject:
   m_ObjectHideFlags: 0
@@ -40888,7 +40719,9 @@ MonoBehaviour:
   dialogueOne:
     portrait: {fileID: 0}
     name: Warrior
-    sentences: []
+    sentences:
+    - Test
+    - Test 2
   dialogueTwo:
     portrait: {fileID: 0}
     name: Warrior
@@ -40959,7 +40792,6 @@ GameObject:
   - component: {fileID: 3260757876911875164}
   - component: {fileID: 3260757876911875153}
   - component: {fileID: 3260757876911875152}
-  - component: {fileID: 3260757876911875169}
   - component: {fileID: 3260757876911875157}
   m_Layer: 9
   m_Name: Warrior
@@ -40981,7 +40813,6 @@ Transform:
   m_Children:
   - {fileID: 1094507631}
   - {fileID: 358538212}
-  - {fileID: 1812355274}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -41050,30 +40881,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelScene: 8
-  maxHealth: 200
+  maxHealth: 1
   currentHealth: 0
   damage: 10
   dialogueManager: {fileID: 51571725}
+  dialogueInteraction: {fileID: 3260757876911875165}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 611983564}
   animator: {fileID: 3260757876911875164}
   dead: 0
---- !u!58 &3260757876911875169
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3260757876911875165}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.6
 --- !u!114 &3260757876911875170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41092,13 +40908,9 @@ MonoBehaviour:
   player: {fileID: 650784232}
   defaultSpeed: 0.75
   rb: {fileID: 3260757876911875157}
-  enemyName: Warrior
   damageRange: {fileID: 358538212}
   attackRange: 1.25
   nextAttackTime: 0
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
   minDamage: 7
   maxDamage: 14
   maxRange: 4

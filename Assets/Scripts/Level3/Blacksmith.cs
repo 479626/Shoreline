@@ -25,7 +25,7 @@ public class Blacksmith : MonoBehaviour
     [Header("NPC")]
     public Animator blacksmithAnim;
 
-    void Awake()
+    private void Awake()
     {
         shoeButton.GetComponent<Button>().Select();
         stats.discoverBlacksmith = true;

@@ -14,7 +14,7 @@ public class SoundManager : MonoBehaviour
     public const string SFX_KEY = "SFXVolume";
     public const string MASTER_KEY = "MasterVolume";
 
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
@@ -28,7 +28,7 @@ public class SoundManager : MonoBehaviour
         LoadVolume();
     }
 
-    void LoadVolume()
+    private void LoadVolume()
     {
         float musicVolume = PlayerPrefs.GetFloat(MUSIC_KEY, 0.5f);
         float sfxVolume = PlayerPrefs.GetFloat(SFX_KEY, 0.5f);
@@ -79,25 +79,11 @@ public class SoundManager : MonoBehaviour
         maleSpeechSource.PlayOneShot(clip);
     }
 
-    public void FemaleSpeechSound()
-    {
-        AudioClip clip = femaleSpeechClips[Random.Range(0, femaleSpeechClips.Count)];
-
-        femaleSpeechSource.PlayOneShot(clip);
-    }
-
     public void DoorSound()
     {
         AudioClip clip = doorClips[Random.Range(0, doorClips.Count)];
 
         doorSource.PlayOneShot(clip);
-    }
-
-    public void ClickSound()
-    {
-        AudioClip clip = clickClips[Random.Range(0, clickClips.Count)];
-
-        clickSource.PlayOneShot(clip);
     }
 
     public void ThunderSound()

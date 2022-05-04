@@ -6,7 +6,7 @@ public class Restart : MonoBehaviour
     public Animator animator;
     public GameObject background;
 
-    void Start()
+    private void Start()
     {
         animator.SetBool("on", false);
     }

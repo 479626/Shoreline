@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Skeleton : MonoBehaviour
@@ -11,7 +10,7 @@ public class Skeleton : MonoBehaviour
     public bool dead = false;
     private Rigidbody2D rb;
 
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
@@ -19,16 +18,12 @@ public class Skeleton : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    void Update()
+    private void Update()
     {
-        if (currentHealth < 0)
-        {
-            dead = true;
-            StartCoroutine(Die());
-        }
+        CheckForDeath();
     }
 
-    IEnumerator Die()
+    private IEnumerator Die()
     {
         animator.SetBool("death", true);
         yield return new WaitForSeconds(1.4f);
@@ -37,7 +32,7 @@ public class Skeleton : MonoBehaviour
             dropManager.SpawnCoin("Coin (Skeleton)", transform.position.x, transform.position.y);
         }
         Destroy(gameObject);
-        yield break;
+        yield return null;
     }
 
     public void TakeDamage(int damage)
@@ -45,5 +40,13 @@ public class Skeleton : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+    }
+    
+    private void CheckForDeath()
+    {
+        if (currentHealth >= 0) return;
+        
+        dead = true;
+        StartCoroutine(Die());
     }
 }

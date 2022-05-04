@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private GameObject typeOne, typeTwo, typeThree;
     [SerializeField] private float oneSpawnRate, twoSpawnRate, threeSpawnRate;
 
-    void Start()
+    private void Start()
     {
         if (enableOne)
         {
@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    IEnumerator spawnMobs(float spawnRate, GameObject mob)
+    private IEnumerator spawnMobs(float spawnRate, GameObject mob)
     {
         var waitTime = new WaitForSeconds(selfDestructTime); 
         if (canSpawnMobs)

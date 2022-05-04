@@ -16,13 +16,13 @@ public class ButtonScript : MonoBehaviour
 
     public float transitionTime = 1f;
 
-    void Start()
+    private void Start()
     {
         startButtons[0].Select();
         StartCoroutine(CheckPlayerPrefs());
     }
 
-    IEnumerator CheckPlayerPrefs()
+    private IEnumerator CheckPlayerPrefs()
     {
         yield return new WaitForSeconds(.1f);
         PlayerPrefs.GetInt("fullscreen", 1);

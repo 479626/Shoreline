@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class LevelOneLock : MonoBehaviour
 {
-    bool triggerDialogue;
+    private bool triggerDialogue;
 
-    void Start()
+    private void Start()
     {
         triggerDialogue = false;
     }
 
-    void Update()
+    private void Update()
     {
         CheckForDialogue();
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
@@ -22,13 +22,12 @@ public class LevelOneLock : MonoBehaviour
         }
     }
 
-    void CheckForDialogue()
+    private void CheckForDialogue()
     {
-        if (triggerDialogue)
-        {
-            DialogueInteraction trigger = gameObject.GetComponent<DialogueInteraction>();
-            trigger.TriggerDialogue(1);
-            triggerDialogue = false;
-        }
+        if (!triggerDialogue) return;
+        
+        var trigger = gameObject.GetComponent<DialogueInteraction>();
+        trigger.TriggerDialogue(1);
+        triggerDialogue = false;
     }
 }

@@ -4,7 +4,7 @@ public class LevelThreePlayer : MonoBehaviour
 {
     public PlayerStats stats;
 
-    void Awake()
+    private void Awake()
     {
         stats.currentLevel = 3;       
     }

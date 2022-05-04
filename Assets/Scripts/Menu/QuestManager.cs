@@ -85,7 +85,6 @@ public class QuestManager : MonoBehaviour
 
     public IEnumerator AwardQuest(string quest, string reward)
     {
-        Debug.Log("Player was awarded from: " + quest + " [" + reward + "]");
         questText.text = quest;
         rewardText.text = reward;
         anim.SetBool("open", true);
@@ -124,7 +123,6 @@ public class QuestManager : MonoBehaviour
 
     public void ClearQuestProgression()
     {
-        Debug.Log("Clearing all progress");
         progress.crabKills = 0;
         progress.discoverBlacksmith = 0;
         progress.defeatWarrior = 0;
@@ -155,16 +153,15 @@ public class QuestManager : MonoBehaviour
 
     void CheckForQuests()
     {
-        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Q))
+        if (SceneManager.GetActiveScene().name == "User-Interface" || !Input.GetKeyDown(KeyCode.Q)) return;
+        
+        if (quests)
         {
-            if (quests)
-            {
-                Resume();
-            }
-            else if (!gamePaused && Time.timeScale != 0)
-            {
-                OpenQuestMenu();
-            }
+            Resume();
+        }
+        else if (!gamePaused && Time.timeScale != 0)
+        {
+            OpenQuestMenu();
         }
     }
 
@@ -176,7 +173,7 @@ public class QuestManager : MonoBehaviour
         quests = true;
     }
 
-    public void Resume()
+    private void Resume()
     {
         if (gamePaused)
         {

@@ -9,7 +9,7 @@ public class SceneTransition : MonoBehaviour
     public VectorValue playerStorage;
     public Interaction interaction;
 
-    void MovePlayer()
+    private void MovePlayer()
     {
         SoundManager.instance.DoorSound();
         playerStorage.initialValue = playerPos;
@@ -20,17 +20,16 @@ public class SceneTransition : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D col)
     {
-        if (col.CompareTag("Player") && !col.isTrigger)
+        if (!col.CompareTag("Player") || col.isTrigger) return;
+        
+        interaction.InteractOn();
+        if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 8)
         {
-            interaction.InteractOn();
-            if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 8)
-            {
-                anim.SetBool("Open", true);
-            }
-            if (Input.GetKey(KeyCode.F))
-            {
-                MovePlayer();
-            }
+            anim.SetBool("Open", true);
+        }
+        if (Input.GetKey(KeyCode.F))
+        {
+            MovePlayer();
         }
     }
 

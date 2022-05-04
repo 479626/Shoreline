@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class LevelOneWarrior : MonoBehaviour
 {
     public Interaction interaction;
-    bool triggerDialogue, interactionThreshold, finalMessage;
+    private bool triggerDialogue, interactionThreshold, finalMessage;
     public GameObject dialogueManager;
     public int nextLevelScene;
     public InteractionCounter count;
@@ -13,8 +13,10 @@ public class LevelOneWarrior : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Recognised Level 1 and saved progress");
-        stats.currentLevel = 1;
+        if (SceneManager.GetActiveScene().name == "L1-Town")
+        {
+            stats.currentLevel = 1;
+        }
     }
 
 
@@ -42,25 +44,21 @@ public class LevelOneWarrior : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
-        {
-            interaction.InteractOn();
-            triggerDialogue = true;
+        if (!col.CompareTag("Player")) return;
+        interaction.InteractOn();
+        triggerDialogue = true;
 
-            if (interactionThreshold)
-            {
-                interaction.InteractOn();
-            }
+        if (interactionThreshold)
+        { 
+            interaction.InteractOn();
         }
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
-        if (col.CompareTag("Player"))
-        {
-            interaction.InteractOff();
-            triggerDialogue = false;
-        }
+        if (!col.CompareTag("Player")) return;
+        interaction.InteractOff();
+        triggerDialogue = false;
     }
 
     void CheckForDialogue()

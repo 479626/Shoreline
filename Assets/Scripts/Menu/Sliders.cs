@@ -12,29 +12,29 @@ public class Sliders : MonoBehaviour
     public const string SFX = "SFXVolume";
     public const string MASTER = "MasterVolume";
 
-    void Awake()
+    private void Awake()
     {
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
-        effectsSlider.onValueChanged.AddListener(SetSFXVolume);
+        effectsSlider.onValueChanged.AddListener(SetSfxVolume);
     }
 
-    void Start()
+    private void Start()
     {
         musicSlider.value = PlayerPrefs.GetFloat(SoundManager.MUSIC_KEY, 0.5f);
         effectsSlider.value = PlayerPrefs.GetFloat(SoundManager.SFX_KEY, 0.5f);
     }
 
-    void SetMusicVolume(float valueMusic)
+    private void SetMusicVolume(float valueMusic)
     {
         mixer.SetFloat(MUSIC, Mathf.Log10(valueMusic) * 20);
     }
 
-    void SetSFXVolume(float valueSFX)
+    private void SetSfxVolume(float valueSFX)
     {
         mixer.SetFloat(SFX, Mathf.Log10(valueSFX) * 20);
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         PlayerPrefs.SetFloat(SoundManager.MUSIC_KEY, musicSlider.value);
         PlayerPrefs.SetFloat(SoundManager.SFX_KEY, effectsSlider.value);
