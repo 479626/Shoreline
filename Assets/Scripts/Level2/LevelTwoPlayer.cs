@@ -1,6 +1,8 @@
 using System.Collections;
+using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelTwoPlayer : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class LevelTwoPlayer : MonoBehaviour
     public PlayerStats stats;
     public Rigidbody2D rb;
     public Animator animator;
-    Vector2 movement;
+    private Vector2 movement;
 
     [Header("Combat")]
     public float attackRange = 0.5f;
@@ -22,6 +24,7 @@ public class LevelTwoPlayer : MonoBehaviour
     public GameObject enemy;
     public Transform range;
     public LayerMask enemyLayer;
+    public DamageIndicator damageIndicator;
 
     [Header("Health")]
     public bool dead = false;
@@ -29,14 +32,14 @@ public class LevelTwoPlayer : MonoBehaviour
     public GameObject deathEffect;
     public HealthBar healthBar;
 
-    void Start()
+    private void Start()
     {
         FindObjectOfType<DialogueManager>().dialogueInProgress = false;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    void Update()
+    private void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -61,7 +64,7 @@ public class LevelTwoPlayer : MonoBehaviour
         }
     }
 
-    IEnumerator Death()
+    private IEnumerator Death()
     {
         speed = 0f;
         dead = true;
@@ -71,7 +74,7 @@ public class LevelTwoPlayer : MonoBehaviour
         yield break;
     }
 
-    void MoveLogic()
+    private void MoveLogic()
     {
         if (!dead && !attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
@@ -91,13 +94,16 @@ public class LevelTwoPlayer : MonoBehaviour
         }
     }
 
-    void Attack()
+    private void Attack()
     {
         int damage = Random.Range(minDamage, maxDamage) + stats.damageBonus;
         StartCoroutine(Attacking());
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(range.position, attackRange, enemyLayer);
         foreach (Collider2D enemy in hitEnemies)
         {
+            damageIndicator.DamageIndication(damage);
+            
+            Debug.Log(damage);
             if (SceneManager.GetActiveScene().name == "L2-Battle")
             {
                 enemy.GetComponent<LevelTwoWarrior>().TakeDamage(damage);
@@ -116,7 +122,7 @@ public class LevelTwoPlayer : MonoBehaviour
         }
     }
 
-    IEnumerator Attacking()
+    private IEnumerator Attacking()
     {
         attacking = true;
         animator.SetTrigger("Attack");
@@ -133,7 +139,7 @@ public class LevelTwoPlayer : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-    void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         if (range == null)
         {
