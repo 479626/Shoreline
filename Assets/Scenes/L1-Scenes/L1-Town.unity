@@ -23754,8 +23754,8 @@ MonoBehaviour:
     - '*Let out a lighthearted chuckle*'
     - By now I'm sure you've learned that this town has a pirate problem...
     - '*Paused, looking you up and down*'
-    - You look incredibly strong, why don't challenge me to a duel and we'll see
-      about enlisting you in the town's army.
+    - You look incredibly strong, why don't we do a duel?
+    - If you can defeat me, you mnight be able to help us fight the pirates!
   dialogueThree:
     portrait: {fileID: 0}
     name: 
@@ -23800,7 +23800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interaction: {fileID: 1496432166}
   dialogueManager: {fileID: 1199900125}
-  nextLevelScene: 7
+  nextLevelScene: 15
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
 --- !u!61 &879626203

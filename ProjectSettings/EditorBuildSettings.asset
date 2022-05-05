@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Blacksmith.unity
     guid: 583dcc3207807554f9b566d2dc5a64ab
+  - enabled: 1
+    path: Assets/Scenes/L2-Scenes/Battle-Cutscene.unity
+    guid: b9ac0c3d0e945854185ef4f42ef51309
   m_configObjects: {}
