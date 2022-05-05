@@ -9,13 +9,14 @@ public class ButtonManager : MonoBehaviour
 {
     public static ButtonManager instance;
 
-    [SerializeField] private bool vsync, fullscreen, muted;
     [SerializeField] private List<Button> startButtons = new List<Button>();
     [SerializeField] private List<Text> settingsButtonText = new List<Text>();
     [SerializeField] private List<GameObject> menuObjects = new List<GameObject>();
     [SerializeField] private AudioMixer mixer;
+
+    private bool vsync, fullscreen, muted;
+    private bool settingsMenuOpen, soundsMenuOpen, optionsMenuOpen, mainMenuOpen, controlsMenuOpen;
     public static bool gamePaused;
-    private bool settingsMenuOpen, soundsMenuOpen, optionsMenuOpen, mainMenuOpen;
 
     private void Awake()
     {
@@ -127,6 +128,14 @@ public class ButtonManager : MonoBehaviour
                 }
             }
 
+            if (controlsMenuOpen)
+            {
+                if (Input.GetKey(KeyCode.Escape))
+                {
+                    OnControlsExit();
+                }
+            }
+
             if (soundsMenuOpen)
             {
                 if (Input.GetKey(KeyCode.Escape))
@@ -157,6 +166,21 @@ public class ButtonManager : MonoBehaviour
     }
 
     #region Button Methods
+
+    public void OnControlsButton()
+    {
+        controlsMenuOpen = true;
+        menuObjects[2].SetActive(false);
+        menuObjects[4].SetActive(true);
+        startButtons[4].Select();
+    }
+    public void OnControlsExit()
+    {
+        controlsMenuOpen = false;
+        menuObjects[4].SetActive(false);
+        menuObjects[2].SetActive(true);
+        startButtons[2].Select();
+    }
 
     public void OnSettingsButton()
     {

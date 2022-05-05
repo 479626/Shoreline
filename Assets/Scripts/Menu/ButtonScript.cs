@@ -6,7 +6,6 @@ using System.Collections;
 
 public class ButtonScript : MonoBehaviour
 {
-    [SerializeField] private bool vsync, fullscreen, muted;
     [SerializeField] private List<Button> startButtons = new List<Button>();
     [SerializeField] private List<Text> settingsButtonText = new List<Text>();
     [SerializeField] private List<GameObject> menuObjects = new List<GameObject>();
@@ -14,6 +13,7 @@ public class ButtonScript : MonoBehaviour
     [SerializeField] private PlayerStats stats;
     [SerializeField] private AudioMixer mixer;
 
+    private bool vsync, fullscreen, muted;
     public float transitionTime = 1f;
 
     private void Start()
@@ -92,6 +92,19 @@ public class ButtonScript : MonoBehaviour
     public void OnQuitButton()
     {
         Application.Quit();
+    }
+
+    public void OnControlsButton()
+    {
+        menuObjects[2].SetActive(false);
+        menuObjects[4].SetActive(true);
+        startButtons[4].Select();
+    }
+    public void OnControlsExit()
+    {
+        menuObjects[4].SetActive(false);
+        menuObjects[2].SetActive(true);
+        startButtons[2].Select();
     }
 
     public void OnSettingsButton()
