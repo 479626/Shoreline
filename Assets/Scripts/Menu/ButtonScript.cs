@@ -6,12 +6,12 @@ using System.Collections;
 
 public class ButtonScript : MonoBehaviour
 {
-    public bool vsync, fullscreen, muted;
-    public List<Button> startButtons = new List<Button>();
-    public List<Text> settingsButtonText = new List<Text>();
-    public List<GameObject> menuObjects = new List<GameObject>();
-    public InteractionCounter count;
-    public PlayerStats stats;
+    [SerializeField] private bool vsync, fullscreen, muted;
+    [SerializeField] private List<Button> startButtons = new List<Button>();
+    [SerializeField] private List<Text> settingsButtonText = new List<Text>();
+    [SerializeField] private List<GameObject> menuObjects = new List<GameObject>();
+    [SerializeField] private InteractionCounter count;
+    [SerializeField] private PlayerStats stats;
     [SerializeField] private AudioMixer mixer;
 
     public float transitionTime = 1f;
@@ -22,13 +22,15 @@ public class ButtonScript : MonoBehaviour
         StartCoroutine(CheckPlayerPrefs());
     }
 
-    private IEnumerator CheckPlayerPrefs()
+    public IEnumerator CheckPlayerPrefs()
     {
-        yield return new WaitForSeconds(.1f);
+        var waitTime = new WaitForSeconds(.1f);
+
+        yield return waitTime;
         PlayerPrefs.GetInt("fullscreen", 1);
         PlayerPrefs.GetInt("vsync", 0);
         PlayerPrefs.DeleteKey("muted");
-        yield return new WaitForSeconds(.1f);
+        yield return waitTime;
         PlayerPrefs.GetInt("mute", 0);
         CheckSettings();
         yield return null;
@@ -108,6 +110,7 @@ public class ButtonScript : MonoBehaviour
 
     public void OnOptionsButton()
     {
+        StartCoroutine(CheckPlayerPrefs());
         menuObjects[1].SetActive(false);
         menuObjects[2].SetActive(true);
         startButtons[2].Select();
@@ -186,11 +189,7 @@ public class ButtonScript : MonoBehaviour
             settingsButtonText[2].color = Color.red;
             settingsButtonText[2].text = "Off";
             muted = false;
-            float musicVolume = PlayerPrefs.GetFloat(SoundManager.MUSIC_KEY, 0.5f);
-            float sfxVolume = PlayerPrefs.GetFloat(SoundManager.SFX_KEY, 0.5f);
-
-            mixer.SetFloat(Sliders.MUSIC, Mathf.Log10(musicVolume) * 20);
-            mixer.SetFloat(Sliders.SFX, Mathf.Log10(sfxVolume) * 20);
+            mixer.SetFloat(Sliders.MASTER, 1f);
             PlayerPrefs.SetInt("muted", 0);
         }
         else
@@ -198,8 +197,7 @@ public class ButtonScript : MonoBehaviour
             settingsButtonText[2].color = Color.green;
             settingsButtonText[2].text = "On";
             muted = true;
-            mixer.SetFloat(Sliders.MUSIC, -80f);
-            mixer.SetFloat(Sliders.SFX, -80f);
+            mixer.SetFloat(Sliders.MASTER, -80f);
             PlayerPrefs.SetInt("muted", 1);
         }
         Debug.Log("Mute set [" + muted + "]");
