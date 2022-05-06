@@ -29760,7 +29760,10 @@ MonoBehaviour:
     - He has given me hope that we'll fight these pirates.
     - Skeleton Cove belongs to the people.
   dialogueManager: {fileID: 181126892}
+  playerPos: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   hasDialogue: 1
+  hasTeleportLocation: 0
   dialogueInProgress: 0
   cutsceneDialogueStart: 7.45
   nextSceneIndex: 8

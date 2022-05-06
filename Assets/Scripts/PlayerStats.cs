@@ -7,7 +7,7 @@ public class PlayerStats : ScriptableObject
     public int coins, damageBonus;
     public int currentLevel;
     public string swordType, bootType;
-    public bool greedy, discoverBlacksmith, defeatedWarrior;
+    public bool greedy, discoverBlacksmith, defeatedWarrior, seenLevelOneCutscene;
 
     private void OnEnable()
     {

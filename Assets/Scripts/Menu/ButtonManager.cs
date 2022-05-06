@@ -105,7 +105,6 @@ public class ButtonManager : MonoBehaviour
 
     private void CheckForPause()
     {
-        Debug.Log(settingsMenuOpen);
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
         {
             if (settingsMenuOpen && !mainMenuOpen)

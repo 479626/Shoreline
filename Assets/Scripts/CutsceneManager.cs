@@ -6,7 +6,10 @@ public class CutsceneManager : MonoBehaviour
     [Header("Dialogue")]
     public Dialogue cutsceneDialogue;
     public GameObject dialogueManager;
-    [SerializeField] private bool hasDialogue, dialogueInProgress;
+    public Vector2 playerPos;
+    public VectorValue playerStorage;
+    [SerializeField] private bool hasDialogue, hasTeleportLocation, dialogueInProgress;
+    private bool finishedDialogue;
     [SerializeField] float cutsceneDialogueStart;
 
     [Header("Cutscene Transition")]
@@ -23,15 +26,32 @@ public class CutsceneManager : MonoBehaviour
             CheckForDialogue();
         }
         
-        if (cutsceneLength <= 0 && dialogueManager.GetComponent<DialogueManager>().finishedDialogue)
+        if (cutsceneLength <= 0)
         {
-            SceneManager.LoadScene(nextSceneIndex);
+            if (hasDialogue) return;
+
+            if (hasTeleportLocation)
+            {
+                MovePlayer();
+            }
+            else
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+            }
         }
     }
 
+    private void MovePlayer()
+    {
+        playerStorage.initialValue = playerPos;
+        SceneManager.LoadScene(nextSceneIndex);
+    }
+
+    //dialogueManager.GetComponent<DialogueManager>().finishedDialogue
     private void CheckForDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(cutsceneDialogue);
         hasDialogue = false;
+        finishedDialogue = true;
     }
 }

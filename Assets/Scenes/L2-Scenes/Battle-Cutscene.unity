@@ -35475,7 +35475,10 @@ MonoBehaviour:
     - I'm going to go easy on you, so you better prove to me that you're worthy of
       defending the Cove.
   dialogueManager: {fileID: 1380080776}
+  playerPos: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   hasDialogue: 1
+  hasTeleportLocation: 0
   dialogueInProgress: 0
   cutsceneDialogueStart: 5
   nextSceneIndex: 7
