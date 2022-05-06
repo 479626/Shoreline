@@ -24,51 +24,51 @@ public class Light : MonoBehaviour
         var time = DateTime.Now;
         hour = time.Hour;
 
-        if (hour >= 15 && hour < 18) // 3pm - 6pm
+        if (hour >= 15 && hour < 18)
         {
             volume.weight = 0.25f;
         }
-        if (hour >= 19 && hour < 20) // 7pm - 8pm
+        if (hour >= 19 && hour < 20)
         {
             volume.weight = 0.5f;
         }
-        if (hour >= 21 && hour < 22) // 9pm - 10pm
+        if (hour >= 21 && hour < 22)
         {
             volume.weight = 0.75f;
         }
-        if (hour >= 22 && hour < 23) // 10pm - 11pm
+        if (hour >= 22 && hour < 23)
         {
             volume.weight = 0.8f;
         }
-        if (hour == 23) // 11pm
+        if (hour == 23)
         {
             volume.weight = 0.9f;
         }
-        if (hour >= 0 && hour < 2) // 12am - 2am
+        if (hour >= 0 && hour < 2)
         {
             volume.weight = 1f;
         }
-        if (hour == 3) // 3am
+        if (hour == 3)
         {
             volume.weight = 0.9f;
         }
-        if (hour == 4) // 4am
+        if (hour == 4)
         {
             volume.weight = 0.8f;
         }
-        if (hour == 5) // 5am
+        if (hour == 5)
         {
             volume.weight = 0.7f;
         }
-        if (hour == 6) // 6am
+        if (hour == 6)
         {
             volume.weight = 0.5f;
         }
-        if (hour == 7) // 7am
+        if (hour == 7)
         {
             volume.weight = 0.25f;
         }
-        if (hour >= 8 && hour < 14) // 8am - 2pm
+        if (hour >= 8 && hour < 14)
         {
             volume.weight = 0f;
         }
