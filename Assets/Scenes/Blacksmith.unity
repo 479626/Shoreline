@@ -1009,7 +1009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -44.4}
+  m_AnchoredPosition: {x: 0, y: -50.9}
   m_SizeDelta: {x: 301.1902, y: 35.9657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217719364
@@ -4193,8 +4193,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: de97284fa62b9314a9cca983e0666184, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -4205,7 +4205,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Purchase for: xx'
+  m_Text: 'Purchase for: 10'
 --- !u!222 &2118463950
 CanvasRenderer:
   m_ObjectHideFlags: 0
