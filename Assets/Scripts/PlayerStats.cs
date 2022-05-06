@@ -24,6 +24,6 @@ public class PlayerStats : ScriptableObject
         speedModifier = 0;
         damageBonus = 0;
         bootType = "Old Running Shoes";
-        swordType = "Rusty Rapier";
+        swordType = "Rusty Cutlass";
     }
 }

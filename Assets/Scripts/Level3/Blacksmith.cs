@@ -146,16 +146,16 @@ public class Blacksmith : MonoBehaviour
         switch (stats.damageBonus)
         {
             case 5:
-                stats.swordType = "Sharpened Rusty Rapier";
+                stats.swordType = "Sharpened Rusty Cutlass";
                 break;
             case 10:
-                stats.swordType = "Iron Rapier";
+                stats.swordType = "Iron Cutlass";
                 break;
             case 15:
-                stats.swordType = "Sharpened Iron Rapier";
+                stats.swordType = "Sharpened Iron Cutlass";
                 break;
             case 20:
-                stats.swordType = "Damascus Steel Rapier";
+                stats.swordType = "Damascus Steel Cutlass";
                 break;
         }
 
