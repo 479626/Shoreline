@@ -1,5 +1,6 @@
 using System;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Light : MonoBehaviour
@@ -14,6 +15,7 @@ public class Light : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (SceneManager.GetActiveScene().name == "Battle-Cutscene" || SceneManager.GetActiveScene().name == "L2-Battle") return;
         UpdateLight();
     }
 

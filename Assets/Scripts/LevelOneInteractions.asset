@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c6052f123b8014592466f106f1a964, type: 3}
   m_Name: LevelOneInteractions
   m_EditorClassIdentifier: 
-  levelOne: 124
+  levelOne: 0
   levelThree: 0
   npcBeth: 0
   npcPete: 0
