@@ -8,50 +8,72 @@ public class CutsceneManager : MonoBehaviour
     public GameObject dialogueManager;
     public Vector2 playerPos;
     public VectorValue playerStorage;
-    [SerializeField] private bool hasDialogue, hasTeleportLocation, dialogueInProgress;
-    private bool finishedDialogue;
-    [SerializeField] float cutsceneDialogueStart;
+    private DialogueManager _dialogueManager;
+    [SerializeField] private bool hasDialogue, hasSpoken, hasTeleportLocation, dialogueInProgress;
+    [SerializeField] private float cutsceneDialogueStart;
 
     [Header("Cutscene Transition")]
     [SerializeField] private int nextSceneIndex;
     [SerializeField] private float cutsceneLength;
 
+    private void Awake()
+    {
+        hasSpoken = false;
+        _dialogueManager = dialogueManager.GetComponent<DialogueManager>();
+    }
+
     private void Update()
+    {
+        Timer();
+        CheckConditions();
+    }
+
+    private void Timer()
     {
         cutsceneLength -= Time.deltaTime;
         cutsceneDialogueStart -= Time.deltaTime;
-        
-        if (hasDialogue && cutsceneDialogueStart <= 0)
-        {
-            CheckForDialogue();
-        }
-        
-        if (cutsceneLength <= 0)
-        {
-            if (hasDialogue) return;
+    }
 
-            if (hasTeleportLocation)
+    private void CheckConditions()
+    {
+        if (hasDialogue)
+        {
+            if (!hasSpoken)
+            {
+                CheckForDialogue();
+            }
+
+            if (!_dialogueManager.finishedDialogue) return;
+            MovePlayer();
+        }
+        else
+        {
+            if (cutsceneLength <= 0)
             {
                 MovePlayer();
-            }
-            else
-            {
-                SceneManager.LoadScene(nextSceneIndex);
             }
         }
     }
 
     private void MovePlayer()
     {
-        playerStorage.initialValue = playerPos;
-        SceneManager.LoadScene(nextSceneIndex);
+        if (hasTeleportLocation)
+        {
+            playerStorage.initialValue = playerPos;
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
     }
 
-    //dialogueManager.GetComponent<DialogueManager>().finishedDialogue
     private void CheckForDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(cutsceneDialogue);
-        hasDialogue = false;
-        finishedDialogue = true;
+        if (cutsceneDialogueStart <= 0)
+        {
+            hasSpoken = true;
+            _dialogueManager.StartDialogue(cutsceneDialogue);
+        }
     }
 }
