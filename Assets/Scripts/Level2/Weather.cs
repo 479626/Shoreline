@@ -5,19 +5,11 @@ using UnityEngine;
 public class Weather : MonoBehaviour
 {
     public Animator thunder;
-    public GameObject rain;
+    [SerializeField] private GameObject rain;
 
-    void Start()
+    private void Start()
     {
         StartCoroutine(Loop());
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            ToggleRain();
-        }
     }
 
     public void ToggleRain()

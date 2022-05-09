@@ -39,7 +39,12 @@ public class AttackingPlayer : MonoBehaviour
 
     private void Update()
     {
+        CheckForInput();
+        CheckForDeath();
+    }
 
+    private void CheckForInput()
+    {
         if (Input.GetButtonDown("Fire1") && !dead && speed != 0)
         {
             if (Time.time >= nextAttackTime && !FindObjectOfType<DialogueManager>().dialogueInProgress)
@@ -52,7 +57,10 @@ public class AttackingPlayer : MonoBehaviour
         {
             MoveLogic();
         }
+    }
 
+    private void CheckForDeath()
+    {
         if (currentHealth < 0)
         {
             dead = true;

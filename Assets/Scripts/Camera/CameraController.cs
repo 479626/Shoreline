@@ -15,9 +15,14 @@ public class CameraController : MonoBehaviour
 
     private void LateUpdate()
     {
+        MoveCamera();
+    }
+
+    private void MoveCamera()
+    {
         var pos = player.position;
         var position = transform.position;
-        
+
         if (transform.position != player.position)
         {
             var playerPosition = new Vector3(pos.x, pos.y, position.z);

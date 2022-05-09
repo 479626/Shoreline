@@ -20,6 +20,11 @@ public class Seagull : MonoBehaviour
 
     private void Update()
     {
+        MoveSeagull();
+    }
+
+    private void MoveSeagull()
+    {
         rb.velocity = velocity;
     }
 

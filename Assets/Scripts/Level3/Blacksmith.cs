@@ -34,6 +34,11 @@ public class Blacksmith : MonoBehaviour
 
     private void Update()
     {
+        UpdateMenuValues();
+    }
+
+    private void UpdateMenuValues()
+    {
         upgradePercentage.text = "Upgraded: " + percentage + "%";
         buttonText.text = "Buy for: " + currentPrice;
     }

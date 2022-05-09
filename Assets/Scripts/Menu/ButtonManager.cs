@@ -50,7 +50,6 @@ public class ButtonManager : MonoBehaviour
 
     public void CheckSettings()
     {
-        // Check for current vsync
         if (PlayerPrefs.GetInt("vsync") == 0)
         {
             vsync = false;
@@ -64,7 +63,6 @@ public class ButtonManager : MonoBehaviour
             settingsButtonText[0].text = "On";
         }
 
-        // Check for muted audio
         if (PlayerPrefs.GetInt("mute") == 0)
         {
             muted = false;
@@ -78,7 +76,6 @@ public class ButtonManager : MonoBehaviour
             settingsButtonText[2].text = "On";
         }
 
-        // Check for current fullscreen
         if (PlayerPrefs.GetInt("fullscreen") == 0)
         {
             fullscreen = false;

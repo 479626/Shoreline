@@ -25,6 +25,11 @@ public class NpcController : MonoBehaviour
 
     private void Update()
     {
+        ArtificialIntelligence();
+    }
+
+    private void ArtificialIntelligence()
+    {
         if (isWalking && !playerIsNear)
         {
             walkCounter -= Time.deltaTime;

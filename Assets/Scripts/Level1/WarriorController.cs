@@ -10,7 +10,7 @@ public class WarriorController : MonoBehaviour
     public InteractionCounter count;
     public PlayerStats stats;
 
-    void Awake()
+    private void Awake()
     {
         if (SceneManager.GetActiveScene().name == "L1-Town")
         {
@@ -19,7 +19,7 @@ public class WarriorController : MonoBehaviour
     }
 
 
-    void Start()
+    private void Start()
     {
         triggerDialogue = false;
         interactionThreshold = false;
@@ -27,9 +27,14 @@ public class WarriorController : MonoBehaviour
         dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
     }
 
-    void Update()
+    private void Update()
     {
         CheckForDialogue();
+        MovePlayer();
+    }
+
+    private void MovePlayer()
+    {
         if (finalMessage && dialogueManager.GetComponent<DialogueManager>().finishedDialogue == true)
         {
             SceneManager.LoadScene(nextLevelScene);
@@ -41,7 +46,7 @@ public class WarriorController : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (!col.CompareTag("Player")) return;
         interaction.InteractOn();
@@ -53,14 +58,14 @@ public class WarriorController : MonoBehaviour
         }
     }
 
-    void OnTriggerExit2D(Collider2D col)
+    private void OnTriggerExit2D(Collider2D col)
     {
         if (!col.CompareTag("Player")) return;
         interaction.InteractOff();
         triggerDialogue = false;
     }
 
-    void CheckForDialogue()
+    private void CheckForDialogue()
     {
         if (triggerDialogue && Input.GetKey(KeyCode.F))
         {

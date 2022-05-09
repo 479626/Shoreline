@@ -30,7 +30,11 @@ public class HudManager : MonoBehaviour
     private void Update()
     {
         UpdateDisplay();
+        CheckForUserInterface();
+    }
 
+    private void CheckForUserInterface()
+    {
         if (exist && SceneManager.GetActiveScene().name == "User-Interface")
         {
             exist = false;
