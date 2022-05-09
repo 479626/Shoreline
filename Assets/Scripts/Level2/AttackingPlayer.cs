@@ -116,17 +116,17 @@ public class AttackingPlayer : MonoBehaviour
             Debug.Log(damage);
             if (SceneManager.GetActiveScene().name == "L2-Battle")
             {
-                enemy.GetComponent<LevelTwoWarrior>().TakeDamage(damage);
+                enemy.GetComponent<AttackingWarrior>().TakeDamage(damage);
             }
             if (SceneManager.GetActiveScene().name == "Cove")
             {
                 if (enemy.CompareTag("Skeleton"))
                 {
-                    enemy.GetComponent<Skeleton>().TakeDamage(damage);
+                    enemy.GetComponent<SkeletonController>().TakeDamage(damage);
                 }
                 if (enemy.CompareTag("Crab"))
                 {
-                    enemy.GetComponent<Crab>().TakeDamage(damage);
+                    enemy.GetComponent<CrabController>().TakeDamage(damage);
                 }
             }
         }

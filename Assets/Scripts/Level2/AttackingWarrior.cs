@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class LevelTwoWarrior : MonoBehaviour
+public class AttackingWarrior : MonoBehaviour
 {
     public int nextLevelScene, maxHealth, currentHealth, damage;
     public GameObject dialogueManager, dialogueInteraction;

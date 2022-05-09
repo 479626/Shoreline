@@ -47241,9 +47241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 2112319406}
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 740046513}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
-  npcName: 
+  npcName: Pete
   used: 0
 --- !u!95 &1984868748
 Animator:

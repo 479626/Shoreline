@@ -1,27 +1,39 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Collections;
 
-public class ButtonScript : MonoBehaviour
+public class PauseMenuController : MonoBehaviour
 {
+    public static PauseMenuController instance;
+
     [SerializeField] private List<Button> startButtons = new List<Button>();
     [SerializeField] private List<Text> settingsButtonText = new List<Text>();
     [SerializeField] private List<GameObject> menuObjects = new List<GameObject>();
-    [SerializeField] private InteractionCounter count;
-    [SerializeField] private PlayerStats stats;
     [SerializeField] private AudioMixer mixer;
 
     private bool vsync, fullscreen, muted;
-    public float transitionTime = 1f;
+    private bool settingsMenuOpen, soundsMenuOpen, optionsMenuOpen, mainMenuOpen, controlsMenuOpen;
+    public static bool gamePaused;
 
-    private void Start()
+    private void Awake()
     {
-        startButtons[0].Select();
-        StartCoroutine(CheckPlayerPrefs());
-    }
+        menuObjects[0].SetActive(false);
+        gamePaused = false; 
+        Time.timeScale = 1f;
 
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     public IEnumerator CheckPlayerPrefs()
     {
         var waitTime = new WaitForSeconds(.1f);
@@ -78,27 +90,93 @@ public class ButtonScript : MonoBehaviour
         }
     }
 
-    #region Button Methods
-
-    public void OnStartButton()
+    private void Update()
     {
-        Time.timeScale = 1f;
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            SceneManager.LoadScene("L3-Town");
+        }
+        CheckForPause();
+    }
+
+    public void PlaySound()
+    {
         SoundManager.instance.PurchaseSound();
     }
 
-    public void OnQuitButton()
+    private void CheckForPause()
     {
-        Application.Quit();
+        if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (settingsMenuOpen && !mainMenuOpen)
+            {
+                if (Input.GetKey(KeyCode.Escape))
+                {
+                    OnSettingsExit();
+                }
+            }
+            else if (!settingsMenuOpen)
+            {
+                OnSettingsExit();
+            }
+
+            if (optionsMenuOpen)
+            {
+                if (Input.GetKey(KeyCode.Escape))
+                {
+                    OnOptionsExit();
+                }
+            }
+
+            if (controlsMenuOpen)
+            {
+                if (Input.GetKey(KeyCode.Escape))
+                {
+                    OnControlsExit();
+                }
+            }
+
+            if (soundsMenuOpen)
+            {
+                if (Input.GetKey(KeyCode.Escape))
+                {
+                    OnSoundsExit();
+                }
+            }
+
+            if (gamePaused && mainMenuOpen)
+            {
+                mainMenuOpen = false;
+                Resume();
+            }
+            else if (!settingsMenuOpen && !mainMenuOpen && !gamePaused && Time.timeScale != 0)
+            {
+                mainMenuOpen = true;
+                OpenPauseMenu();
+            }
+        }
     }
+
+    private void OpenPauseMenu()
+    {
+        menuObjects[0].SetActive(true);
+        StartCoroutine(CheckPlayerPrefs());
+        Time.timeScale = 0f;
+        gamePaused = true;
+    }
+
+    #region Button Methods
 
     public void OnControlsButton()
     {
+        controlsMenuOpen = true;
         menuObjects[2].SetActive(false);
         menuObjects[4].SetActive(true);
         startButtons[4].Select();
     }
     public void OnControlsExit()
     {
+        controlsMenuOpen = false;
         menuObjects[4].SetActive(false);
         menuObjects[2].SetActive(true);
         startButtons[2].Select();
@@ -106,6 +184,7 @@ public class ButtonScript : MonoBehaviour
 
     public void OnSettingsButton()
     {
+        settingsMenuOpen = true;
         menuObjects[0].SetActive(false);
         menuObjects[1].SetActive(true);
         startButtons[1].Select();
@@ -113,6 +192,7 @@ public class ButtonScript : MonoBehaviour
 
     public void OnSettingsExit()
     {
+        settingsMenuOpen = false;
         menuObjects[1].SetActive(false);
         menuObjects[0].SetActive(true);
         startButtons[0].Select();
@@ -120,7 +200,8 @@ public class ButtonScript : MonoBehaviour
 
     public void OnOptionsButton()
     {
-        StartCoroutine(CheckPlayerPrefs());
+        optionsMenuOpen = true;
+        settingsMenuOpen = false;
         menuObjects[1].SetActive(false);
         menuObjects[2].SetActive(true);
         startButtons[2].Select();
@@ -128,6 +209,8 @@ public class ButtonScript : MonoBehaviour
 
     public void OnOptionsExit()
     {
+        optionsMenuOpen = false;
+        settingsMenuOpen = false;
         menuObjects[2].SetActive(false);
         menuObjects[1].SetActive(true);
         startButtons[1].Select();
@@ -135,6 +218,8 @@ public class ButtonScript : MonoBehaviour
 
     public void OnSoundsButton()
     {
+        soundsMenuOpen = true;
+        settingsMenuOpen = false;
         menuObjects[1].SetActive(false);
         menuObjects[3].SetActive(true);
         startButtons[3].Select();
@@ -142,6 +227,8 @@ public class ButtonScript : MonoBehaviour
 
     public void OnSoundsExit()
     {
+        soundsMenuOpen = false;
+        settingsMenuOpen = false;
         menuObjects[3].SetActive(false);
         menuObjects[1].SetActive(true);
         startButtons[1].Select();
@@ -193,7 +280,6 @@ public class ButtonScript : MonoBehaviour
 
     public void OnMuteButton()
     {
-        Debug.Log("Mute pressed [" + muted + "]");
         if (muted)
         {
             settingsButtonText[2].color = Color.red;
@@ -201,6 +287,7 @@ public class ButtonScript : MonoBehaviour
             muted = false;
             mixer.SetFloat(Sliders.MASTER, 1f);
             PlayerPrefs.SetInt("muted", 0);
+            StartCoroutine(CheckPlayerPrefs());
         }
         else
         {
@@ -209,43 +296,27 @@ public class ButtonScript : MonoBehaviour
             muted = true;
             mixer.SetFloat(Sliders.MASTER, -80f);
             PlayerPrefs.SetInt("muted", 1);
-        }
-        Debug.Log("Mute set [" + muted + "]");
-    }
-
-    private void OnDisable()
-    {
-        if (muted)
-        {
-            PlayerPrefs.SetInt("mute", 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("mute", 0);
-        }
-
-        if (fullscreen)
-        {
-            PlayerPrefs.SetInt("fullscreen", 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("fullscreen", 0);
-        }
-
-        if (vsync)
-        {
-            PlayerPrefs.SetInt("vsync", 1);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("vsync", 0);
+            StartCoroutine(CheckPlayerPrefs());
         }
     }
 
-    public void PlaySound()
+    public void Quit()
     {
-        SoundManager.instance.PurchaseSound();
+        Resume();
+        SceneManager.LoadScene(1);
+    }
+
+    public void Resume()
+    {
+        if (gamePaused)
+        {
+            menuObjects[0].SetActive(false);
+            Time.timeScale = 1f;
+            gamePaused = false;
+            settingsMenuOpen = false;
+            optionsMenuOpen = false;
+            soundsMenuOpen = false;
+        }
     }
 
     #endregion

@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Crab : MonoBehaviour
+public class SkeletonController : MonoBehaviour
 {
     public int maxHealth, currentHealth, damage;
     public HealthBar healthBar;
@@ -25,9 +25,12 @@ public class Crab : MonoBehaviour
 
     private IEnumerator Die()
     {
-        animator.SetTrigger("death");
-        yield return new WaitForSeconds(0.25f);
-        dropManager.SpawnCoin("Coin (Crab)", transform.position.x, transform.position.y);
+        animator.SetBool("death", true);
+        yield return new WaitForSeconds(1.4f);
+        for (int i = 0; i < 3; i++)
+        {
+            dropManager.SpawnCoin("Coin (Skeleton)", transform.position.x, transform.position.y);
+        }
         Destroy(gameObject);
         yield return null;
     }
@@ -38,7 +41,7 @@ public class Crab : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
     }
-
+    
     private void CheckForDeath()
     {
         if (currentHealth >= 0) return;

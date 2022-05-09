@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WarriorController : MonoBehaviour
+public class LevelOneWarriorController : MonoBehaviour
 {
     public Interaction interaction;
     private bool triggerDialogue, interactionThreshold, finalMessage;

@@ -3,7 +3,7 @@ using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class Light : MonoBehaviour
+public class LightManager : MonoBehaviour
 {
     public Volume volume;
     public int hour;

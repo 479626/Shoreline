@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerStats : ScriptableObject
 {
     public float speedModifier;
-    public int coins, damageBonus;
+    public int coins, damageBonus, crabKills;
     public int currentLevel;
     public string swordType, bootType;
     public bool greedy, discoverBlacksmith, defeatedWarrior, seenLevelOneCutscene;
@@ -17,6 +17,7 @@ public class PlayerStats : ScriptableObject
         defeatedWarrior = false;
         greedy = false;
 
+        crabKills = 0;
         coins = 0;
         greedy = false;
         discoverBlacksmith = false;

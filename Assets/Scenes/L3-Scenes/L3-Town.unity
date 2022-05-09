@@ -8344,8 +8344,6 @@ MonoBehaviour:
     name: Elder Ulric
     sentences:
     - Ha hoo, it's you! I am Elder Ulric, the village's leader.
-    - I'm glad to hear that you have won your little duel with my best warrior. It
-      must've taken some real strength.
     - Why don't you look around town? I'm sure the Cove might intrest you.
     - ... Or if you think you're ready, talk to the warrior and we'll take the shore
       back from those pirates!
@@ -8480,7 +8478,7 @@ MonoBehaviour:
   interaction: {fileID: 1496432166}
   dialogueManager: {fileID: 1507999332}
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
-  npcName: 
+  npcName: Ulric
   used: 0
 --- !u!1 &101291338
 GameObject:
@@ -10284,9 +10282,9 @@ GameObject:
   - component: {fileID: 879626197}
   - component: {fileID: 879626200}
   - component: {fileID: 879626201}
-  - component: {fileID: 879626202}
   - component: {fileID: 879626203}
   - component: {fileID: 879626204}
+  - component: {fileID: 879626202}
   m_Layer: 0
   m_Name: Warrior
   m_TagString: Warrior
@@ -10400,12 +10398,13 @@ MonoBehaviour:
     portrait: {fileID: 0}
     name: Warrior
     sentences:
-    - Come back to me once you've slain 5 creatures
+    - Come back to me once you've slain 3 crabs.
   dialogueThree:
     portrait: {fileID: 0}
     name: 
     sentences:
-    - 'Great. You''ve '
+    - Looks like you're ready to take on the pirates, ehy lad?
+    - Come, we'll take the fight to them.
 --- !u!61 &879626201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10441,14 +10440,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 879626196}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aad6cbcea50a05545b8387a92da652e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 39395ba72f3f1864a96f7e1465f37af5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 1496432166}
+  nextLevelScene: 0
   dialogueManager: {fileID: 1507999332}
-  nextLevelScene: 6
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
-  stats: {fileID: 0}
+  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
 --- !u!61 &879626203
 BoxCollider2D:
   m_ObjectHideFlags: 0

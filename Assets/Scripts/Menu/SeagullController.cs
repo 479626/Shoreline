@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
-public class Seagull : MonoBehaviour
+public class SeagullController : MonoBehaviour
 {
     private Vector2 velocity;
     private Rigidbody2D rb;

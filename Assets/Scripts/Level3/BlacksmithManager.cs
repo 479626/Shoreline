@@ -2,7 +2,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class Blacksmith : MonoBehaviour
+public class BlacksmithManager : MonoBehaviour
 {
     [Header("Exit Transport")]
     public VectorValue playerStorage;

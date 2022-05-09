@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weather : MonoBehaviour
+public class WeatherManager : MonoBehaviour
 {
     public Animator thunder;
     [SerializeField] private GameObject rain;
