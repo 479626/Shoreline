@@ -1,10 +1,8 @@
 using System.Collections;
-using System.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class LevelTwoPlayer : MonoBehaviour
+public class AttackingPlayer : MonoBehaviour
 {
     private static GameObject player;
 

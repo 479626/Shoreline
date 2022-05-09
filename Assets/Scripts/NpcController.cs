@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NPC : MonoBehaviour
+public class NpcController : MonoBehaviour
 {
     public float speed;
     public bool isWalking;

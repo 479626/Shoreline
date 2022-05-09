@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LevelThreePlayer : MonoBehaviour
+public class LevelThreeManager : MonoBehaviour
 {
     public PlayerStats stats;
 

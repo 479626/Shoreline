@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class LevelOneCutscene : MonoBehaviour
+public class EntryCutscene : MonoBehaviour
 {
     public int scene, cutscene;
     public Animator anim;

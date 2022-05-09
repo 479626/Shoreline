@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LevelThreeUlric : MonoBehaviour
+public class UlricController : MonoBehaviour
 {
     public Interaction interaction;
     private bool triggerDialogue;

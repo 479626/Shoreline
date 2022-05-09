@@ -38,7 +38,7 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
 
-        if (player.GetComponent<LevelTwoPlayer>().dead == true)
+        if (player.GetComponent<AttackingPlayer>().dead == true)
         {
             animator.SetBool("movement", false);
             return;
@@ -81,10 +81,10 @@ public class EnemyController : MonoBehaviour
 
         defaultSpeed = 0f;
         yield return new WaitForSeconds(1.25f);
-        if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack && !player.GetComponent<LevelTwoPlayer>().dead)
+        if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack && !player.GetComponent<AttackingPlayer>().dead)
         {
             animator.SetTrigger("attack");
-            player.GetComponent<LevelTwoPlayer>().TakeDamage(damage);
+            player.GetComponent<AttackingPlayer>().TakeDamage(damage);
         }
         defaultSpeed = 0.75f;
         yield return null;

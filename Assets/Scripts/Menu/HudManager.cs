@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class HUD : MonoBehaviour
+public class HudManager : MonoBehaviour
 {
-    public static HUD instance;
+    public static HudManager instance;
     public GameObject display;
     public PlayerStats stats;
     private bool exist;

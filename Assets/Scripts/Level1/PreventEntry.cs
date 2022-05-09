@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LevelOneLock : MonoBehaviour
+public class PreventEntry : MonoBehaviour
 {
     private bool triggerDialogue;
 
