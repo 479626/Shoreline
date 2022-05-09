@@ -92,6 +92,7 @@ public class BlacksmithManager : MonoBehaviour
         if (stats.coins >= currentPrice)
         {
             stats.coins -= currentPrice;
+            stats.upgradesPurchased++;
             SoundManager.instance.PurchaseSound();
             blacksmithAnim.SetTrigger("Sale");
 

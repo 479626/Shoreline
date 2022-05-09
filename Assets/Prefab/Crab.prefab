@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7793255638717370532}
   - component: {fileID: 7793255638717370535}
-  - component: {fileID: 7793255638717370539}
   - component: {fileID: 7793255638717370534}
   - component: {fileID: 7793255638717370536}
   - component: {fileID: 7793255638717370538}
   - component: {fileID: 7793255638717370541}
+  - component: {fileID: 1368305413541403943}
   - component: {fileID: 7793255638717370540}
   m_Layer: 9
   m_Name: Crab
@@ -91,25 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7793255638717370539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7793255638717370543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76e493c27e0842740a5a3291b5e0efe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 50
-  currentHealth: 0
-  damage: 0
-  healthBar: {fileID: 7793255640403579820}
-  animator: {fileID: 7793255638717370536}
-  dropManager: {fileID: 4204316512298150326, guid: a054afc9737e9424eb2d54855f55f796, type: 3}
-  dead: 0
 --- !u!114 &7793255638717370534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,6 +178,26 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.6
+--- !u!114 &1368305413541403943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7793255638717370543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f9461ac1c136446a4b834e06b5b0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 20
+  currentHealth: 0
+  damage: 9
+  healthBar: {fileID: 7793255640403579820}
+  animator: {fileID: 7793255638717370536}
+  playerStats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
+  dropManager: {fileID: 4204316512298150326, guid: a054afc9737e9424eb2d54855f55f796, type: 3}
+  dead: 0
 --- !u!50 &7793255638717370540
 Rigidbody2D:
   serializedVersion: 4

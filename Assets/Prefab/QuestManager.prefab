@@ -254,6 +254,7 @@ MonoBehaviour:
   levelTwoQuests: {fileID: 2851497458205619316}
   levelThreeQuests: {fileID: 2851497459899619099}
   levelFourQuests: {fileID: 2851497459645298982}
+  startButton: {fileID: 2851497457928302650}
   levelOneRewardAmounts:
   - {fileID: 2851497459601456704}
   - {fileID: 2851497459622783806}
@@ -1469,17 +1470,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2851497458481166153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 110.985245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2851497458115337493}
   - {fileID: 2851497458456316948}
-  m_Father: {fileID: 2851497459899619076}
-  m_RootOrder: 4
+  m_Father: {fileID: 2851497459751107862}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123.19995, y: -123}
+  m_AnchoredPosition: {x: 5.586426, y: 105}
   m_SizeDelta: {x: 220.9042, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2851497458481166155
@@ -1527,7 +1528,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 3
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -4843,6 +4844,7 @@ Transform:
   m_Children:
   - {fileID: 2851497458190772831}
   - {fileID: 2851497458036033403}
+  - {fileID: 2851497458481166154}
   m_Father: {fileID: 2851497459899619076}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5214,7 +5216,6 @@ RectTransform:
   - {fileID: 2851497458546716092}
   - {fileID: 2851497459887686318}
   - {fileID: 2851497459751107862}
-  - {fileID: 2851497458481166154}
   m_Father: {fileID: 2851497459805426280}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5643,7 +5644,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 3
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

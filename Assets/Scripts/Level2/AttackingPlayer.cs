@@ -19,7 +19,6 @@ public class AttackingPlayer : MonoBehaviour
     public float nextAttackTime = 0f;
     public bool attacking = false;
     public int minDamage, maxDamage;
-    public GameObject enemy;
     public Transform range;
     public LayerMask enemyLayer;
     public DamageIndicator damageIndicator;
@@ -118,6 +117,7 @@ public class AttackingPlayer : MonoBehaviour
             {
                 enemy.GetComponent<AttackingWarrior>().TakeDamage(damage);
             }
+
             if (SceneManager.GetActiveScene().name == "Cove")
             {
                 if (enemy.CompareTag("Skeleton"))

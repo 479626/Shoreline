@@ -3,11 +3,12 @@ using UnityEngine;
 [CreateAssetMenu]
 public class InteractionCounter : ScriptableObject
 {
-    public int levelOne, levelThree;
+    public int levelOne, levelThree, levelThreeWarrior;
     public int npcBeth, npcPete, npcPeteJr, npcMary, npcAnne, npcChristopher, npcTimmy, npcGary, npcUlric;
 
     private void OnEnable()
     {
+        levelThreeWarrior = 0;
         levelOne = 0;
         levelThree = 0;
         npcBeth = 0;

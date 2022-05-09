@@ -73,15 +73,18 @@ public class LevelThreeWarriorController : MonoBehaviour
             if (count.npcUlric == 1)
             {
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(2);
+                count.levelThreeWarrior = 1;
             }
             else
             {
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(1);
+                count.levelThreeWarrior = 2;
             }
 
             if (stats.crabKills > 2 && count.npcUlric == 1)
             {
                 gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(3);
+                count.levelThreeWarrior = 3;
                 finalMessage = true;
             }
 

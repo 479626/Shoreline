@@ -10401,7 +10401,7 @@ MonoBehaviour:
     - Come back to me once you've slain 3 crabs.
   dialogueThree:
     portrait: {fileID: 0}
-    name: 
+    name: Warrior
     sentences:
     - Looks like you're ready to take on the pirates, ehy lad?
     - Come, we'll take the fight to them.
