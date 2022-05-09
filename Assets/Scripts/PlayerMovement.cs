@@ -22,11 +22,6 @@ public class PlayerMovement : MonoBehaviour
         MoveLogic();
     }
 
-    private void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + movement * (speed * Time.fixedDeltaTime));
-    }
-
     public void PlayWalkSound()
     {
         SoundManager.instance.WalkSound();
@@ -34,11 +29,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void MoveLogic()
     {
-        speed = 3.5f + stats.speedModifier;
+        var speed = 3.5f + stats.speedModifier;
+        var movementVector = Vector2.ClampMagnitude(movement, 1);
+        var newPosition = rb.position + speed * Time.fixedDeltaTime * movementVector;
+
         if (Time.timeScale != 0f && !dialogueManager.dialogueInProgress)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
+
+            rb.MovePosition(newPosition);
 
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);

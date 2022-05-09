@@ -41,8 +41,6 @@ public class LevelTwoPlayer : MonoBehaviour
 
     private void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
 
         if (Input.GetButtonDown("Fire1") && !dead && speed != 0)
         {
@@ -78,8 +76,14 @@ public class LevelTwoPlayer : MonoBehaviour
     {
         if (!dead && !attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
-            speed = 3.5f + stats.speedModifier;
-            rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
+            var speed = 3.5f + stats.speedModifier;
+            var movementVector = Vector2.ClampMagnitude(movement, 1);
+            var newPosition = rb.position + speed * Time.fixedDeltaTime * movementVector;
+
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            rb.MovePosition(newPosition);
 
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
