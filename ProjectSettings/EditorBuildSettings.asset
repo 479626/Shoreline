@@ -59,4 +59,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L1-Scenes/L1-House2-Cutscene.unity
     guid: 23900911fda81414ab86363da268762e
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-EntryCutscene.unity
+    guid: 2b082aa3916520840a7826612c2ba4cb
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-Beach.unity
+    guid: e1a14832a3929d34f9f5a52e747f12f4
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-ShipCutscene.unity
+    guid: 923d1a0212b0a1e4a92f0f0abd6ecafa
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-Ship.unity
+    guid: fe4d5bbf731263943978cf3895a7bd36
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-EndCutscene.unity
+    guid: 52f34c0c311377049aace04c00b39f03
   m_configObjects: {}

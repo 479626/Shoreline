@@ -34,11 +34,6 @@ public class QuestManager : MonoBehaviour
 
     void CheckForProgress()
     {
-        // Level three local variables TEMP FOR DEBUG
-        Text rewardAmountSeven = levelThreeRewardAmounts[3];
-        
-        Slider sliderValueSeven = levelThreeSliders[3];
-
         // Level one quests
         levelOneSliders[0].value = counter.levelOne;
         levelOneRewardAmounts[0].text = "3";
@@ -163,36 +158,6 @@ public class QuestManager : MonoBehaviour
     {
         CheckForQuests();
         CheckForProgress();
-    }
-
-    public void ClearQuestProgression()
-    {
-        progress.crabKills = 0;
-        progress.discoverBlacksmith = 0;
-        progress.defeatWarrior = 0;
-        progress.meetElderUlric = 0;
-        progress.itemPurchase = 0;
-        progress.levelThreeWarrior = 0;
-
-        stats.currentLevel = 0;
-        counter.levelOne = 0;
-        counter.npcBeth = 0;
-        counter.npcPete = 0;
-        counter.npcPeteJr = 0;
-        counter.npcMary = 0;
-        counter.npcAnne = 0;
-        counter.npcChristopher = 0;
-        counter.npcTimmy = 0;
-        counter.npcGary = 0;
-        counter.npcUlric = 0;
-        stats.coins = 0;
-        stats.greedy = false;
-        stats.discoverBlacksmith = false;
-        stats.defeatedWarrior = false;
-        stats.speedModifier = 0;
-        stats.damageBonus = 0;
-        stats.bootType = "Old Running Shoes";
-        stats.swordType = "Rusty Rapier";
     }
 
     void CheckForQuests()

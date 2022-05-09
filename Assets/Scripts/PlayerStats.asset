@@ -16,6 +16,7 @@ MonoBehaviour:
   coins: 0
   damageBonus: 0
   crabKills: 0
+  upgradesPurchased: 0
   currentLevel: 0
   swordType: Rusty Cutlass
   bootType: Old Running Shoes
