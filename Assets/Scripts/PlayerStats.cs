@@ -12,6 +12,7 @@ public class PlayerStats : ScriptableObject
     private void OnEnable()
     {
         currentLevel = 0;
+        seenLevelOneCutscene = false;
 
         discoverBlacksmith = false;
         defeatedWarrior = false;
