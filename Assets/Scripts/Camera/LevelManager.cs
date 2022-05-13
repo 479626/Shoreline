@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
-    public GameObject loadingScreen;
     public PlayerStats stats;
     public Animator anim;
     public static LevelManager instance;
@@ -52,8 +51,6 @@ public class LevelManager : MonoBehaviour
     private IEnumerator LoadAsync(int buildIndex)
     {
         var operation = SceneManager.LoadSceneAsync(buildIndex);
-
-        loadingScreen.SetActive(true);
 
         while (!operation.isDone)
         {

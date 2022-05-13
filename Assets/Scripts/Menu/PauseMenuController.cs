@@ -94,7 +94,7 @@ public class PauseMenuController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.L))
         {
-            SceneManager.LoadScene("L3-Town");
+            SceneManager.LoadScene("L4-Beach");
         }
         CheckForPause();
     }

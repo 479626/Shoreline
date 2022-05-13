@@ -28,6 +28,9 @@ public class AttackingPlayer : MonoBehaviour
     public int maxHealth, currentHealth;
     public GameObject deathEffect;
     public HealthBar healthBar;
+    public bool canHeal;
+    public int healAmount, healDelay;
+    public float healTimer;
 
     private void Start()
     {
@@ -40,6 +43,7 @@ public class AttackingPlayer : MonoBehaviour
     {
         CheckForInput();
         CheckForDeath();
+        CheckForRegeneration(healAmount);
     }
 
     private void CheckForInput()
@@ -55,6 +59,23 @@ public class AttackingPlayer : MonoBehaviour
         else
         {
             MoveLogic();
+        }
+    }
+
+    private void CheckForRegeneration(int healAmount)
+    {
+        healTimer -= Time.deltaTime;
+
+        if (!canHeal) return;
+        if (currentHealth < maxHealth && healTimer < 0)
+        {
+            healTimer = healDelay;
+            currentHealth += healAmount;
+            healthBar.SetHealth(currentHealth);
+        }
+        else if (currentHealth >= maxHealth && healTimer < 0)
+        {
+            healTimer = healDelay;
         }
     }
 
