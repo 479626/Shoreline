@@ -150,6 +150,11 @@ public class AttackingPlayer : MonoBehaviour
                     enemy.GetComponent<CrabController>().TakeDamage(damage);
                 }
             }
+
+            if (SceneManager.GetActiveScene().name == "L4-Beach")
+            {
+                enemy.GetComponent<AttackingPirate>().TakeDamage(damage);
+            }
         }
     }
 

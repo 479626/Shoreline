@@ -14,18 +14,30 @@ public class EntryCutscene : MonoBehaviour
 
     private void MovePlayer()
     {
-        if (!stats.seenLevelOneCutscene)
+        if (SceneManager.GetActiveScene().name == "L1-Town")
         {
+            if (!stats.seenLevelOneCutscene)
+            {
+                stats.seenLevelOneCutscene = true;
+                SoundManager.instance.DoorSound();
+                playerStorage.initialValue = playerPos;
+                SceneManager.LoadScene(cutscene);
+            }
+            else
+            {
+                SoundManager.instance.DoorSound();
+                playerStorage.initialValue = playerPos;
+                SceneManager.LoadScene(scene);
+            }
+        }
+
+        if (SceneManager.GetActiveScene().name == "L4-Beach")
+        {
+            if (stats.pirateKills != 4) return;
             stats.seenLevelOneCutscene = true;
             SoundManager.instance.DoorSound();
             playerStorage.initialValue = playerPos;
             SceneManager.LoadScene(cutscene);
-        }
-        else
-        {
-            SoundManager.instance.DoorSound();
-            playerStorage.initialValue = playerPos;
-            SceneManager.LoadScene(scene);
         }
     }
 

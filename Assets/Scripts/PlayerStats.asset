@@ -16,6 +16,7 @@ MonoBehaviour:
   coins: 0
   damageBonus: 0
   crabKills: 0
+  pirateKills: 0
   upgradesPurchased: 0
   currentLevel: 0
   swordType: Rusty Cutlass
@@ -23,4 +24,6 @@ MonoBehaviour:
   greedy: 0
   discoverBlacksmith: 0
   defeatedWarrior: 0
-  seenLevelOneCutscene: 1
+  seenLevelOneCutscene: 0
+  pirateCrewBossDeath: 0
+  defeatedFinalBoss: 0

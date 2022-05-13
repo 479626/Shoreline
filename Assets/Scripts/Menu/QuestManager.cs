@@ -14,7 +14,7 @@ public class QuestManager : MonoBehaviour
     public PlayerStats stats;
     public GameObject questMenu, levelOneButton, levelOneQuests, levelTwoQuests, levelThreeQuests, levelFourQuests;
     public static bool gamePaused, quests;
-    private bool oneLevelOne, twoLevelOne, oneLevelTwo, oneLevelThree, twoLevelThree, threeLevelThree, fourLevelThree;
+    private bool oneLevelOne, twoLevelOne, oneLevelTwo, oneLevelThree, twoLevelThree, threeLevelThree, fourLevelThree, oneLevelFour, twoLevelFour;
 
     [Header("UI Elements")]
     public Button startButton;
@@ -113,10 +113,34 @@ public class QuestManager : MonoBehaviour
         if (counter.levelThreeWarrior >= 3 && !fourLevelThree)
         {
             string reward = levelThreeRewardAmounts[3].text;
-            string questName = "Crab killer";
-            threeLevelThree = true;
+            string questName = "Fighter";
+            fourLevelThree = true;
             levelThreeRewardAmounts[3].color = Color.green;
             stats.coins += 3;
+            StartCoroutine(AwardQuest(questName, reward));
+        }
+
+        levelFourRewardAmounts[0].text = "8";
+        levelFourSliders[0].value = stats.pirateKills;
+        if (stats.pirateKills == 4 && !oneLevelFour)
+        {
+            string reward = levelFourRewardAmounts[0].text;
+            string questName = "Pirate sweeper";
+            oneLevelFour = true;
+            levelFourRewardAmounts[0].color = Color.green;
+            stats.coins += 8;
+            StartCoroutine(AwardQuest(questName, reward));
+        }
+
+        levelFourRewardAmounts[1].text = "25";
+        if (stats.defeatedFinalBoss && !twoLevelFour)
+        {
+            levelFourSliders[1].value = 1;
+            string reward = levelFourRewardAmounts[1].text;
+            string questName = "Cove hero";
+            twoLevelFour = true;
+            levelFourRewardAmounts[1].color = Color.green;
+            stats.coins += 25;
             StartCoroutine(AwardQuest(questName, reward));
         }
     }

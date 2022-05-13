@@ -6034,7 +6034,6 @@ MonoBehaviour:
   attacking: 0
   minDamage: 8
   maxDamage: 10
-  enemy: {fileID: 3260757876911875165}
   range: {fileID: 1376788536}
   enemyLayer:
     serializedVersion: 2
@@ -6045,6 +6044,10 @@ MonoBehaviour:
   currentHealth: 0
   deathEffect: {fileID: 867988994}
   healthBar: {fileID: 1437903298}
+  canHeal: 1
+  healAmount: 5
+  healDelay: 3
+  healTimer: 0
 --- !u!61 &650784238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6062,7 +6065,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.5001526}
+    oldSize: {x: 0.3, y: 0.5}
     newSize: {x: 0.32, y: 0.5001526}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

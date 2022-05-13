@@ -10,21 +10,11 @@ public class LevelThreeWarriorController : MonoBehaviour
     public InteractionCounter count;
     public PlayerStats stats;
 
-    private void Awake()
-    {
-        if (SceneManager.GetActiveScene().name == "L1-Town")
-        {
-            stats.currentLevel = 1;
-        }
-    }
-
-
     private void Start()
     {
         triggerDialogue = false;
         interactionThreshold = false;
         finalMessage = false;
-        dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
     }
 
     private void Update()
@@ -35,7 +25,7 @@ public class LevelThreeWarriorController : MonoBehaviour
 
     private void MovePlayer()
     {
-        if (finalMessage && gameObject.GetComponent<DialogueManager>().finishedDialogue == true)
+        if (finalMessage)
         {
             SceneManager.LoadScene(nextLevelScene);
             dialogueManager.GetComponent<DialogueManager>().finishedDialogue = false;
@@ -83,7 +73,6 @@ public class LevelThreeWarriorController : MonoBehaviour
 
             if (stats.crabKills > 2 && count.npcUlric == 1)
             {
-                gameObject.GetComponent<DialogueInteraction>().TriggerDialogue(3);
                 count.levelThreeWarrior = 3;
                 finalMessage = true;
             }
