@@ -10,9 +10,10 @@ public class PeacefulWarrior : MonoBehaviour
     public Animator animator;
     public Transform target;
     public GameObject pirate;
-    public GameObject dialogueManager, dialogueInteraction;
+    public GameObject dialogueManager;
     private bool triggerDialogue;
     public PlayerStats stats;
+    public DialogueInteraction dialogue;
 
     [Header("Movement")]
     public float defaultSpeed;
@@ -86,7 +87,7 @@ public class PeacefulWarrior : MonoBehaviour
     {
         if (triggerDialogue)
         {
-            dialogueInteraction.GetComponent<DialogueInteraction>().TriggerDialogue(1);
+            dialogue.GetComponent<DialogueInteraction>().TriggerDialogue(1);
         }
     }
 

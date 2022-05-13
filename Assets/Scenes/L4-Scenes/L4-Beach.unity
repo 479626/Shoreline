@@ -37087,8 +37087,8 @@ MonoBehaviour:
   target: {fileID: 1764894151}
   pirate: {fileID: 1764894146}
   dialogueManager: {fileID: 351346327}
-  dialogueInteraction: {fileID: 0}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
+  dialogue: {fileID: 337066560}
   defaultSpeed: 1.25
   rb: {fileID: 337066556}
   damageRange: {fileID: 1822323547}
@@ -37118,8 +37118,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueOne:
     portrait: {fileID: 0}
-    name: 
-    sentences: []
+    name: Warrior
+    sentences:
+    - Phew...
+    - That was tough, ehy?
+    - '*Let out a brief sigh of relief*'
+    - I'll stand out here and stay on guard, so you'll be heading into the ship alone.
+    - Good luck in there, soldier!
   dialogueTwo:
     portrait: {fileID: 0}
     name: 
