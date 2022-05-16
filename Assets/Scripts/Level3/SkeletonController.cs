@@ -20,7 +20,10 @@ public class SkeletonController : MonoBehaviour
 
     private void Update()
     {
-        CheckForDeath();
+        if (!dead)
+        {
+            CheckForDeath();
+        }
     }
 
     private IEnumerator Die()
@@ -41,12 +44,13 @@ public class SkeletonController : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
     }
-    
+
     private void CheckForDeath()
     {
         if (currentHealth >= 0) return;
-        
+
         dead = true;
-        StartCoroutine(Die());
+        if (dead)
+            StartCoroutine(Die());
     }
 }

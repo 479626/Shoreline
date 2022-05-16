@@ -21,7 +21,10 @@ public class CrabController : MonoBehaviour
 
     private void Update()
     {
-        CheckForDeath();
+        if (!dead)
+        {
+            CheckForDeath();
+        }
     }
 
     private IEnumerator Die()
@@ -46,6 +49,7 @@ public class CrabController : MonoBehaviour
         if (currentHealth >= 0) return;
         
         dead = true;
+        if (dead)
         StartCoroutine(Die());
     }
 }

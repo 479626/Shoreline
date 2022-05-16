@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b247d66e5f3c5f4c9b5e92d2c39b483, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  speedModifier: 0
-  coins: 0
-  damageBonus: 0
+  speedModifier: 2
+  coins: -2147483614
+  damageBonus: 20
   crabKills: 0
   pirateKills: 0
-  upgradesPurchased: 0
-  currentLevel: 0
-  swordType: Rusty Cutlass
-  bootType: Old Running Shoes
-  greedy: 0
-  discoverBlacksmith: 0
-  defeatedWarrior: 0
-  seenLevelOneCutscene: 0
-  pirateCrewBossDeath: 0
-  defeatedFinalBoss: 0
+  upgradesPurchased: 8
+  currentLevel: 1
+  swordType: Damascus Steel Cutlass
+  bootType: Master Running Shoes
+  greedy: 1
+  discoverBlacksmith: 1
+  defeatedWarrior: 1
+  seenLevelOneCutscene: 1
+  pirateCrewBossDeath: 1
+  defeatedFinalBoss: 1
