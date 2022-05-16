@@ -141,7 +141,6 @@ public class AttackingPlayer : MonoBehaviour
         {
             damageIndicator.DamageIndication(damage);
             
-            Debug.Log(damage);
             if (SceneManager.GetActiveScene().name == "L2-Battle")
             {
                 enemy.GetComponent<AttackingWarrior>().TakeDamage(damage);

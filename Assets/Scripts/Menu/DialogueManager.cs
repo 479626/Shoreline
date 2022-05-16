@@ -39,7 +39,6 @@ public class DialogueManager : MonoBehaviour
         sentences.Clear();
         SoundManager.instance.MaleSpeechSound();
 
-        Debug.Log(sentences.Count, this);
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
@@ -49,7 +48,6 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        Debug.Log("DisplayNextSentence queued sentences: " + sentences.Count, this);
         SoundManager.instance.PurchaseSound();
         if (sentences.Count == 0)
         {

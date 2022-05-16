@@ -156,7 +156,6 @@ public class MainMenuController : MonoBehaviour
             vsync = true;
             QualitySettings.vSyncCount = 1;
             PlayerPrefs.SetInt("vsync", 1);
-            Debug.Log(QualitySettings.vSyncCount);
         }
         else
         {
@@ -165,7 +164,6 @@ public class MainMenuController : MonoBehaviour
             vsync = false;
             QualitySettings.vSyncCount = 0;
             PlayerPrefs.SetInt("vsync", 0);
-            Debug.Log(QualitySettings.vSyncCount);
         }
     }
 
@@ -178,7 +176,6 @@ public class MainMenuController : MonoBehaviour
             fullscreen = true;
             Screen.fullScreen = true;
             PlayerPrefs.SetInt("fullscreen", 1);
-            Debug.Log(Screen.fullScreen);
         }
         else
         {
@@ -187,13 +184,11 @@ public class MainMenuController : MonoBehaviour
             fullscreen = false;
             Screen.fullScreen = false;
             PlayerPrefs.SetInt("fullscreen", 0);
-            Debug.Log(Screen.fullScreen);
         }
     }
 
     public void OnMuteButton()
     {
-        Debug.Log("Mute pressed [" + muted + "]");
         if (muted)
         {
             settingsButtonText[2].color = Color.red;
@@ -210,7 +205,6 @@ public class MainMenuController : MonoBehaviour
             mixer.SetFloat(Sliders.MASTER, -80f);
             PlayerPrefs.SetInt("muted", 1);
         }
-        Debug.Log("Mute set [" + muted + "]");
     }
 
     private void OnDisable()

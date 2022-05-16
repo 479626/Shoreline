@@ -243,7 +243,6 @@ public class PauseMenuController : MonoBehaviour
             vsync = true;
             QualitySettings.vSyncCount = 1;
             PlayerPrefs.SetInt("vsync", 1);
-            Debug.Log(QualitySettings.vSyncCount);
         }
         else
         {
@@ -252,7 +251,6 @@ public class PauseMenuController : MonoBehaviour
             vsync = false;
             QualitySettings.vSyncCount = 0;
             PlayerPrefs.SetInt("vsync", 0);
-            Debug.Log(QualitySettings.vSyncCount);
         }
     }
 
@@ -265,7 +263,6 @@ public class PauseMenuController : MonoBehaviour
             fullscreen = true;
             Screen.fullScreen = true;
             PlayerPrefs.SetInt("fullscreen", 1);
-            Debug.Log(Screen.fullScreen);
         }
         else
         {
@@ -274,7 +271,6 @@ public class PauseMenuController : MonoBehaviour
             fullscreen = false;
             Screen.fullScreen = false;
             PlayerPrefs.SetInt("fullscreen", 0);
-            Debug.Log(Screen.fullScreen);
         }
     }
 
