@@ -85,6 +85,7 @@ public class NpcController : MonoBehaviour
         if (col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Enemy"))
         {
             isWalking = false;
+            animator.SetBool("moving", isWalking);
             rb.velocity = Vector2.zero;
             blockDirection = walkDirection;
         }

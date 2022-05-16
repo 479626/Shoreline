@@ -103,6 +103,14 @@ public class AttackingPlayer : MonoBehaviour
         if (!dead && !attacking && Time.timeScale != 0f && !FindObjectOfType<DialogueManager>().dialogueInProgress)
         {
             var speed = 3.5f + stats.speedModifier;
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                speed = 2f + stats.speedModifier;
+            }
+            else
+            {
+                speed = 3.5f + stats.speedModifier;
+            }
             var movementVector = Vector2.ClampMagnitude(movement, 1);
             var newPosition = rb.position + speed * Time.fixedDeltaTime * movementVector;
 

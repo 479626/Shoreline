@@ -30,6 +30,14 @@ public class PlayerMovement : MonoBehaviour
     private void MoveLogic()
     {
         var speed = 3.5f + stats.speedModifier;
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        {
+            speed = 2f + stats.speedModifier;
+        }
+        else
+        {
+            speed = 3.5f + stats.speedModifier;
+        }
         var movementVector = Vector2.ClampMagnitude(movement, 1);
         var newPosition = rb.position + speed * Time.fixedDeltaTime * movementVector;
 
