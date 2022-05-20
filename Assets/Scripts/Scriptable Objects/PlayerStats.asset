@@ -18,7 +18,7 @@ MonoBehaviour:
   crabKills: 0
   pirateKills: 0
   upgradesPurchased: 0
-  currentLevel: 0
+  currentLevel: 1
   swordType: Rusty Cutlass
   bootType: Old Running Shoes
   greedy: 0

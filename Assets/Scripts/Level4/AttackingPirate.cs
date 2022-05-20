@@ -8,7 +8,7 @@ public class AttackingPirate : MonoBehaviour
     public PlayerStats stats;
     public HealthBar healthBar;
     public Animator animator;
-    public bool dead = false;
+    public bool dead, isDead = false;
 
     private void Start()
     {
@@ -18,7 +18,10 @@ public class AttackingPirate : MonoBehaviour
 
     private void Update()
     {
-        CheckHealth();
+        if (!isDead)
+        {
+            CheckHealth();
+        }
     }
 
     public void TakeDamage(int damage)
@@ -33,11 +36,11 @@ public class AttackingPirate : MonoBehaviour
     {
         if (dead)
         {
-            dead = false;
             stats.pirateKills++;
         }
         if (currentHealth < 0)
         {
+            isDead = true;
             dead = true;
             StartCoroutine(Die());
         }
@@ -46,7 +49,7 @@ public class AttackingPirate : MonoBehaviour
     private IEnumerator Die()
     {
         animator.SetBool("dead", true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.2f);
         Destroy(gameObject);
         yield return null;
     }
