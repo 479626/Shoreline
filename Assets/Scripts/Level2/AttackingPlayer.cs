@@ -162,6 +162,11 @@ public class AttackingPlayer : MonoBehaviour
             {
                 enemy.GetComponent<AttackingPirate>().TakeDamage(damage);
             }
+            
+            if (SceneManager.GetActiveScene().name == "L4-Battle")
+            {
+                enemy.GetComponent<AttackingPirateBoss>().TakeDamage(damage);
+            }
         }
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AttackingPirateBoss : MonoBehaviour
 {
@@ -39,9 +40,6 @@ public class AttackingPirateBoss : MonoBehaviour
 
     private void Start()
     {
-        target = GameObject.Find("Warrior").transform;
-        warrior = GameObject.Find("Warrior");
-
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -57,10 +55,23 @@ public class AttackingPirateBoss : MonoBehaviour
 
     private IEnumerator Die()
     {
-        stats.pirateCrewBossDeath = true;
+        var waitTime = new WaitForSeconds(2f);
+        if (SceneManager.GetActiveScene().name == "L4-Beach")
+        {
+            stats.pirateCrewBossDeath = true;
+        }
+        else
+        {
+            stats.defeatedFinalBoss = true;
+        }
         animator.SetBool("dead", true);
-        yield return new WaitForSeconds(3f);
+        yield return waitTime;
         Destroy(gameObject);
+        yield return waitTime;
+        if (SceneManager.GetActiveScene().name == "L4-Battle")
+        {
+            SceneManager.LoadScene(22);
+        }
         yield return null;
     }
 
@@ -68,11 +79,23 @@ public class AttackingPirateBoss : MonoBehaviour
     {
         CheckHealth();
 
-        if (warrior.GetComponent<PeacefulWarrior>().dead)
+        if (SceneManager.GetActiveScene().name == "L4-Beach")
         {
-            animator.SetBool("movement", false);
-            return;
+            if (warrior.GetComponent<PeacefulWarrior>().dead)
+            {
+                animator.SetBool("movement", false);
+                return;
+            }
         }
+        else
+        {
+            if (warrior.GetComponent<AttackingPlayer>().dead)
+            {
+                animator.SetBool("movement", false);
+                return;
+            }
+        }
+
         if (Vector3.Distance(target.position, transform.position) <= attackRange)
         {
             if (!(Time.time >= nextAttackTime)) return;
@@ -137,7 +160,14 @@ public class AttackingPirateBoss : MonoBehaviour
         if (Vector3.Distance(target.position, transform.position) <= attackRange && allowedToAttack)
         {
             animator.SetTrigger("attack");
-            warrior.GetComponent<PeacefulWarrior>().TakeDamage(damage);
+            if (SceneManager.GetActiveScene().name == "L4-Beach")
+            {
+                warrior.GetComponent<PeacefulWarrior>().TakeDamage(damage);
+            }
+            else
+            {
+                warrior.GetComponent<AttackingPlayer>().TakeDamage(damage);
+            }
         }
         defaultSpeed = 0.75f;
         yield return null;
