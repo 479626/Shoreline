@@ -7,7 +7,7 @@ public class PlayerStats : ScriptableObject
     public int coins, damageBonus, crabKills, pirateKills, upgradesPurchased;
     public int currentLevel;
     public string swordType, bootType;
-    public bool greedy, discoverBlacksmith, defeatedWarrior, seenLevelOneCutscene, pirateCrewBossDeath, defeatedFinalBoss;
+    public bool greedy, discoverBlacksmith, defeatedWarrior, seenLevelOneCutscene, pirateCrewBossDeath, defeatedFinalBoss, defeatedGateKeeper;
 
     private void OnEnable()
     {
@@ -19,6 +19,7 @@ public class PlayerStats : ScriptableObject
         greedy = false;
         pirateCrewBossDeath = false;
         defeatedFinalBoss = false;
+        defeatedGateKeeper = false;
 
         pirateKills = 0;
         upgradesPurchased = 0;

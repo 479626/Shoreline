@@ -99735,6 +99735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   door: {fileID: 2096765623}
+  sceneTransition: {fileID: 1693159870}
   dialogue: {fileID: 1035906826}
 --- !u!4 &1035906825
 Transform:
@@ -121302,10 +121303,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: 20
-  cutscene: 21
+  cutscene: 0
   anim: {fileID: 1148837118}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
-  playerPos: {x: 0, y: 0}
+  playerPos: {x: 4, y: -21}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1388147701}
 --- !u!61 &2096765626

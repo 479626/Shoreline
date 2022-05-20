@@ -7,12 +7,13 @@ public class LevelFourManager : MonoBehaviour
 {
     public PlayerStats stats;
     public GameObject door;
+    public GameObject sceneTransition;
     public DialogueInteraction dialogue;
     private bool completedLevel = false;
 
-    private void Start()
+    private void Awake()
     {
-        door.SetActive(false);
+        TriggerDoors();
     }
 
     private void Update()
@@ -24,11 +25,37 @@ public class LevelFourManager : MonoBehaviour
 
     private void CheckForProgress()
     {
-        if (stats.pirateKills >= 4 && stats.pirateCrewBossDeath)
+        if (SceneManager.GetActiveScene().name == "L4-Beach")
         {
-            completedLevel = true;
-            door.SetActive(true);
-            dialogue.GetComponent<DialogueInteraction>().TriggerDialogue(1);
+            if (stats.pirateKills >= 4 && stats.pirateCrewBossDeath)
+            {
+                completedLevel = true;
+                door.SetActive(true);
+                dialogue.GetComponent<DialogueInteraction>().TriggerDialogue(1);
+            }
+        }
+
+        if (SceneManager.GetActiveScene().name == "L4-Ship")
+        {
+            if (stats.defeatedGateKeeper)
+            {
+                SoundManager.instance.DoorSound();
+                completedLevel = true;
+                sceneTransition.SetActive(true);
+                door.SetActive(false);
+            }
+        }
+    }
+
+    private void TriggerDoors()
+    {
+        if (SceneManager.GetActiveScene().name == "L4-Beach")
+        {
+            door.SetActive(false);
+        }
+        else
+        {
+            sceneTransition.SetActive(false);
         }
     }
 }

@@ -34,10 +34,9 @@ public class EntryCutscene : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "L4-Beach")
         {
             if (stats.pirateKills != 4) return;
-            stats.seenLevelOneCutscene = true;
             SoundManager.instance.DoorSound();
             playerStorage.initialValue = playerPos;
-            SceneManager.LoadScene(cutscene);
+            SceneManager.LoadScene(scene);
         }
     }
 
