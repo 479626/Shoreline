@@ -35,10 +35,6 @@ public class AttackingPirate : MonoBehaviour
 
     private void CheckHealth()
     {
-        if (dead)
-        {
-            stats.pirateKills++;
-        }
         if (currentHealth < 0)
         {
             isDead = true;
@@ -51,6 +47,11 @@ public class AttackingPirate : MonoBehaviour
     private IEnumerator Die()
     {
         animator.SetBool("dead", true);
+        if (isDead)
+        {
+            stats.pirateKills++;
+        }
+        isDead = false;
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
         yield return null;
