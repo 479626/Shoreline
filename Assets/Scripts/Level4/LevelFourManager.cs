@@ -7,6 +7,8 @@ public class LevelFourManager : MonoBehaviour
 {
     public PlayerStats stats;
     public GameObject door;
+    public DialogueInteraction dialogue;
+    private bool completedLevel = false;
 
     private void Start()
     {
@@ -15,6 +17,8 @@ public class LevelFourManager : MonoBehaviour
 
     private void Update()
     {
+        if (completedLevel) return;
+
         CheckForProgress();
     }
 
@@ -22,7 +26,9 @@ public class LevelFourManager : MonoBehaviour
     {
         if (stats.pirateKills >= 4 && stats.pirateCrewBossDeath)
         {
+            completedLevel = true;
             door.SetActive(true);
+            dialogue.GetComponent<DialogueInteraction>().TriggerDialogue(1);
         }
     }
 }

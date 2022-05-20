@@ -36966,7 +36966,6 @@ GameObject:
   - component: {fileID: 337066563}
   - component: {fileID: 337066562}
   - component: {fileID: 337066558}
-  - component: {fileID: 337066560}
   - component: {fileID: 337066559}
   - component: {fileID: 337066557}
   - component: {fileID: 337066556}
@@ -37086,9 +37085,7 @@ MonoBehaviour:
   animator: {fileID: 337066558}
   target: {fileID: 1764894151}
   pirate: {fileID: 1764894146}
-  dialogueManager: {fileID: 351346327}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
-  dialogue: {fileID: 337066560}
   defaultSpeed: 1.25
   rb: {fileID: 337066556}
   damageRange: {fileID: 1822323547}
@@ -37104,35 +37101,6 @@ MonoBehaviour:
   maxHealth: 2500
   currentHealth: 0
   damage: 0
---- !u!114 &337066560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337066554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e9c2f16e242a96488c77ab219bd15ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueOne:
-    portrait: {fileID: 0}
-    name: Warrior
-    sentences:
-    - Phew...
-    - That was tough, ehy?
-    - '*Let out a brief sigh of relief*'
-    - I'll stand out here and stay on guard, so you'll be heading into the ship alone.
-    - Good luck in there, soldier!
-  dialogueTwo:
-    portrait: {fileID: 0}
-    name: 
-    sentences: []
-  dialogueThree:
-    portrait: {fileID: 0}
-    name: 
-    sentences: []
 --- !u!212 &337066562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37337,11 +37305,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
---- !u!1 &351346327 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4238866269011188426, guid: 9b3f90ca7df03974da9ff82efa012b91, type: 3}
-  m_PrefabInstance: {fileID: 351346326}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &362023536
 GameObject:
   m_ObjectHideFlags: 0
@@ -41651,7 +41614,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 2052703609}
   animator: {fileID: 487643272}
+  enemyController: {fileID: 487643271}
   dead: 0
+  isDead: 0
 --- !u!1 &525299439
 GameObject:
   m_ObjectHideFlags: 0
@@ -75970,7 +75935,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 89496597}
   animator: {fileID: 586630967}
+  enemyController: {fileID: 586630966}
   dead: 0
+  isDead: 0
 --- !u!1 &599974109
 GameObject:
   m_ObjectHideFlags: 0
@@ -99626,6 +99593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035906825}
   - component: {fileID: 1035906824}
+  - component: {fileID: 1035906826}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -99647,6 +99615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   door: {fileID: 2096765623}
+  dialogue: {fileID: 1035906826}
 --- !u!4 &1035906825
 Transform:
   m_ObjectHideFlags: 0
@@ -99661,6 +99630,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1035906826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035906823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9c2f16e242a96488c77ab219bd15ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueOne:
+    portrait: {fileID: 0}
+    name: Warrior
+    sentences:
+    - Phew...
+    - That was tough, ehy?
+    - '*Let out a brief sigh of relief*'
+    - I'll stand out here and stay on guard, so you'll be heading into the ship alone.
+    - Good luck in there, soldier!
+  dialogueTwo:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []
+  dialogueThree:
+    portrait: {fileID: 0}
+    name: 
+    sentences: []
 --- !u!1 &1041197690
 GameObject:
   m_ObjectHideFlags: 0
@@ -118480,9 +118478,9 @@ GameObject:
   - component: {fileID: 1333043635}
   - component: {fileID: 1333043634}
   - component: {fileID: 1333043633}
+  - component: {fileID: 1333043637}
   - component: {fileID: 1333043632}
   - component: {fileID: 1333043631}
-  - component: {fileID: 1333043637}
   m_Layer: 9
   m_Name: Pirate Crew #1
   m_TagString: Untagged
@@ -118668,7 +118666,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 599974110}
   animator: {fileID: 1333043634}
+  enemyController: {fileID: 1333043633}
   dead: 0
+  isDead: 0
 --- !u!1 &1388147700
 GameObject:
   m_ObjectHideFlags: 0
@@ -120377,7 +120377,9 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   healthBar: {fileID: 21984875}
   animator: {fileID: 1873017424}
+  enemyController: {fileID: 1873017423}
   dead: 0
+  isDead: 0
 --- !u!1 &1934188368
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,10 +10,7 @@ public class PeacefulWarrior : MonoBehaviour
     public Animator animator;
     public Transform target;
     public GameObject pirate;
-    public GameObject dialogueManager;
-    private bool triggerDialogue;
     public PlayerStats stats;
-    public DialogueInteraction dialogue;
 
     [Header("Movement")]
     public float defaultSpeed;
@@ -50,9 +47,6 @@ public class PeacefulWarrior : MonoBehaviour
 
     private void Update()
     {
-        CheckForProgress();
-        CheckForDialogue();
-
         if (pirate.GetComponent<AttackingPirateBoss>().dead)
         {
             animator.SetBool("movement", false);
@@ -72,22 +66,6 @@ public class PeacefulWarrior : MonoBehaviour
         else
         {
             animator.SetBool("movement", false);
-        }
-    }
-
-    private void CheckForProgress()
-    {
-        if (stats.pirateKills >= 4 && stats.defeatedFinalBoss)
-        {
-            triggerDialogue = true;
-        }
-    }
-
-    private void CheckForDialogue()
-    {
-        if (triggerDialogue)
-        {
-            dialogue.GetComponent<DialogueInteraction>().TriggerDialogue(1);
         }
     }
 
