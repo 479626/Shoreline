@@ -29934,9 +29934,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 0
+  scene: 21
   anim: {fileID: 1154605670}
-  playerPos: {x: 0, y: 0}
+  playerPos: {x: -8, y: -19}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 157222647}
 --- !u!61 &2023629019

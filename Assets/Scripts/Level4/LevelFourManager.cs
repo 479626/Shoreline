@@ -45,11 +45,22 @@ public class LevelFourManager : MonoBehaviour
                 door.SetActive(false);
             }
         }
+
+        if (SceneManager.GetActiveScene().name == "L4-Battle")
+        {
+            if (stats.defeatedFinalBoss)
+            {
+                SoundManager.instance.DoorSound();
+                completedLevel = true;
+                sceneTransition.SetActive(true);
+                door.SetActive(false);
+            }
+        }
     }
 
     private void TriggerDoors()
     {
-        if (SceneManager.GetActiveScene().name == "L4-Beach")
+        if (SceneManager.GetActiveScene().name == "L4-Beach" || SceneManager.GetActiveScene().name == "L4-Battle")
         {
             door.SetActive(false);
         }
