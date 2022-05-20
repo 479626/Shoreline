@@ -1,6 +1,7 @@
-using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AttackingPirate : MonoBehaviour
 {
@@ -54,6 +55,8 @@ public class AttackingPirate : MonoBehaviour
         isDead = false;
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
+        if (SceneManager.GetActiveScene().name != "L4-Ship") yield return null;
+        stats.defeatedGateKeeper = true;
         yield return null;
     }
 

@@ -158,7 +158,7 @@ public class AttackingPlayer : MonoBehaviour
                 }
             }
 
-            if (SceneManager.GetActiveScene().name == "L4-Beach")
+            if (SceneManager.GetActiveScene().name == "L4-Beach" || SceneManager.GetActiveScene().name == "L4-Ship")
             {
                 enemy.GetComponent<AttackingPirate>().TakeDamage(damage);
             }
