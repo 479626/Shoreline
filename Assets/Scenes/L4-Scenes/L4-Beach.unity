@@ -121303,7 +121303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: 20
   cutscene: 21
-  anim: {fileID: 0}
+  anim: {fileID: 1148837118}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   playerPos: {x: 0, y: 0}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
