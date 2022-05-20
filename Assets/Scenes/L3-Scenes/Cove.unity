@@ -4883,7 +4883,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volume: {fileID: 707618515}
   hour: 0
-  nightTime: 0
 --- !u!114 &707618515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34046,7 +34045,6 @@ MonoBehaviour:
   oneSpawnRate: 20
   twoSpawnRate: 25
   threeSpawnRate: 40
-  lightManager: {fileID: 707618514}
 --- !u!4 &1579976364
 Transform:
   m_ObjectHideFlags: 0
@@ -51680,7 +51678,7 @@ MonoBehaviour:
   currentHealth: -14
   deathEffect: {fileID: 905200644}
   healthBar: {fileID: 3488518762702967206}
-  canHeal: 0
+  canHeal: 1
   healAmount: 0
   healDelay: 0
   healTimer: 0
