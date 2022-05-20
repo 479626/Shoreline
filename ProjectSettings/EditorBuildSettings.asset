@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L4-Scenes/L4-EndCutscene.unity
     guid: 52f34c0c311377049aace04c00b39f03
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-EndCutsceneUlric.unity
+    guid: de29777ed2635904397e36302bbd547e
+  - enabled: 1
+    path: Assets/Scenes/L4-Scenes/L4-EndCutscenePirate.unity
+    guid: e50aaa7bd643af547a81a4b1c1356fa9
   m_configObjects: {}
