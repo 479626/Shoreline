@@ -43894,9 +43894,9 @@ MonoBehaviour:
   enableOne: 1
   enableTwo: 1
   enableThree: 1
-  typeOne: {fileID: 8712619560344261280, guid: 1110d7e3a958e8441901ae14faf3574e, type: 3}
-  typeTwo: {fileID: 8712619560344261280, guid: 1110d7e3a958e8441901ae14faf3574e, type: 3}
-  typeThree: {fileID: 8712619560344261280, guid: 1110d7e3a958e8441901ae14faf3574e, type: 3}
+  typeOne: {fileID: 8712619560344261280, guid: 6d2926275200062438a16c48e7a1d41a, type: 3}
+  typeTwo: {fileID: 8712619560344261280, guid: 6d2926275200062438a16c48e7a1d41a, type: 3}
+  typeThree: {fileID: 8712619560344261280, guid: 6d2926275200062438a16c48e7a1d41a, type: 3}
   oneSpawnRate: 15
   twoSpawnRate: 17
   threeSpawnRate: 19
