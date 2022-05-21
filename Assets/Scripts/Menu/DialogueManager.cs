@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text nameText;
-    public Text dialogueText;
+    public Button next;
+    public Text nameText, dialogueText;
     public Image portrait;
     public Animator animator;
     public bool dialogueInProgress;
     public bool finishedDialogue;
-    public GameObject player, image;
+    public GameObject image;
 
     private Queue<string> sentences;
 
@@ -25,6 +26,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueInProgress = true;
         animator.SetBool("isOpen", true);
+        next.Select();
 
         if (dialogue.portrait == null)
         {
@@ -73,9 +75,9 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
+        EventSystem.current.SetSelectedGameObject(null);
         dialogueInProgress = false;
         animator.SetBool("isOpen", false);
         finishedDialogue = true;
     }
-
 }

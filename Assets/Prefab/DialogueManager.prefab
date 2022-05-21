@@ -412,13 +412,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33615dea31417a94c90b9bb640e79a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: {fileID: 4238866269147254901}
   nameText: {fileID: 4238866268187257318}
   dialogueText: {fileID: 4238866269587212004}
   portrait: {fileID: 625912587167499221}
   animator: {fileID: 7267801820533559408}
   dialogueInProgress: 0
   finishedDialogue: 0
-  player: {fileID: 0}
   image: {fileID: 7558686112908760476}
 --- !u!1 &4238866269147254902
 GameObject:
@@ -518,12 +518,12 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_DisabledColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5019608}
+    m_ColorMultiplier: 5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -537,7 +537,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 4238866269147254890}
+  m_TargetGraphic: {fileID: 4238866268724190100}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -548,7 +548,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
