@@ -37,7 +37,10 @@ public class SceneTransition : MonoBehaviour
     {
         if (col.CompareTag("Player") && !col.isTrigger)
         {
-            anim.SetBool("Open", false);
+            if (SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 8)
+            {
+                anim.SetBool("Open", false);
+            }
             interaction.InteractOff();
         }
     }
