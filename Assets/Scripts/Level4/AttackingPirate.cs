@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -41,18 +40,17 @@ public class AttackingPirate : MonoBehaviour
             isDead = true;
             dead = true;
             enemyController.allowedToAttack = false;
+
+            if (!isDead) return;
             StartCoroutine(Die());
+            dead = false;
         }
     }
 
     private IEnumerator Die()
     {
         animator.SetBool("dead", true);
-        if (isDead)
-        {
-            stats.pirateKills++;
-        }
-        isDead = false;
+        stats.pirateKills++;
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
         if (SceneManager.GetActiveScene().name != "L4-Ship") yield return null;

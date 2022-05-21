@@ -121299,13 +121299,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2096765623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2554ada9c2a1cf14aae07fbcfb0af49e, type: 3}
+  m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 20
-  cutscene: 0
+  scene: 22
   anim: {fileID: 1148837118}
-  stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   playerPos: {x: 4, y: -21}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
   interaction: {fileID: 1388147701}
