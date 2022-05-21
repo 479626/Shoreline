@@ -50,10 +50,7 @@ public class LevelFourManager : MonoBehaviour
         {
             if (stats.defeatedFinalBoss)
             {
-                SoundManager.instance.DoorSound();
                 completedLevel = true;
-                sceneTransition.SetActive(true);
-                door.SetActive(false);
             }
         }
     }

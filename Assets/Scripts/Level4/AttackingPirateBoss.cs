@@ -46,7 +46,7 @@ public class AttackingPirateBoss : MonoBehaviour
 
     private void CheckHealth()
     {
-        if (currentHealth < 0)
+        if (currentHealth <= 0)
         {
             dead = true;
             StartCoroutine(Die());
@@ -55,7 +55,6 @@ public class AttackingPirateBoss : MonoBehaviour
 
     private IEnumerator Die()
     {
-        var waitTime = new WaitForSeconds(2f);
         if (SceneManager.GetActiveScene().name == "L4-Beach")
         {
             stats.pirateCrewBossDeath = true;
@@ -65,9 +64,7 @@ public class AttackingPirateBoss : MonoBehaviour
             stats.defeatedFinalBoss = true;
         }
         animator.SetBool("dead", true);
-        yield return waitTime;
-        Destroy(gameObject);
-        yield return waitTime;
+        yield return new WaitForSeconds(2f);
         if (SceneManager.GetActiveScene().name == "L4-Battle")
         {
             SceneManager.LoadScene(22);
@@ -77,7 +74,10 @@ public class AttackingPirateBoss : MonoBehaviour
 
     private void Update()
     {
-        CheckHealth();
+        if (!dead)
+        {
+            CheckHealth();
+        }
 
         if (SceneManager.GetActiveScene().name == "L4-Beach")
         {

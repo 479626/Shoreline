@@ -30,14 +30,6 @@ public class EntryCutscene : MonoBehaviour
                 SceneManager.LoadScene(scene);
             }
         }
-
-        if (SceneManager.GetActiveScene().name == "L4-Beach")
-        {
-            if (stats.pirateKills != 4) return;
-            SoundManager.instance.DoorSound();
-            playerStorage.initialValue = playerPos;
-            SceneManager.LoadScene(scene);
-        }
     }
 
     #region Collision Detection
