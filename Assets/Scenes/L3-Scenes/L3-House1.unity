@@ -47151,7 +47151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueOne:
     portrait: {fileID: 0}
-    name: Beth
+    name: Pete
     sentences:
     - '*Seemed out of breath*'
     - You must be the new warrior everybody's talking about. My name is Pete, it's
