@@ -541,13 +541,9 @@ MonoBehaviour:
   player: {fileID: 2198682895241510193, guid: 9b85710faa867724a8d6e55c641b9be0, type: 3}
   defaultSpeed: 2.75
   rb: {fileID: 3528053661620203901}
-  enemyName: Skeleton
   damageRange: {fileID: 830893350180750379}
   attackRange: 1.25
   nextAttackTime: 0
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 8192
   minDamage: 9
   maxDamage: 16
   maxRange: 4
@@ -571,6 +567,7 @@ MonoBehaviour:
   healthBar: {fileID: 3229181240071895517}
   animator: {fileID: 102324212590322620}
   dropManager: {fileID: 4204316512298150326, guid: a054afc9737e9424eb2d54855f55f796, type: 3}
+  enemyController: {fileID: 683216304928930294}
   dead: 0
 --- !u!50 &3528053661620203901
 Rigidbody2D:
@@ -584,7 +581,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100000
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0

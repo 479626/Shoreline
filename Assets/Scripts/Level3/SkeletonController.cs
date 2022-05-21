@@ -7,6 +7,7 @@ public class SkeletonController : MonoBehaviour
     public HealthBar healthBar;
     public Animator animator;
     public DropManager dropManager;
+    public EnemyController enemyController;
     public bool dead = false;
     private Rigidbody2D rb;
 
@@ -28,6 +29,7 @@ public class SkeletonController : MonoBehaviour
 
     private IEnumerator Die()
     {
+        enemyController.allowedToAttack = false;
         animator.SetBool("death", true);
         yield return new WaitForSeconds(1.4f);
         for (int i = 0; i < 3; i++)
@@ -50,7 +52,8 @@ public class SkeletonController : MonoBehaviour
         if (currentHealth >= 0) return;
 
         dead = true;
-        if (dead)
-            StartCoroutine(Die());
+        if (!dead) return;
+        StartCoroutine(Die());
+        dead = false;
     }
 }

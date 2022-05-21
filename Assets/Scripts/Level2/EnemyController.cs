@@ -14,7 +14,6 @@ public class EnemyController : MonoBehaviour
     [Header("Movement")]
     public float defaultSpeed;
     public Rigidbody2D rb;
-    private float speed;
 
     [Header("Combat")]
     public Transform damageRange;

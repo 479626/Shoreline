@@ -47,9 +47,10 @@ public class CrabController : MonoBehaviour
     private void CheckForDeath()
     {
         if (currentHealth >= 0) return;
-        
+
         dead = true;
-        if (dead)
+        if (!dead) return;
         StartCoroutine(Die());
+        dead = false;
     }
 }
