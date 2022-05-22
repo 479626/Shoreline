@@ -84,17 +84,20 @@ public class MainMenuController : MonoBehaviour
 
     public void OnStartButton()
     {
-        if (PlayerPrefs.GetInt("tutorial", 0) == 1)
-        {
-            tutorial.completedTheTutorial = true;
-        }
-
         Time.timeScale = 1f;
         SoundManager.instance.PurchaseSound();
 
         if (tutorial.completedTheTutorial)
         {
-            SceneManager.LoadScene(2);
+            switch (stats.currentLevel)
+            {
+                case 1:
+                    SceneManager.LoadScene(2);
+                    break;
+                case 3:
+                    SceneManager.LoadScene(8);
+                    break;
+            }
         }
         else
         {
