@@ -51806,8 +51806,8 @@ MonoBehaviour:
   deathEffect: {fileID: 905200644}
   healthBar: {fileID: 3488518762702967206}
   canHeal: 1
-  healAmount: 0
-  healDelay: 0
+  healAmount: 5
+  healDelay: 3
   healTimer: 0
 --- !u!50 &3488518762840545551
 Rigidbody2D:
