@@ -1,11 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class WeatherManager : MonoBehaviour
 {
     public Animator thunder;
     [SerializeField] private GameObject rain;
+
+    private void Awake()
+    {
+        if (SceneManager.GetActiveScene().name == "L2-Battle")
+        {
+            SoundManager.instance.FluteSound();
+        }
+    }
 
     private void Start()
     {

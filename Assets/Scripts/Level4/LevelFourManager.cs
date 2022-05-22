@@ -14,6 +14,7 @@ public class LevelFourManager : MonoBehaviour
     private void Awake()
     {
         TriggerDoors();
+        SoundManager.instance.FluteSound();
     }
 
     private void Update()

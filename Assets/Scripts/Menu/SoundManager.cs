@@ -6,8 +6,8 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    [SerializeField] AudioSource swingSource, doorSource, clickSource, walkSource, attackSource, maleSpeechSource, femaleSpeechSource, purchaseSource, failSource, thunderSource;
-    [SerializeField] List<AudioClip> swingClips, doorClips, clickClips, walkClips, attackClips, maleSpeechClips, femaleSpeechClips, purchaseClips, failClips, thunderClips = new List<AudioClip>();
+    [SerializeField] AudioSource swingSource, doorSource, clickSource, walkSource, attackSource, maleSpeechSource, femaleSpeechSource, purchaseSource, failSource, thunderSource, fluteSource;
+    [SerializeField] List<AudioClip> swingClips, doorClips, clickClips, walkClips, attackClips, maleSpeechClips, femaleSpeechClips, purchaseClips, failClips, thunderClips, fluteClips = new List<AudioClip>();
     [SerializeField] AudioMixer mixer;
 
     public const string MUSIC_KEY = "MusicVolume";
@@ -84,6 +84,13 @@ public class SoundManager : MonoBehaviour
         AudioClip clip = doorClips[Random.Range(0, doorClips.Count)];
 
         doorSource.PlayOneShot(clip);
+    }
+
+    public void FluteSound()
+    {
+        AudioClip clip = fluteClips[Random.Range(0, fluteClips.Count)];
+
+        fluteSource.PlayOneShot(clip);
     }
 
     public void ThunderSound()

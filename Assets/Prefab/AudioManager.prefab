@@ -54,6 +54,7 @@ MonoBehaviour:
   purchaseSource: {fileID: 8942047489446418749}
   failSource: {fileID: 8942047489446418749}
   thunderSource: {fileID: 8942047489446418749}
+  fluteSource: {fileID: 8942047489446418749}
   swingClips:
   - {fileID: 8300000, guid: ed32710f463f19c489a2cac573d41364, type: 3}
   - {fileID: 8300000, guid: efb6d6ab0b788cf44a34a00e99612128, type: 3}
@@ -78,6 +79,8 @@ MonoBehaviour:
   thunderClips:
   - {fileID: 8300000, guid: f4b4123ffff65e7438b997659c56306c, type: 3}
   - {fileID: 8300000, guid: 6553f6dbcc4613b498ac6b9d6654a528, type: 3}
+  fluteClips:
+  - {fileID: 8300000, guid: 24413220988b8f242b6c688ea0aea472, type: 3}
   mixer: {fileID: 24100000, guid: f115bec3f06655d4d8e4a74f1733fb77, type: 2}
 --- !u!82 &8942047489446418749
 AudioSource:

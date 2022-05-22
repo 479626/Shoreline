@@ -16,4 +16,4 @@ MonoBehaviour:
   learnAttack: 0
   learnSlowWalk: 0
   learnQuests: 0
-  completedTheTutorial: 1
+  completedTheTutorial: 0
