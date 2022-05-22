@@ -1793,9 +1793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39a5670492030dc429d595cf905abab2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vsync: 0
-  fullscreen: 0
-  muted: 0
   startButtons:
   - {fileID: 633747302}
   - {fileID: 1729738620}
@@ -1815,6 +1812,7 @@ MonoBehaviour:
   count: {fileID: 11400000, guid: b3fb81d0979a05846ad439720219443b, type: 2}
   stats: {fileID: 11400000, guid: 521377510ea516548989f0ea367643c7, type: 2}
   mixer: {fileID: 24100000, guid: f115bec3f06655d4d8e4a74f1733fb77, type: 2}
+  tutorial: {fileID: 11400000, guid: 29eaab87a6e18c0468a3f1b259448358, type: 2}
   transitionTime: 1
 --- !u!114 &196289814
 MonoBehaviour:
@@ -3721,18 +3719,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5864702972512819578}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: LoadLevel
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -35120,7 +35106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a966982f66b31dc46a10a19d63ff3982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
   stats: {fileID: 0}
   anim: {fileID: 5864702972512819577}
   slider: {fileID: 0}

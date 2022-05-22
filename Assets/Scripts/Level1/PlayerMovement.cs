@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public PlayerStats stats;
     public VectorValue startingPosition;
-    private static GameObject player;
     private Vector2 movement;
     private DialogueManager dialogueManager;
 

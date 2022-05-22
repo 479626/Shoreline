@@ -1,8 +1,9 @@
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
-using System.Collections.Generic;
-using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private InteractionCounter count;
     [SerializeField] private PlayerStats stats;
     [SerializeField] private AudioMixer mixer;
+    [SerializeField] private TutorialVariables tutorial;
 
     private bool vsync, fullscreen, muted;
     public float transitionTime = 1f;
@@ -82,8 +84,22 @@ public class MainMenuController : MonoBehaviour
 
     public void OnStartButton()
     {
+        if (PlayerPrefs.GetInt("tutorial", 0) == 1)
+        {
+            tutorial.completedTheTutorial = true;
+        }
+
         Time.timeScale = 1f;
         SoundManager.instance.PurchaseSound();
+
+        if (tutorial.completedTheTutorial)
+        {
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            SceneManager.LoadScene(18);
+        }
     }
 
     public void OnQuitButton()

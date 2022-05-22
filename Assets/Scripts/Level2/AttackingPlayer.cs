@@ -4,8 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class AttackingPlayer : MonoBehaviour
 {
-    private static GameObject player;
-
     [Header("Movement")]
     public float speed;
     public PlayerStats stats;
