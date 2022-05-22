@@ -104,16 +104,12 @@ public class PauseMenuController : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "User-Interface" && Input.GetKeyDown(KeyCode.Escape))
         {
-            if (settingsMenuOpen && !mainMenuOpen)
+            if (settingsMenuOpen)
             {
                 if (Input.GetKey(KeyCode.Escape))
                 {
                     OnSettingsExit();
                 }
-            }
-            else if (!settingsMenuOpen)
-            {
-                OnSettingsExit();
             }
 
             if (optionsMenuOpen)
@@ -303,6 +299,10 @@ public class PauseMenuController : MonoBehaviour
         if (gamePaused)
         {
             menuObjects[0].SetActive(false);
+            menuObjects[1].SetActive(false);
+            menuObjects[2].SetActive(false);
+            menuObjects[3].SetActive(false);
+            menuObjects[4].SetActive(false);
             Time.timeScale = 1f;
             gamePaused = false;
             settingsMenuOpen = false;
