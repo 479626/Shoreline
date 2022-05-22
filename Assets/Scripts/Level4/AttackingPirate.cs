@@ -27,10 +27,13 @@ public class AttackingPirate : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        SoundManager.instance.AttackSound();
+        if (!isDead)
+        {
+            currentHealth -= damage;
+            SoundManager.instance.AttackSound();
 
-        healthBar.SetHealth(currentHealth);
+            healthBar.SetHealth(currentHealth);
+        }
     }
 
     private void CheckHealth()
@@ -49,12 +52,13 @@ public class AttackingPirate : MonoBehaviour
 
     private IEnumerator Die()
     {
+        enemyController.allowedToAttack = false;
         animator.SetBool("dead", true);
         stats.pirateKills++;
-        yield return new WaitForSeconds(1f);
-        Destroy(gameObject);
         if (SceneManager.GetActiveScene().name != "L4-Ship") yield return null;
         stats.defeatedGateKeeper = true;
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
         yield return null;
     }
 
