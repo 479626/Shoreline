@@ -119133,7 +119133,7 @@ MonoBehaviour:
   attackRate: 1
   healthBar: {fileID: 716170264}
   dead: 0
-  maxHealth: 800
+  maxHealth: 500
   currentHealth: 0
   damage: 0
 --- !u!95 &1764894149
@@ -121429,7 +121429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5802fd3351e1d04db6589378bbf0a43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 22
+  scene: 20
   anim: {fileID: 1148837118}
   playerPos: {x: 4, y: -21}
   playerStorage: {fileID: 11400000, guid: 737446c2bab733743a90295a2d1bbe19, type: 2}
