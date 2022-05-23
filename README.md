@@ -16,27 +16,7 @@ Shoreline takes place in a small island in the middle of the ocean, settlers nam
 ### How To Report Bugs
 To report any bugs, please open an issue in the Shoreline repository and I'll endeavour to fix it _[Click Here](https://github.com/479626/Shoreline/issues)_.
 
-## Developement TODO
-- [x] Create game scenes
-- [x] Create animations for the Player and NPCs
-- [x] Create health system
-- [x] Create combat system
-- [X] Create blacksmith menu & functions
-- [x] Create door system
-- [X] Create loot table
-- [x] Create day-night cycle
-- [x] Create music
-- [x] Create basic AI for NPCs
-- [x] Create dialogue system
-- [x] Create unique dialogue for every scene/level
-- [x] Create sound effects
-- [x] Create scene transitions
-- [x] Create monster spawner
-- [X] Create HUD (Heads-Up Display)
-- [x] Create UI (User Interface)
-- [x] Create pause menu
-
 # Additional Information
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=479626&count_private=true&hide=prs,contribs&theme=tokyonight)
 
-_The Art assets used in this game do not belong to me, see the [credits directory](https://github.com/479626/Shoreline/tree/main/Credits) for all of the required credits._
+_The Art assets used in this game do not belong to me and are rights belong to their original artists, see the [credits directory](https://github.com/479626/Shoreline/tree/main/Credits) for all of the required credits._
